@@ -272,14 +272,14 @@
   border-radius: 1rem;
   padding: 2rem 1.75rem;
   box-shadow: 0 4px 20px rgba(0,0,0,0.06);
-  border: 1px solid rgba(0,0,0,0.05);
-  transition: transform 0.3s, box-shadow 0.3s, border-color 0.3s;
+  border: 2px solid rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.15s ease;
 }
 
 .why-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 36px rgba(0,0,0,0.1);
-  border: 2px solid #f9a825;
+  border-color: #f9a825;
 }
 
 .why-icon-wrap {
