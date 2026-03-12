@@ -224,6 +224,10 @@
     {
       "source": "/blog/what-to-expect-from-a-commercial-electrical-inspection",
       "destination": "/blog/what-to-expect-from-a-commercial-electrical-inspection/index.html"
+    },
+    {
+      "source": "/careers",
+      "destination": "/careers/index.html"
     }
   ]
 }
