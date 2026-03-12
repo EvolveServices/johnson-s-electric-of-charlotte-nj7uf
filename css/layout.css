@@ -62,7 +62,7 @@
 header {
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 50;
   background: var(--color-secondary);
   transition: background var(--transition-normal), box-shadow var(--transition-normal), backdrop-filter var(--transition-normal);
 }
