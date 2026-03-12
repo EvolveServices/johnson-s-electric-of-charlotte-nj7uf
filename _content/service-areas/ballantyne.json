@@ -1,0 +1,46 @@
+{
+  "slug": "ballantyne",
+  "template": "service-area",
+  "output": "/service-areas/ballantyne/index.html",
+  "area_name": "Ballantyne",
+  "meta": {
+    "title": "Electrician in Ballantyne, Charlotte NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Ballantyne (28277) with licensed electrical services. New construction, EV chargers, smart home wiring, panel upgrades & generator hookups. Call (704) 555-0199.",
+    "og_title": "Ballantyne Charlotte Electrician | Johnson's Electric",
+    "og_description": "Expert electrical services for Ballantyne's new homes, businesses and communities. EV chargers, smart home wiring, generators, panel upgrades. Licensed & insured."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Ballantyne</span>",
+    "description": "Ballantyne's master-planned communities, growing corporate campus, and newer home construction require a skilled electrician who keeps pace with Charlotte's fastest-growing suburb. Johnson's Electric delivers professional electrical services throughout Ballantyne and the Ardrey Kell corridor.",
+    "zips": [
+      { "zip": "28277" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving Ballantyne",
+    "heading": "Serving Charlotte's Premier Southern Suburb",
+    "body1": "Ballantyne is one of Charlotte's most dynamic areas, a planned community featuring luxury residential neighborhoods, the Ballantyne Corporate Park, premier medical facilities, shopping, and some of the area's newest and largest homes. Newer construction here often needs electrical upgrades to keep up with growing EV adoption, smart home technology, and high-demand appliance loads.",
+    "body2": "Johnson's Electric is a trusted electrical contractor throughout Ballantyne and the surrounding 28277 ZIP code. We install EV charging stations, upgrade panels for expanding electrical loads, hook up whole-home generators, and handle smart home system wiring for Ballantyne's connected homeowners. We also serve Ballantyne's corporate office parks and medical facilities with commercial electrical services."
+  },
+  "zips": [
+    { "code": "28277" },
+    { "code": "28226" },
+    { "code": "28270" },
+    { "code": "28273" }
+  ],
+  "services": [
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation for Ballantyne homes: Tesla Wall Connectors, ChargePoint, and all major brands. Permits handled.", "delay": "0.05s" },
+    { "icon": "sun", "title": "Standby Generator Hookups", "description": "Electrical connections for Generac and other whole-home standby generators to keep your Ballantyne home powered during outages.", "delay": "0.1s" },
+    { "icon": "wifi", "title": "Smart Home Wiring", "description": "Lutron, Control4, Ring, and Nest electrical integration; smart panels, automated lighting, and whole-home technology wiring.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "200A to 400A panel upgrades for Ballantyne's larger homes with multiple EVs, pools, home theaters, and high-load HVAC systems.", "delay": "0.2s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Electrical services for Ballantyne Corporate Park offices, medical facilities, restaurants, and retail spaces throughout the 28277 area.", "delay": "0.25s" },
+    { "icon": "lightbulb", "title": "Landscape & Pool Lighting", "description": "Exterior lighting design, pool electrical, and outdoor living space wiring for Ballantyne's spacious residential properties.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Can you install a Level 2 EV charger in my Ballantyne garage?", "answer": "Yes. This is one of the most common requests we get in Ballantyne. We install all major Level 2 home chargers, run the dedicated 240V circuit, and handle the permit with Mecklenburg County, typically completed in one visit.", "delay": "0.05s" },
+    { "question": "Do you connect standby generators to homes in Ballantyne?", "answer": "Absolutely. We install the transfer switch, run the electrical connection to your Generac or other standby generator, and test the system to ensure seamless automatic operation during a Duke Energy outage.", "delay": "0.1s" },
+    { "question": "My Ballantyne home has a 200-amp panel - is that enough for two EVs and a pool?", "answer": "It depends on your overall load. With two EV chargers, a pool pump, and a large HVAC system, you may need a 320A or 400A panel upgrade or a load management system. We'll perform a load calculation and give you the most cost-effective solution.", "delay": "0.15s" },
+    { "question": "Do you serve the Ballantyne Corporate Park businesses?", "answer": "Yes. We provide commercial electrical services for offices, medical practices, and retail tenants throughout the Ballantyne Corporate Park area, including TI work, lighting upgrades, and data/power infrastructure.", "delay": "0.2s" }
+  ]
+}

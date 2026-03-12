@@ -1,0 +1,47 @@
+{
+  "slug": "gastonia",
+  "template": "service-area",
+  "output": "/service-areas/gastonia/index.html",
+  "area_name": "Gastonia",
+  "meta": {
+    "title": "Electrician in Gastonia, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Gastonia NC (28052, 28054, 28056) with licensed electrical services. Residential wiring, panel upgrades, EV chargers, generators & commercial electrical. Call today.",
+    "og_title": "Gastonia NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Gastonia NC. Residential, commercial, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Gastonia, NC</span>",
+    "description": "Gastonia is the largest city in Gaston County and a growing hub west of Charlotte along the I-85 corridor. Johnson's Electric serves Gastonia homeowners and businesses throughout the 28052, 28054, and 28056 ZIP codes with licensed, reliable electrical services.",
+    "zips": [
+      { "zip": "28052" },
+      { "zip": "28054" },
+      { "zip": "28056" }
+    ],
+    "county": "Gaston County, NC"
+  },
+  "about": {
+    "label": "Serving Gastonia",
+    "heading": "Expert Electrical Services for Gastonia and Gaston County",
+    "body1": "Gastonia is a city with deep manufacturing roots that's reinventing itself as a Charlotte suburb with its own distinct character. Located about 20 miles west of Charlotte along I-85, Gastonia offers affordable housing, a revitalizing downtown, and strong commercial activity — drawing both new residents and business investment.",
+    "body2": "Johnson's Electric serves Gastonia with a comprehensive range of residential and commercial electrical services. Our licensed electricians are familiar with Gaston County code requirements and regularly pull permits for projects throughout the city. From panel upgrades in established Gastonia neighborhoods to new commercial wiring and EV charger installations, we deliver quality work at every job site."
+  },
+  "zips": [
+    { "code": "28052" },
+    { "code": "28054" },
+    { "code": "28056" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Full home electrical services for Gastonia — new circuits, outlets, ceiling fans, panel upgrades, and whole-home wiring.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Gastonia homes — Gaston County permits handled, all EV brands supported.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator hookups and transfer switches for Gastonia homes — reliable backup power during storms.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Electrical panel upgrades for Gastonia properties — replacing older service with modern 200A or 320A panels.", "delay": "0.2s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Commercial electrical for Gastonia businesses — office buildouts, retail, light industrial, and tenant improvements along I-85.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Gastonia residents and businesses — around the clock, no after-hours surcharge.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve all of Gastonia including neighborhoods west of downtown?", "answer": "Yes. We serve all of Gastonia in the 28052, 28054, and 28056 ZIP codes, including neighborhoods throughout Gaston County.", "delay": "0.05s" },
+    { "question": "How far is Gastonia from Charlotte?", "answer": "Gastonia is approximately 25-35 minutes from Charlotte via I-85 West. We regularly send crews to Gastonia for both scheduled projects and emergency calls.", "delay": "0.1s" },
+    { "question": "Do you handle Gaston County permits for Gastonia electrical work?", "answer": "Yes. We manage all Gaston County permit applications for Gastonia electrical projects — panel upgrades, EV chargers, generators, and commercial work.", "delay": "0.15s" },
+    { "question": "Can you upgrade an older panel in my Gastonia home?", "answer": "Yes. Panel upgrades are common in Gastonia's older neighborhoods. We replace outdated 100A and 150A panels with modern 200A or 320A service, handling all permits.", "delay": "0.2s" }
+  ]
+}

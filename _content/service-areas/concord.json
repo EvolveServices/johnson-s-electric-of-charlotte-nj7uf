@@ -1,0 +1,45 @@
+{
+  "slug": "concord",
+  "template": "service-area",
+  "output": "/service-areas/concord/index.html",
+  "area_name": "Concord",
+  "meta": {
+    "title": "Electrician in Concord, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Concord NC (28025, 28027) with licensed electrical services. Residential wiring, panel upgrades, EV chargers, generators & commercial electrical. Call today.",
+    "og_title": "Concord NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Concord NC. Residential, commercial, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Concord, NC</span>",
+    "description": "Concord is the county seat of Cabarrus County and a major commercial hub northeast of Charlotte. Johnson's Electric serves Concord homeowners and businesses throughout the 28025 and 28027 ZIP codes with reliable, licensed electrical services.",
+    "zips": [
+      { "zip": "28025" },
+      { "zip": "28027" }
+    ],
+    "county": "Cabarrus County, NC"
+  },
+  "about": {
+    "label": "Serving Concord",
+    "heading": "Comprehensive Electrical Services for Concord and Cabarrus County",
+    "body1": "Concord is one of the Charlotte metro's fastest-growing cities, home to Concord Mills — one of the Southeast's largest retail centers — along with NASCAR-related businesses, strong manufacturing, and thriving residential neighborhoods. The city has seen major commercial and residential development along Cabarrus Crossing, Harris Boulevard, and Poplar Tent Road.",
+    "body2": "Johnson's Electric serves Concord with a complete range of residential and commercial electrical services. Our licensed electricians are experienced with Cabarrus County code requirements and pull all necessary permits for projects in Concord. From panel upgrades in established neighborhoods to new commercial construction wiring, we deliver professional results every time."
+  },
+  "zips": [
+    { "code": "28025" },
+    { "code": "28027" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Full home electrical services for Concord — circuits, outlets, ceiling fans, panel upgrades, and whole-home wiring.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Concord homes — Cabarrus County permits, all EV brands, one-visit completion.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator hookups and transfer switches for Concord homes and businesses — reliable backup power.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Electrical panel upgrades for Concord properties — replacing outdated service with modern 200A or 320A panels.", "delay": "0.2s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Commercial electrical for Concord businesses — retail buildouts, office electrical, light industrial, and tenant improvements.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Concord residents and businesses — available any time, day or night.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve all of Concord including newer developments near Poplar Tent Road?", "answer": "Yes. We serve all of Concord in the 28025 and 28027 ZIP codes, including established neighborhoods and newer developments throughout Cabarrus County.", "delay": "0.05s" },
+    { "question": "Can you handle commercial electrical work in Concord?", "answer": "Yes. We do commercial electrical for Concord businesses along the Concord Mills corridor and throughout the city — buildouts, panel upgrades, and tenant improvements.", "delay": "0.1s" },
+    { "question": "Do you pull Cabarrus County permits for Concord projects?", "answer": "Yes. We handle all Cabarrus County permit applications for Concord electrical work, including panels, EV chargers, generators, and new construction.", "delay": "0.15s" },
+    { "question": "How far is Concord from Charlotte?", "answer": "Concord is approximately 20-30 minutes from Charlotte via I-85 North. We send crews to Concord regularly for both scheduled projects and emergency service.", "delay": "0.2s" }
+  ]
+}

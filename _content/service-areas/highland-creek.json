@@ -1,0 +1,45 @@
+{
+  "slug": "highland-creek",
+  "template": "service-area",
+  "output": "/service-areas/highland-creek/index.html",
+  "area_name": "Highland Creek",
+  "meta": {
+    "title": "Electrician in Highland Creek, Charlotte NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Highland Creek and University area (28269) with expert residential electrical services. Panel upgrades, EV chargers, generators & more. Call (704) 555-0199.",
+    "og_title": "Highland Creek Electrician | Johnson's Electric",
+    "og_description": "Trusted electricians for Highland Creek and University area homes and businesses in Charlotte. Panel upgrades, EV charging, 24/7 emergency service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Highland Creek</span>",
+    "description": "Highland Creek is Charlotte's most populated ZIP code area and one of its premier master-planned communities. Johnson's Electric is proud to serve Highland Creek and the broader University area (28269) with the full range of residential and commercial electrical services.",
+    "zips": [
+      { "zip": "28269" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving Highland Creek",
+    "heading": "Charlotte's Most Trusted Electrician for Highland Creek Homes",
+    "body1": "Highland Creek (28269) is Charlotte's most populous ZIP code — a sprawling master-planned community in north Charlotte known for its greenways, pools, tennis courts, and well-maintained residential neighborhoods. The community features a wide range of homes from entry-level builds to large custom homes, all with evolving electrical needs.",
+    "body2": "Johnson's Electric serves hundreds of Highland Creek and University area homeowners with everything from simple outlet repairs to complex panel replacements and whole-home generator hookups. We're a trusted name in the 28269 area, known for honest pricing, clean workmanship, and showing up on time. We also serve the area's growing retail and commercial corridors along W.T. Harris Boulevard and University City Boulevard."
+  },
+  "zips": [
+    { "code": "28269" },
+    { "code": "28262" },
+    { "code": "28213" }
+  ],
+  "services": [
+    { "icon": "zap", "title": "Panel Upgrades & Service", "description": "Upgrading aging electrical panels in Highland Creek homes to modern 200A service with proper breaker protection for today's loads.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Home Level 2 EV charging for Highland Creek homeowners — dedicated circuit, installation, and permit all handled by our licensed team.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Hookups", "description": "Whole-home standby generator connections and transfer switches for Highland Creek homes — automatic backup power when Duke Energy goes out.", "delay": "0.15s" },
+    { "icon": "plug", "title": "Outlet & Circuit Additions", "description": "Adding new outlets, GFCI upgrades, outdoor circuits, and home office dedicated circuits throughout Highland Creek residences.", "delay": "0.2s" },
+    { "icon": "lightbulb", "title": "Lighting & Ceiling Fans", "description": "Recessed lighting installation, ceiling fan wiring, outdoor security lighting, and landscape lighting for Highland Creek homes.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Electrical", "description": "Same-day and emergency electrical response for Highland Creek and University area homes and businesses.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you service all of the Highland Creek planned community?", "answer": "Yes. We serve the entire Highland Creek community and all of the 28269 ZIP code area — from the newer sections near Northstone Drive to the original Highland Creek neighborhoods.", "delay": "0.05s" },
+    { "question": "Is my Highland Creek HOA a concern when hiring an electrician?", "answer": "We're experienced working within HOA guidelines and obtain all required Mecklenburg County permits. For exterior work, we'll let you know if any HOA approval is typically needed before starting.", "delay": "0.1s" },
+    { "question": "How soon can you respond in Highland Creek?", "answer": "We have multiple crews serving north Charlotte and the University area. Same-day service is often available, and we respond to emergencies in Highland Creek within 60-90 minutes.", "delay": "0.15s" },
+    { "question": "Do you service University City commercial properties near Highland Creek?", "answer": "Yes. We serve businesses in the University City corridor — offices, retail, medical, and restaurant spaces along W.T. Harris and University City Blvd — with the full range of commercial electrical services.", "delay": "0.2s" }
+  ]
+}

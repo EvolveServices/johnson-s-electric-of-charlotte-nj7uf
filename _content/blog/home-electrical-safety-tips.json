@@ -1,0 +1,122 @@
+{
+  "slug": "home-electrical-safety-tips",
+  "template": "blog-post",
+  "output": "/blog/home-electrical-safety-tips/index.html",
+  "meta": {
+    "title": "10 Home Electrical Safety Tips Every Charlotte Homeowner Needs | Johnson's Electric",
+    "description": "Electrical hazards are one of the leading causes of home fires. Our Charlotte electricians share 10 practical electrical safety tips every homeowner should follow.",
+    "og_title": "10 Home Electrical Safety Tips Every Charlotte Homeowner Needs",
+    "og_description": "Protect your family and your home. Our licensed Charlotte electricians share 10 electrical safety tips that are easy to follow and potentially life-saving.",
+    "og_image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/35d7d651-dae2-4985-9bf8-d0b56986fd45/media/branding/og-image-1773174564126.png",
+    "published_time": "2025-04-10"
+  },
+  "title": "10 Home Electrical Safety Tips Every Charlotte Homeowner Needs",
+  "excerpt": "Electrical problems cause thousands of home fires every year across the country. The good news is that most of these incidents are preventable with basic awareness and a few smart habits. Here are ten electrical safety tips every homeowner in Charlotte should know.",
+  "category": "Safety",
+  "date_display": "April 10, 2025",
+  "read_time": "8 min read",
+  "hero": {
+    "image": "http://static.photos/indoor/1200x630/445"
+  },
+  "author": {
+    "name": "Marcus Johnson",
+    "role": "Master Electrician, Johnson's Electric of Charlotte",
+    "bio": "Marcus Johnson is a licensed Master Electrician with over 18 years of experience serving the Charlotte metro area. He founded Johnson's Electric to bring honest, expert electrical service to homeowners and businesses across the region.",
+    "avatar": "http://static.photos/people/200x200/87"
+  },
+  "body_sections": [
+    {
+      "heading": "Why Electrical Safety at Home Matters",
+      "content": "<p>According to the U.S. Fire Administration, electrical fires account for more than 24,000 home fires each year. Many of these fires start inside walls, in attics, or in service panels, places where they are not visible until significant damage has already occurred. Understanding basic electrical safety can help you identify hazards before they become emergencies.</p><p>These ten tips are drawn from the most common issues our Charlotte electricians encounter during home inspections and service calls.</p>"
+    },
+    {
+      "heading": "Tip 1: Never Ignore a Repeatedly Tripping Breaker",
+      "content": "<p>A circuit breaker that trips is doing its job by protecting your wiring from overload. But if the same breaker trips more than once or twice a month under normal use, that is not a nuisance. It is a warning. The circuit is consistently overloaded, or there is a fault in the wiring or an appliance on that circuit. Have a licensed electrician diagnose it rather than simply resetting it each time.</p>"
+    },
+    {
+      "heading": "Tip 2: Do Not Use Extension Cords as Permanent Wiring",
+      "content": "<p>Extension cords are temporary solutions, not permanent fixtures. Running an extension cord under a rug, through a doorway, or along a baseboard for months at a time is a fire hazard. Cords can overheat, fray, and arc without visible warning. If you rely on extension cords regularly in a particular area of your home, the right solution is to have an electrician add additional outlets to that circuit.</p>"
+    },
+    {
+      "heading": "Tip 3: Never Overload Outlets or Power Strips",
+      "content": "<p>A single outlet is typically designed to handle two plugs. Stacking adapters or plugging in a power strip and then loading it with high-draw appliances can easily exceed the circuit's safe capacity. Pay attention to how many devices you are running on a single outlet, especially with heat-generating appliances like space heaters, hair dryers, and toasters. These should always be plugged directly into a dedicated outlet.</p>"
+    },
+    {
+      "heading": "Tip 4: Test Your GFCI Outlets Monthly",
+      "content": "<p>Ground fault circuit interrupter (GFCI) outlets are required by code in bathrooms, kitchens, garages, basements, and outdoor areas. They protect you from electric shock in wet environments by tripping instantly when they detect a ground fault. Press the test button on each GFCI outlet monthly to confirm it is working. If the outlet does not trip when tested, or if the reset button does not hold, the GFCI has failed and needs to be replaced.</p>"
+    },
+    {
+      "heading": "Tip 5: Replace Damaged Cords Immediately",
+      "content": "<p>A frayed, cracked, or pinched power cord is a direct fire hazard. Do not tape over damaged cords or continue using them. Replace the cord or the appliance. Pay particular attention to lamp cords, appliance cords near the back of countertops, and any cord that runs along floors where it can be stepped on repeatedly.</p>"
+    },
+    {
+      "heading": "Tip 6: Keep Electrical Panels Accessible and Clear",
+      "content": "<p>Your electrical panel needs to be accessible at all times. The National Electrical Code requires a minimum of 3 feet of clearance in front of the panel. Do not store boxes, shelving, or equipment in front of it. In an emergency, you may need to shut off the main breaker quickly. Panels stored behind clutter can cost critical seconds during a fire or electrical fault.</p>"
+    },
+    {
+      "heading": "Tip 7: Install Arc Fault Circuit Interrupters in Bedrooms",
+      "content": "<p>Arc fault circuit interrupter (AFCI) breakers detect the electrical signature of an arc, the kind of fault that occurs inside walls when wiring is damaged by pests, staples, or age. Standard breakers do not detect arcs until the current overload is high enough to trip. AFCI breakers catch these faults before they start fires. Current building code requires AFCI protection in bedrooms and most living areas of new construction. If your home lacks AFCI protection, upgrading is a worthwhile safety investment.</p>"
+    },
+    {
+      "heading": "Tip 8: Keep Water Away From Electrical Equipment",
+      "content": "<p>Water and electricity are a dangerous combination, yet many home accidents involve electrical equipment used near sinks, bathtubs, or during wet weather. Keep portable appliances, chargers, and extension cords away from wet areas. Make sure outdoor outlets have weatherproof covers. If an appliance falls into water, unplug it and do not use it until it has been thoroughly dried and inspected.</p>"
+    },
+    {
+      "heading": "Tip 9: Have Your Home's Wiring Inspected Every 10 Years",
+      "content": "<p>If your home is more than 25 years old and has never had a wiring inspection, scheduling one is one of the best things you can do for your family's safety. Wiring insulation degrades over time, connections loosen, and older aluminum branch circuit wiring (common in homes built from the 1960s through the mid-1970s) can develop oxidation that creates resistance and heat at connections. An inspection by a licensed electrician can catch these issues before they cause problems.</p>"
+    },
+    {
+      "heading": "Tip 10: Never DIY Electrical Work Beyond Basics",
+      "content": "<p>Replacing a light switch or a standard outlet is within the comfort zone of a careful, handy homeowner who understands how to turn off the breaker and verify power is off before touching wires. But anything involving the electrical panel, new circuits, subpanels, outdoor wiring, or service upgrades must be done by a licensed electrician. In North Carolina, performing electrical work without a license is illegal, and unpermitted work can void your homeowner's insurance and cause problems when you sell your home.</p><blockquote><p>When in doubt, call a pro. The cost of a licensed electrician is far less than the cost of a fire, an injury, or a failed home inspection.</p></blockquote>"
+    }
+  ],
+  "tags": ["electrical safety", "home safety", "GFCI", "AFCI", "Charlotte homeowner", "electrical tips"],
+  "cta_banner": {
+    "heading": "Is Your Home Electrically Safe?",
+    "body": "Schedule a home electrical inspection with our licensed Charlotte electricians. We will identify hazards and give you a clear, honest assessment.",
+    "url": "/contact/",
+    "button_text": "Book a Safety Inspection"
+  },
+  "sidebar": {
+    "cta": {
+      "heading": "Home Electrical Inspections",
+      "body": "Our licensed Charlotte electricians will inspect your home's wiring, panel, and outlets and give you an honest safety report."
+    },
+    "quick_info": {
+      "heading": "Quick Facts",
+      "items": [
+        { "icon": "map-pin", "text": "Serving Charlotte and the greater metro area" },
+        { "icon": "shield-check", "text": "Licensed, bonded, and insured in NC" },
+        { "icon": "clock", "text": "Same-week appointments available" },
+        { "icon": "star", "text": "5-star rated on Google Reviews" },
+        { "icon": "badge-check", "text": "All work permitted and inspected" }
+      ]
+    }
+  },
+  "related_posts": [
+    {
+      "url": "/blog/gfci-outlets-explained/",
+      "image": "http://static.photos/indoor/640x360/512",
+      "category": "Safety",
+      "title": "GFCI Outlets Explained: Where They're Required and Why They Matter",
+      "date": "February 18, 2025",
+      "delay": "0"
+    },
+    {
+      "url": "/blog/when-to-upgrade-your-electrical-panel/",
+      "image": "http://static.photos/industry/640x360/201",
+      "category": "Upgrades",
+      "title": "5 Warning Signs You Need an Electrical Panel Upgrade",
+      "date": "May 14, 2025",
+      "delay": "0.1s"
+    },
+    {
+      "url": "/blog/reduce-your-electric-bill/",
+      "image": "http://static.photos/indoor/640x360/667",
+      "category": "Energy Savings",
+      "title": "7 Electrical Upgrades That Can Lower Your Monthly Electric Bill",
+      "date": "March 5, 2025",
+      "delay": "0.2s"
+    }
+  ]
+}

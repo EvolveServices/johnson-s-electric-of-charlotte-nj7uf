@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <title>Contact Us | Request Electrical Service | Johnson's Electric Charlotte</title>
+  <meta name="description" content="Request electrical service from Johnson's Electric of Charlotte. Call (704) 555-0199 for 24/7 emergency service or submit our quick service request form. Licensed NC electricians." />
+  <meta property="og:title" content="Contact Us | Request Electrical Service | Johnson's Electric Charlotte" />
+  <meta property="og:description" content="Request electrical service from Johnson's Electric of Charlotte. 24/7 emergency line available. Licensed NC electricians serving Charlotte metro." />
+  <meta property="og:image" content="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/35d7d651-dae2-4985-9bf8-d0b56986fd45/media/branding/og-image-1773174564126.png" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="/css/animations.css" />
+  <link rel="stylesheet" href="/css/contact.css" />
+</head>
+<body>
+
+  <div data-include="navbar"></div>
+
+  <!-- ===== HERO BANNER ===== -->
+  <section class="contact-hero">
+    <div class="contact-hero-blob contact-hero-blob-1" aria-hidden="true"></div>
+    <div class="contact-hero-blob contact-hero-blob-2" aria-hidden="true"></div>
+    <div class="container">
+      <p class="section-label reveal" style="color:var(--color-primary);">Get In Touch</p>
+      <h1 class="reveal" data-delay="0.05s">Request <span>Electrical Service</span><br>in Charlotte, NC</h1>
+      <p class="reveal" data-delay="0.1s">Use our step-by-step form to describe your project and schedule a visit — or call us directly for same-day or emergency service.</p>
+    </div>
+  </section>
+
+  <!-- ===== EMERGENCY CALLOUT STRIP ===== -->
+  <div class="emergency-callout">
+    <div class="container">
+      <div class="emergency-callout-icon" aria-hidden="true">
+        <i data-lucide="zap" style="width:22px;height:22px;"></i>
+      </div>
+      <div class="emergency-callout-text">
+        <strong>Electrical Emergency? Don't Wait.</strong>
+        <span>Sparks, burning smell, no power, tripped breakers that won't reset — call our 24/7 emergency line now.</span>
+      </div>
+      <a href="tel:7045550199" class="emergency-call-btn">
+        <i data-lucide="phone-call" style="width:20px;height:20px;"></i>
+        (704) 555-0199
+      </a>
+    </div>
+  </div>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <section class="contact-main">
+    <div class="container">
+      <div class="contact-layout">
+
+        <!-- ── LEFT: Multi-Step Form ── -->
+        <div class="form-card reveal">
+
+          <div class="form-card-header">
+            <div class="form-card-header-icon" aria-hidden="true">
+              <i data-lucide="clipboard-list" style="width:24px;height:24px;"></i>
+            </div>
+            <div class="form-card-header-text">
+              <h2>Service Request Form</h2>
+              <p>Complete all steps — takes about 2 minutes</p>
+            </div>
+          </div>
+
+          <!-- Progress Indicator -->
+          <div class="progress-bar-wrap">
+            <div class="progress-steps-row" id="progress-steps-row">
+              <!-- Step 1 -->
+              <div class="progress-step active" data-step="1">
+                <div class="progress-step-dot">1</div>
+                <div class="progress-step-label">Service</div>
+              </div>
+              <div class="progress-step-connector" data-after="1"></div>
+              <!-- Step 2 -->
+              <div class="progress-step" data-step="2">
+                <div class="progress-step-dot">2</div>
+                <div class="progress-step-label">Issue</div>
+              </div>
+              <div class="progress-step-connector" data-after="2"></div>
+              <!-- Step 3 -->
+              <div class="progress-step" data-step="3">
+                <div class="progress-step-dot">3</div>
+                <div class="progress-step-label">Property</div>
+              </div>
+              <div class="progress-step-connector" data-after="3"></div>
+              <!-- Step 4 -->
+              <div class="progress-step" data-step="4">
+                <div class="progress-step-dot">4</div>
+                <div class="progress-step-label">Urgency</div>
+              </div>
+              <div class="progress-step-connector" data-after="4"></div>
+              <!-- Step 5 -->
+              <div class="progress-step" data-step="5">
+                <div class="progress-step-dot">5</div>
+                <div class="progress-step-label">Schedule</div>
+              </div>
+              <div class="progress-step-connector" data-after="5"></div>
+              <!-- Step 6 -->
+              <div class="progress-step" data-step="6">
+                <div class="progress-step-dot">6</div>
+                <div class="progress-step-label">Photos</div>
+              </div>
+              <div class="progress-step-connector" data-after="6"></div>
+              <!-- Step 7 -->
+              <div class="progress-step" data-step="7">
+                <div class="progress-step-dot">7</div>
+                <div class="progress-step-label">Contact</div>
+              </div>
+            </div>
+            <div class="progress-counter-text">Step <strong id="current-step-num">1</strong> of <strong>7</strong></div>
+          </div>
+
+          <!-- Form Steps Wrapper -->
+          <div class="form-steps-wrap">
+            <form id="service-request-form">
+
+              <!-- ── STEP 1: Service Category ── -->
+              <div class="form-step active" id="step-1">
+                <h3 class="step-heading">What type of service do you need?</h3>
+                <p class="step-subheading">Select the category that best describes your electrical project.</p>
+                <div class="choice-grid" id="service-choice-grid">
+                  <button type="button" class="choice-card" data-value="Panel Upgrade / Replacement">
+                    <div class="choice-card-icon"><i data-lucide="cpu" style="width:22px;height:22px;"></i></div>
+                    Panel Upgrade
+                  </button>
+                  <button type="button" class="choice-card" data-value="Outlet & Switch Installation">
+                    <div class="choice-card-icon"><i data-lucide="plug" style="width:22px;height:22px;"></i></div>
+                    Outlets & Switches
+                  </button>
+                  <button type="button" class="choice-card" data-value="Lighting Installation">
+                    <div class="choice-card-icon"><i data-lucide="lightbulb" style="width:22px;height:22px;"></i></div>
+                    Lighting
+                  </button>
+                  <button type="button" class="choice-card" data-value="Whole-Home Rewiring">
+                    <div class="choice-card-icon"><i data-lucide="git-branch" style="width:22px;height:22px;"></i></div>
+                    Rewiring
+                  </button>
+                  <button type="button" class="choice-card" data-value="EV Charger Installation">
+                    <div class="choice-card-icon"><i data-lucide="battery-charging" style="width:22px;height:22px;"></i></div>
+                    EV Charger
+                  </button>
+                  <button type="button" class="choice-card" data-value="Generator Installation">
+                    <div class="choice-card-icon"><i data-lucide="zap" style="width:22px;height:22px;"></i></div>
+                    Generator
+                  </button>
+                  <button type="button" class="choice-card" data-value="Commercial Electrical">
+                    <div class="choice-card-icon"><i data-lucide="building-2" style="width:22px;height:22px;"></i></div>
+                    Commercial
+                  </button>
+                  <button type="button" class="choice-card" data-value="Safety Inspection">
+                    <div class="choice-card-icon"><i data-lucide="shield-check" style="width:22px;height:22px;"></i></div>
+                    Inspection
+                  </button>
+                  <button type="button" class="choice-card" data-value="Emergency Electrical Repair">
+                    <div class="choice-card-icon"><i data-lucide="alert-triangle" style="width:22px;height:22px;"></i></div>
+                    Emergency
+                  </button>
+                  <button type="button" class="choice-card" data-value="Other / Not Sure">
+                    <div class="choice-card-icon"><i data-lucide="help-circle" style="width:22px;height:22px;"></i></div>
+                    Other
+                  </button>
+                </div>
+                <input type="hidden" name="service_category" id="service_category" />
+                <div class="form-nav">
+                  <span></span>
+                  <button type="button" class="btn-form-next" id="step1-next">
+                    Next <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- ── STEP 2: Describe the Issue ── -->
+              <div class="form-step" id="step-2">
+                <h3 class="step-heading">Describe your electrical issue</h3>
+                <p class="step-subheading">The more detail you share, the better we can prepare. Include symptoms, location, how long it's been happening, etc.</p>
+                <textarea class="step-textarea" name="issue_description" id="issue_description" placeholder="E.g. 'My kitchen outlets stopped working after a storm. The breaker keeps tripping. It started yesterday evening…'" rows="5"></textarea>
+                <div class="form-nav">
+                  <button type="button" class="btn-form-back" id="step2-back">
+                    <i data-lucide="arrow-left" style="width:14px;height:14px;"></i> Back
+                  </button>
+                  <button type="button" class="btn-form-next" id="step2-next">
+                    Next <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- ── STEP 3: Property Type ── -->
+              <div class="form-step" id="step-3">
+                <h3 class="step-heading">What type of property is this?</h3>
+                <p class="step-subheading">Helps us dispatch the right licensed specialist.</p>
+                <div class="choice-grid" id="property-choice-grid" style="grid-template-columns:repeat(3,1fr);">
+                  <button type="button" class="choice-card" data-value="Home / House">
+                    <div class="choice-card-icon"><i data-lucide="home" style="width:22px;height:22px;"></i></div>
+                    Home
+                  </button>
+                  <button type="button" class="choice-card" data-value="Apartment / Condo">
+                    <div class="choice-card-icon"><i data-lucide="building" style="width:22px;height:22px;"></i></div>
+                    Apartment
+                  </button>
+                  <button type="button" class="choice-card" data-value="Business / Commercial">
+                    <div class="choice-card-icon"><i data-lucide="briefcase" style="width:22px;height:22px;"></i></div>
+                    Business
+                  </button>
+                </div>
+                <input type="hidden" name="property_type" id="property_type" />
+                <div class="form-nav">
+                  <button type="button" class="btn-form-back" id="step3-back">
+                    <i data-lucide="arrow-left" style="width:14px;height:14px;"></i> Back
+                  </button>
+                  <button type="button" class="btn-form-next" id="step3-next">
+                    Next <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- ── STEP 4: Urgency Level ── -->
+              <div class="form-step" id="step-4">
+                <h3 class="step-heading">How urgent is this?</h3>
+                <p class="step-subheading">We have teams available for same-day and 24/7 emergency calls.</p>
+                <div class="choice-grid" id="urgency-choice-grid" style="grid-template-columns:repeat(2,1fr);">
+                  <button type="button" class="choice-card emergency-choice" data-value="Emergency — Send Someone Now">
+                    <div class="choice-card-icon"><i data-lucide="alert-octagon" style="width:22px;height:22px;"></i></div>
+                    <span>Emergency</span>
+                    <span class="urgency-label emergency">Send Now</span>
+                  </button>
+                  <button type="button" class="choice-card" data-value="Within 24 Hours">
+                    <div class="choice-card-icon"><i data-lucide="clock" style="width:22px;height:22px;"></i></div>
+                    <span>Within 24 Hours</span>
+                    <span class="urgency-label urgent">Same-Day</span>
+                  </button>
+                  <button type="button" class="choice-card" data-value="This Week">
+                    <div class="choice-card-icon"><i data-lucide="calendar-days" style="width:22px;height:22px;"></i></div>
+                    <span>This Week</span>
+                    <span class="urgency-label normal">Scheduled</span>
+                  </button>
+                  <button type="button" class="choice-card" data-value="Flexible — No Rush">
+                    <div class="choice-card-icon"><i data-lucide="calendar-check" style="width:22px;height:22px;"></i></div>
+                    <span>Flexible</span>
+                    <span class="urgency-label normal">No Rush</span>
+                  </button>
+                </div>
+                <input type="hidden" name="urgency_level" id="urgency_level" />
+                <!-- Emergency CTA reminder -->
+                <div id="emergency-reminder" style="display:none;background:#ffebee;border:1.5px solid var(--color-accent);border-radius:var(--radius-md);padding:0.875rem 1rem;font-size:var(--font-size-sm);color:var(--color-accent-dark);margin-bottom:0.5rem;">
+                  <strong style="display:flex;align-items:center;gap:0.5rem;margin-bottom:0.25rem;">
+                    <i data-lucide="phone-call" style="width:14px;height:14px;"></i> For immediate emergencies, please call:
+                  </strong>
+                  <a href="tel:7045550199" style="font-size:1.25rem;font-weight:800;font-family:var(--font-heading);color:var(--color-accent-dark);">(704) 555-0199</a> — available 24/7
+                </div>
+                <div class="form-nav">
+                  <button type="button" class="btn-form-back" id="step4-back">
+                    <i data-lucide="arrow-left" style="width:14px;height:14px;"></i> Back
+                  </button>
+                  <button type="button" class="btn-form-next" id="step4-next">
+                    Next <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- ── STEP 5: Preferred Date / Time ── -->
+              <div class="form-step" id="step-5">
+                <h3 class="step-heading">When works best for you?</h3>
+                <p class="step-subheading">Pick your preferred date and time window. We'll confirm availability when we follow up.</p>
+                <div class="datetime-grid">
+                  <div class="field-wrap">
+                    <label class="form-field-label" for="preferred_date">Preferred Date</label>
+                    <input type="date" class="step-input" name="preferred_date" id="preferred_date" style="margin-bottom:0;" />
+                  </div>
+                  <div class="field-wrap">
+                    <label class="form-field-label" for="preferred_time">Preferred Time</label>
+                    <select class="step-input" name="preferred_time" id="preferred_time" style="margin-bottom:0;cursor:pointer;">
+                      <option value="">Select a time window…</option>
+                      <option value="Morning (7am–10am)">Morning (7am–10am)</option>
+                      <option value="Late Morning (10am–12pm)">Late Morning (10am–12pm)</option>
+                      <option value="Early Afternoon (12pm–2pm)">Early Afternoon (12pm–2pm)</option>
+                      <option value="Afternoon (2pm–5pm)">Afternoon (2pm–5pm)</option>
+                      <option value="Anytime">Anytime — flexible</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="field-wrap">
+                  <label class="form-field-label" for="alt_date">Alternate Date (optional)</label>
+                  <input type="date" class="step-input" name="alt_date" id="alt_date" />
+                </div>
+                <div class="form-nav">
+                  <button type="button" class="btn-form-back" id="step5-back">
+                    <i data-lucide="arrow-left" style="width:14px;height:14px;"></i> Back
+                  </button>
+                  <button type="button" class="btn-form-next" id="step5-next">
+                    Next <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- ── STEP 6: Photo Upload ── -->
+              <div class="form-step" id="step-6">
+                <h3 class="step-heading">Add photos (optional)</h3>
+                <p class="step-subheading">Upload photos of the electrical issue or area. This helps us come prepared with the right parts and tools.</p>
+                <label class="upload-zone" id="upload-zone" for="photo-upload">
+                  <input type="file" id="photo-upload" name="photos" accept="image/*" multiple />
+                  <div class="upload-zone-icon">
+                    <i data-lucide="upload-cloud" style="width:26px;height:26px;"></i>
+                  </div>
+                  <strong>Click to upload photos</strong>
+                  <p>or drag and drop here</p>
+                  <p style="font-size:0.75rem;margin-top:0.25rem;">JPG, PNG, HEIC up to 10MB each</p>
+                </label>
+                <div class="upload-preview" id="upload-preview"></div>
+                <p class="upload-skip-hint">No photos? No problem — you can skip this step.</p>
+                <div class="form-nav">
+                  <button type="button" class="btn-form-back" id="step6-back">
+                    <i data-lucide="arrow-left" style="width:14px;height:14px;"></i> Back
+                  </button>
+                  <button type="button" class="btn-form-next" id="step6-next">
+                    Next <i data-lucide="arrow-right" style="width:16px;height:16px;"></i>
+                  </button>
+                </div>
+              </div>
+
+              <!-- ── STEP 7: Contact Information ── -->
+              <div class="form-step" id="step-7">
+                <h3 class="step-heading">Your contact information</h3>
+                <p class="step-subheading">We'll reach out to confirm your appointment. We never share your info.</p>
+                <div class="step-grid-2">
+                  <div class="field-wrap">
+                    <label class="form-field-label" for="first_name">First Name *</label>
+                    <input type="text" class="step-input" id="first_name" name="first_name" placeholder="John" required style="margin-bottom:0;" />
+                  </div>
+                  <div class="field-wrap">
+                    <label class="form-field-label" for="last_name">Last Name *</label>
+                    <input type="text" class="step-input" id="last_name" name="last_name" placeholder="Smith" required style="margin-bottom:0;" />
+                  </div>
+                </div>
+                <div class="field-wrap">
+                  <label class="form-field-label" for="phone">Phone Number *</label>
+                  <input type="tel" class="step-input" id="phone" name="phone" placeholder="(704) 555-0100" required />
+                </div>
+                <div class="field-wrap">
+                  <label class="form-field-label" for="email">Email Address *</label>
+                  <input type="email" class="step-input" id="email" name="email" placeholder="john@example.com" required />
+                </div>
+                <div class="field-wrap">
+                  <label class="form-field-label" for="address">Service Address *</label>
+                  <input type="text" class="step-input" id="address" name="address" placeholder="123 Main St, Charlotte, NC 28201" required />
+                </div>
+                <div class="form-nav">
+                  <button type="button" class="btn-form-back" id="step7-back">
+                    <i data-lucide="arrow-left" style="width:14px;height:14px;"></i> Back
+                  </button>
+                  <button type="submit" class="btn-form-submit">
+                    <i data-lucide="send" style="width:18px;height:18px;"></i>
+                    Submit Request
+                  </button>
+                </div>
+                <div data-wl-success style="display:none;">Thank you! We'll contact you within 1 business hour to confirm your appointment.</div>
+                <div data-wl-error style="display:none;"></div>
+              </div>
+
+            </form><!-- end form -->
+
+            <!-- ── Success State ── -->
+            <div class="form-success" id="form-success-state">
+              <div class="form-success-icon">
+                <i data-lucide="check-circle" style="width:36px;height:36px;"></i>
+              </div>
+              <h3>Request Submitted!</h3>
+              <p>Thank you! A member of our team will call you within 1 business hour to confirm your appointment details. For immediate emergencies, please call <a href="tel:7045550199" style="color:var(--color-accent);font-weight:700;">(704) 555-0199</a>.</p>
+              <a href="/" class="btn btn-secondary">Return to Homepage</a>
+            </div>
+
+          </div><!-- end form-steps-wrap -->
+        </div><!-- end form-card -->
+
+        <!-- ── RIGHT: Sidebar ── -->
+        <aside class="contact-sidebar">
+
+          <!-- Emergency Card -->
+          <div class="emergency-mini-card reveal">
+            <h3>
+              <i data-lucide="alert-octagon" style="width:18px;height:18px;"></i>
+              24/7 Emergency Line
+            </h3>
+            <p>Sparks, burning smell, smoke from outlets, or complete power loss? Call immediately — our emergency electricians are dispatched around the clock.</p>
+            <a href="tel:7045550199" class="btn btn-white">
+              <i data-lucide="phone-call" style="width:18px;height:18px;"></i>
+              (704) 555-0199
+            </a>
+          </div>
+
+          <!-- Contact Info Card -->
+          <div class="contact-info-card reveal" data-delay="0.1s">
+            <div class="contact-info-card-header">
+              <h3>Contact Information</h3>
+            </div>
+            <div class="contact-info-rows">
+              <div class="contact-info-row">
+                <div class="contact-info-row-icon">
+                  <i data-lucide="phone" style="width:18px;height:18px;"></i>
+                </div>
+                <div class="contact-info-row-text">
+                  <strong>Main Office</strong>
+                  <a href="tel:7045550199">(704) 555-0199</a>
+                  <span>Mon–Fri 7am–6pm · Sat 8am–2pm</span>
+                </div>
+              </div>
+              <div class="contact-info-row">
+                <div class="contact-info-row-icon" style="background:var(--color-accent-light);color:var(--color-accent-dark);">
+                  <i data-lucide="zap" style="width:18px;height:18px;"></i>
+                </div>
+                <div class="contact-info-row-text">
+                  <strong>Emergency Line</strong>
+                  <a href="tel:7045550199" style="color:var(--color-accent-dark);">(704) 555-0199</a>
+                  <span>Available 24 hours, 7 days a week</span>
+                </div>
+              </div>
+              <div class="contact-info-row">
+                <div class="contact-info-row-icon">
+                  <i data-lucide="mail" style="width:18px;height:18px;"></i>
+                </div>
+                <div class="contact-info-row-text">
+                  <strong>Email Us</strong>
+                  <a href="mailto:info@johnsonselectriccharlotte.com" style="font-size:var(--font-size-sm);font-family:var(--font-body);">info@johnsonselectriccharlotte.com</a>
+                  <span>We reply within 2 business hours</span>
+                </div>
+              </div>
+              <div class="contact-info-row">
+                <div class="contact-info-row-icon">
+                  <i data-lucide="map-pin" style="width:18px;height:18px;"></i>
+                </div>
+                <div class="contact-info-row-text">
+                  <strong>Service Area</strong>
+                  <span style="font-size:var(--font-size-base);font-weight:600;color:var(--color-text);display:block;">Charlotte Metro, NC</span>
+                  <span>Ballantyne, Dilworth, NoDa, Concord, Kannapolis, Matthews, Mint Hill &amp; surrounding communities</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Business Hours Card -->
+          <div class="hours-card reveal" data-delay="0.2s">
+            <div class="hours-card-header">
+              <h3>Business Hours</h3>
+            </div>
+            <div class="hours-rows">
+              <div class="hours-row">
+                <span class="day">Monday</span><span class="time">7:00 AM – 6:00 PM</span>
+              </div>
+              <div class="hours-row">
+                <span class="day">Tuesday</span><span class="time">7:00 AM – 6:00 PM</span>
+              </div>
+              <div class="hours-row">
+                <span class="day">Wednesday</span><span class="time">7:00 AM – 6:00 PM</span>
+              </div>
+              <div class="hours-row">
+                <span class="day">Thursday</span><span class="time">7:00 AM – 6:00 PM</span>
+              </div>
+              <div class="hours-row">
+                <span class="day">Friday</span><span class="time">7:00 AM – 6:00 PM</span>
+              </div>
+              <div class="hours-row">
+                <span class="day">Saturday</span><span class="time">8:00 AM – 2:00 PM</span>
+              </div>
+              <div class="hours-row">
+                <span class="day">Sunday</span><span class="time closed">Closed</span>
+              </div>
+            </div>
+            <div class="hours-note">
+              <i data-lucide="zap" style="width:15px;height:15px;color:var(--color-accent);"></i>
+              Emergency calls answered 24/7 — including holidays
+            </div>
+          </div>
+
+        </aside><!-- end sidebar -->
+
+      </div><!-- end contact-layout -->
+    </div>
+  </section>
+
+  <!-- ===== MAP SECTION ===== -->
+  <section class="contact-map-section">
+    <div class="container">
+      <div class="map-card reveal">
+        <div class="map-card-header">
+          <div>
+            <h2>Our Service Area</h2>
+            <p>We serve Charlotte and the surrounding metro — from Ballantyne to Concord, NoDa to Belmont.</p>
+          </div>
+          <a href="/service-areas/" class="btn btn-outline">
+            <i data-lucide="map" style="width:16px;height:16px;"></i>
+            Full Coverage Map
+          </a>
+        </div>
+        <iframe
+          class="map-embed"
+          loading="lazy"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d208654.87432370285!2d-81.03556693193364!3d35.22709948518636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541fc4fc381a81%3A0x884650e6bf43d164!2sCharlotte%2C%20NC!5e0!3m2!1sen!2sus!4v1700000000000!5m2!1sen!2sus"
+          title="Johnson's Electric of Charlotte service area map"
+          allowfullscreen
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="map-footer">
+          <span class="map-footer-chip">
+            <i data-lucide="map-pin" style="width:14px;height:14px;"></i>
+            Charlotte, NC &amp; metro area
+          </span>
+          <span class="map-footer-chip">
+            <i data-lucide="shield-check" style="width:14px;height:14px;"></i>
+            NC Lic. #EC-12345
+          </span>
+          <span class="map-footer-chip">
+            <i data-lucide="clock" style="width:14px;height:14px;"></i>
+            24/7 Emergency Dispatch
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div data-include="footer"></div>
+
+  <script src="/_includes/loader.js"></script>
+  <script src="/js/animations.js"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+  <script src="/js/contact-form.js"></script>
+
+</body>
+</html>

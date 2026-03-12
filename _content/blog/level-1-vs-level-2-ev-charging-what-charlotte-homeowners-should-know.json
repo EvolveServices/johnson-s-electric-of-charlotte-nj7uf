@@ -1,0 +1,98 @@
+{
+  "slug": "level-1-vs-level-2-ev-charging-what-charlotte-homeowners-should-know",
+  "template": "blog-post",
+  "output": "/blog/level-1-vs-level-2-ev-charging-what-charlotte-homeowners-should-know/index.html",
+  "meta": {
+    "title": "Level 1 vs. Level 2 EV Charging: What Charlotte Homeowners Should Know | Johnson's Electric",
+    "description": "Thinking about a home EV charger in Charlotte? We break down the difference between Level 1 and Level 2 charging, costs, and which option fits your lifestyle.",
+    "og_title": "Level 1 vs. Level 2 EV Charging: What Charlotte Homeowners Should Know",
+    "og_description": "Level 1 or Level 2? Our Charlotte electricians explain EV charging options, installation requirements, and costs for your home.",
+    "og_image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/35d7d651-dae2-4985-9bf8-d0b56986fd45/media/branding/og-image-1773174564126.png",
+    "published_time": "2025-04-28"
+  },
+  "title": "Level 1 vs. Level 2 EV Charging: What Charlotte Homeowners Should Know",
+  "excerpt": "As electric vehicles become more common on Charlotte roads, the question of home charging is top of mind for many homeowners. The right charger depends on your vehicle, your driving habits, and your home's electrical system.",
+  "category": "EV Charging",
+  "date_display": "April 28, 2025",
+  "read_time": "7 min read",
+  "hero": {
+    "image": "http://static.photos/automotive/1200x630/312"
+  },
+  "author": {
+    "name": "Marcus Johnson",
+    "role": "Master Electrician, Johnson's Electric of Charlotte",
+    "bio": "Marcus Johnson is a licensed Master Electrician with over 18 years of experience serving the Charlotte metro area. He founded Johnson's Electric to bring honest, expert electrical service to homeowners and businesses across the region.",
+    "avatar": "http://static.photos/people/200x200/87"
+  },
+  "body_sections": [
+    {
+      "heading": "Why Home EV Charging Matters",
+      "content": "<p>Public charging stations are expanding across the Charlotte metro, but nothing beats the convenience of waking up every morning with a fully charged vehicle in your own garage. Most EV owners do the vast majority of their charging at home, which means your home electrical setup directly impacts how practical owning an electric vehicle really is.</p><p>There are two main home charging levels: Level 1 and Level 2. Understanding the difference will help you decide what makes sense for your situation and what electrical upgrades, if any, you will need before installation.</p>"
+    },
+    {
+      "heading": "Level 1 Charging: Use What You Already Have",
+      "content": "<p>Level 1 charging uses a standard 120-volt household outlet. Every EV comes with a Level 1 charging cord in the box, so there is zero upfront cost for the charger itself. You simply plug into any properly grounded outlet and charging begins.</p><h3>The Downside: Speed</h3><p>Level 1 charging is extremely slow. Most EVs gain only 3 to 5 miles of range per hour of charging. If you drive 30 to 40 miles per day, you are looking at 8 to 12 hours of charging overnight just to recover your daily usage. For a larger battery pack (60 kWh or more), a full charge from empty could take 40 to 50 hours on Level 1.</p><h3>When Level 1 Makes Sense</h3><ul><li>You drive fewer than 30 miles per day</li><li>You have a plug-in hybrid rather than a full battery electric vehicle</li><li>You want a zero-cost starter solution while you evaluate your needs</li><li>Your garage already has a properly grounded outlet in good condition</li></ul><p>One caution: many older garages have outdated outlets or wiring not suited for continuous overnight loads. Have your outlet inspected before relying on Level 1 long term.</p>"
+    },
+    {
+      "heading": "Level 2 Charging: The Right Tool for Most Homeowners",
+      "content": "<p>Level 2 charging operates on a 240-volt circuit, the same type that powers your clothes dryer or electric range. A dedicated Level 2 EVSE (Electric Vehicle Supply Equipment) delivers power at rates between 16 and 48 amps, giving most vehicles 25 to 35 miles of range per hour of charging.</p><p>A typical 60-mile daily commute can be fully recovered in 2 to 3 hours. A full charge on a large battery EV takes 8 to 12 hours overnight, so you always leave in the morning with a full battery regardless of how depleted it was when you arrived home.</p><h3>What Level 2 Installation Involves</h3><p>Installing a Level 2 charger requires a licensed electrician to:</p><ul><li>Run a dedicated 240-volt circuit from your electrical panel to the charger location</li><li>Install a correctly rated breaker (typically 40 to 60 amps depending on the charger)</li><li>Mount the EVSE unit on a wall inside or outside the garage</li><li>Pull the required electrical permit through the local municipality</li></ul><p>In many cases, homeowners also need a panel upgrade if their current panel does not have capacity for a new 40-60 amp circuit. Johnson's Electric assesses your panel at no extra charge as part of any EV charger estimate.</p>"
+    },
+    {
+      "heading": "Level 2 Charger Costs in Charlotte",
+      "content": "<p>The total cost of a Level 2 home charger installation in the Charlotte area typically ranges from <strong>$800 to $2,200</strong> depending on:</p><ul><li>The charger unit itself (varies from $300 to $900 for quality units)</li><li>Distance from the panel to the installation location</li><li>Whether conduit must be run through finished walls or ceilings</li><li>Whether a panel upgrade is required</li><li>Local permit fees</li></ul><p>Duke Energy offers a <strong>Home EV Charger Rebate</strong> program that can offset some installation costs. Ask your Johnson's Electric estimator for current program details.</p><blockquote><p>Installation cost varies by home, but most customers tell us they wished they had installed a Level 2 charger from day one. The convenience difference is night and day.</p></blockquote>"
+    },
+    {
+      "heading": "Choosing the Right Charger for Your Vehicle",
+      "content": "<p>Not all Level 2 chargers are compatible with all vehicles in the same way. As of 2025, most new EVs sold in North America use either the standard J1772 connector or the NACS (Tesla-style) connector, which is now being adopted by major automakers including Ford, GM, Rivian, and Honda.</p><p>When purchasing a home charger, confirm it is compatible with your vehicle's port or comes with the appropriate adapter. Hardwired units offer the cleanest installation, while plug-in EVSE units allow you to take the charger with you if you move. Your Johnson's Electric technician can help you choose the right unit before installation.</p>"
+    }
+  ],
+  "tags": ["EV charging", "Level 2 charger", "home EV charger", "Charlotte electrician", "electric vehicle", "EVSE installation"],
+  "cta_banner": {
+    "heading": "Ready to Install Your Home EV Charger?",
+    "body": "Our licensed Charlotte electricians handle everything from the permit to the final inspection. Get a free estimate today.",
+    "url": "/contact/",
+    "button_text": "Schedule an Estimate"
+  },
+  "sidebar": {
+    "cta": {
+      "heading": "Install Your EV Charger",
+      "body": "Get a free, no-obligation estimate from our licensed Charlotte electricians. Same-week appointments available."
+    },
+    "quick_info": {
+      "heading": "Quick Facts",
+      "items": [
+        { "icon": "map-pin", "text": "Serving Charlotte and the greater metro area" },
+        { "icon": "shield-check", "text": "Licensed, bonded, and insured in NC" },
+        { "icon": "clock", "text": "Same-week appointments available" },
+        { "icon": "star", "text": "5-star rated on Google Reviews" },
+        { "icon": "badge-check", "text": "All work permitted and inspected" }
+      ]
+    }
+  },
+  "related_posts": [
+    {
+      "url": "/blog/how-to-know-when-you-need-an-electrical-panel-upgrade/",
+      "image": "http://static.photos/indoor/640x360/214",
+      "category": "Panel Upgrades",
+      "title": "How to Know When You Need an Electrical Panel Upgrade",
+      "date": "May 15, 2025",
+      "delay": "0"
+    },
+    {
+      "url": "/blog/7-electrical-upgrades-that-can-lower-your-monthly-electric-bill/",
+      "image": "http://static.photos/finance/640x360/631",
+      "category": "Home Tips",
+      "title": "7 Electrical Upgrades That Can Lower Your Monthly Electric Bill",
+      "date": "March 5, 2025",
+      "delay": "0.1s"
+    },
+    {
+      "url": "/blog/whole-home-generator-buying-guide/",
+      "image": "http://static.photos/outdoor/640x360/578",
+      "category": "Generators",
+      "title": "Whole-Home Generator Buying Guide: What Size Does Your House Need?",
+      "date": "March 22, 2025",
+      "delay": "0.2s"
+    }
+  ]
+}

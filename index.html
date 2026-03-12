@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <title>Johnson's Electric of Charlotte | Licensed Electrician Charlotte NC</title>
+  <meta name="description" content="Johnson's Electric of Charlotte — licensed, insured electricians serving Charlotte, NC for 20+ years. Residential & commercial electrical services. Zero code violations. Request service today." />
+  <meta property="og:title" content="Johnson's Electric of Charlotte | Licensed Electrician Charlotte NC" />
+  <meta property="og:description" content="Licensed, insured electricians serving Charlotte, NC for 20+ years. Safety, code compliance, and quality guaranteed." />
+  <meta property="og:image" content="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/35d7d651-dae2-4985-9bf8-d0b56986fd45/media/branding/og-image-1773174564126.png" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="/css/animations.css" />
+  <link rel="stylesheet" href="/css/home.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["LocalBusiness", "Electrician"],
+    "name": "Johnson's Electric of Charlotte",
+    "description": "Licensed and insured electrical contractor serving Charlotte, NC and surrounding areas for over 20 years. Residential and commercial electrical services with zero code violations.",
+    "url": "https://johnsonselectriccharlotte.com",
+    "telephone": "(704) 555-0190",
+    "email": "info@johnsonselectriccharlotte.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Charlotte",
+      "addressLocality": "Charlotte",
+      "addressRegion": "NC",
+      "postalCode": "28201",
+      "addressCountry": "US"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 35.2271,
+      "longitude": -80.8431
+    },
+    "areaServed": {
+      "@type": "City",
+      "name": "Charlotte",
+      "sameAs": "https://en.wikipedia.org/wiki/Charlotte,_North_Carolina"
+    },
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+        "opens": "07:00",
+        "closes": "18:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "14:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "187"
+    },
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Licensed Electrical Contractor",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "North Carolina State Board of Examiners of Electrical Contractors"
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <div data-include="navbar"></div>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero-section">
+    <div aria-hidden="true" class="hero-overlay"></div>
+    <div class="container hero-container">
+
+      <!-- Left: Headline + Trust Badges -->
+      <div class="hero-content reveal">
+        <div class="hero-badge">Charlotte's Trusted Electrical Contractor</div>
+        <h1 class="hero-heading">Electrical Work Done <span class="hero-highlight">Safe &amp; Up to Code</span></h1>
+        <p class="hero-sub">Johnson's Electric of Charlotte delivers licensed, insured electrical services for homes and businesses throughout the Charlotte metro. No shortcuts. No violations. No exceptions.</p>
+        <div class="hero-trust-row">
+          <span class="hero-trust-chip"><i data-lucide="shield-check" class="chip-icon"></i>Licensed &amp; Insured</span>
+          <span class="hero-trust-chip"><i data-lucide="award" class="chip-icon"></i>20+ Years</span>
+          <span class="hero-trust-chip"><i data-lucide="star" class="chip-icon"></i>4.9 Google Rating</span>
+        </div>
+      </div>
+
+      <!-- Right: Request Service Form -->
+      <div class="hero-form-card reveal" data-delay="0.2s">
+        <div class="hero-form-header">
+          <i data-lucide="zap" class="form-header-icon"></i>
+          <span>Request Service</span>
+        </div>
+        <form class="hero-form">
+          <div class="form-row-two">
+            <div class="form-group">
+              <label for="hero-name">Your Name</label>
+              <input type="text" id="hero-name" name="name" placeholder="John Smith" required />
+            </div>
+            <div class="form-group">
+              <label for="hero-phone">Phone Number</label>
+              <input type="tel" id="hero-phone" name="phone" placeholder="(704) 555-0100" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="hero-email">Email Address</label>
+            <input type="email" id="hero-email" name="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="hero-service">Service Needed</label>
+            <select id="hero-service" name="service">
+              <option value="">Select a service…</option>
+              <option>Panel Upgrade / Replacement</option>
+              <option>Outlet &amp; Switch Installation</option>
+              <option>Lighting Installation</option>
+              <option>Whole-Home Rewiring</option>
+              <option>EV Charger Installation</option>
+              <option>Commercial Electrical</option>
+              <option>Safety Inspection</option>
+              <option>Other</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="hero-message">Brief Description</label>
+            <textarea id="hero-message" name="message" rows="3" placeholder="Describe your electrical issue or project…"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            <i data-lucide="send" class="btn-icon"></i> Request Free Estimate
+          </button>
+          <div data-wl-success style="display:none">Thank you! We'll contact you shortly to confirm your appointment.</div>
+          <div data-wl-error style="display:none"></div>
+          <p class="form-disclaimer">We respond within 1 business hour. No spam, ever.</p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== STAT COUNTERS ===== -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item reveal">
+          <div class="stat-number"><span class="counter" data-target="2400">0</span>+</div>
+          <div class="stat-label">Jobs Completed</div>
+        </div>
+        <div class="stat-item reveal" data-delay="0.1s">
+          <div class="stat-number"><span class="counter" data-target="20">0</span>+</div>
+          <div class="stat-label">Years Licensed in NC</div>
+        </div>
+        <div class="stat-item reveal" data-delay="0.2s">
+          <div class="stat-number"><span class="counter" data-target="0">0</span></div>
+          <div class="stat-label">Code Violations — Ever</div>
+        </div>
+        <div class="stat-item reveal" data-delay="0.3s">
+          <div class="stat-number"><span class="counter" data-target="4" data-decimal="1">0</span>.9 ★</div>
+          <div class="stat-label">Google Rating</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY LICENSED ELECTRICIAN ===== -->
+  <section class="why-section section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Why Hire a <span class="text-accent">Licensed Electrician?</span></h2>
+        <p class="section-sub">Cutting corners on electrical work costs far more in the long run. Here's what a licensed pro protects you from.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card reveal">
+          <div class="why-icon-wrap">
+            <i data-lucide="shield" class="why-icon"></i>
+          </div>
+          <h3>Personal Safety</h3>
+          <p>Faulty wiring is the leading cause of residential fires in the US. A licensed electrician follows strict safety protocols to eliminate risk for you and your family.</p>
+        </div>
+        <div class="why-card reveal" data-delay="0.1s">
+          <div class="why-icon-wrap">
+            <i data-lucide="file-check" class="why-icon"></i>
+          </div>
+          <h3>Code Compliance</h3>
+          <p>All work is performed to current NEC and North Carolina electrical code standards. Every project is permit-ready and inspectable — protecting your home's resale value.</p>
+        </div>
+        <div class="why-card reveal" data-delay="0.2s">
+          <div class="why-icon-wrap">
+            <i data-lucide="umbrella" class="why-icon"></i>
+          </div>
+          <h3>Insurance Protection</h3>
+          <p>Unlicensed work can void your homeowner's insurance. Johnson's Electric carries full liability and workman's comp coverage so you're protected on every job.</p>
+        </div>
+        <div class="why-card reveal" data-delay="0.3s">
+          <div class="why-icon-wrap">
+            <i data-lucide="cpu" class="why-icon"></i>
+          </div>
+          <h3>Smart Home Ready</h3>
+          <p>From EV charger installations to whole-home automation wiring, our licensed electricians stay current with the latest smart home electrical requirements.</p>
+        </div>
+        <div class="why-card reveal" data-delay="0.4s">
+          <div class="why-icon-wrap">
+            <i data-lucide="clipboard-check" class="why-icon"></i>
+          </div>
+          <h3>Permits &amp; Inspections</h3>
+          <p>We pull all required permits and coordinate inspections. You get a fully documented job that will never cause issues when selling or refinancing your home.</p>
+        </div>
+        <div class="why-card reveal" data-delay="0.5s">
+          <div class="why-icon-wrap">
+            <i data-lucide="wrench" class="why-icon"></i>
+          </div>
+          <h3>Workmanship Warranty</h3>
+          <p>Every job backed by our written 1-year workmanship guarantee. If anything we installed fails within a year, we come back and fix it — no questions asked.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED SERVICES ===== -->
+  <section class="services-section section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Residential &amp; Commercial <span class="text-accent">Electrical Services</span></h2>
+        <p class="section-sub">From a single outlet to a complete commercial buildout, Johnson's Electric handles it all — on time, on budget, and up to code.</p>
+      </div>
+      <div class="services-grid">
+
+        <!-- Residential Card -->
+        <div class="service-card reveal">
+          <div class="service-card-img">
+            <img src="http://static.photos/indoor/640x360/42" alt="Residential electrical services" loading="lazy" />
+            <div class="service-card-badge">Residential</div>
+          </div>
+          <div class="service-card-body">
+            <h3>Home Electrical Services</h3>
+            <p>Safe, code-compliant electrical work for Charlotte homeowners. Whether you're renovating, adding circuits, or upgrading your panel, we've got you covered.</p>
+            <ul class="service-list">
+              <li><i data-lucide="check-circle" class="list-icon"></i>Panel Upgrades &amp; Replacements</li>
+              <li><i data-lucide="check-circle" class="list-icon"></i>Outlet, Switch &amp; Dimmer Installation</li>
+              <li><i data-lucide="check-circle" class="list-icon"></i>Ceiling Fan &amp; Lighting Fixtures</li>
+              <li><i data-lucide="check-circle" class="list-icon"></i>EV Charger Installation</li>
+              <li><i data-lucide="check-circle" class="list-icon"></i>Whole-Home Rewiring</li>
+              <li><i data-lucide="check-circle" class="list-icon"></i>Generator Hookups &amp; Transfer Switches</li>
+            </ul>
+            <a href="/residential/" class="btn btn-primary">Residential Services</a>
+          </div>
+        </div>
+
+        <!-- Commercial Card -->
+        <div class="service-card reveal" data-delay="0.15s">
+          <div class="service-card-img">
+            <img src="http://static.photos/industry/640x360/77" alt="Commercial electrical services" loading="lazy" />
+            <div class="service-card-badge service-card-badge--commercial">Commercial</div>
+          </div>
+          <div class="service-card-body">
+            <h3>Commercial Electrical Services</h3>
+            <p>Downtime costs money. Our commercial electrical team delivers fast, reliable service to keep Charlotte businesses running safely and efficiently.</p>
+            <ul class="service-list">
+              <li><i data-lucide="check-circle" class="list-icon"></i>Commercial Panel &amp; Service Upgrades</li>
+              <li><i data-lucide="check-circle" class="list-icon"></i>Tenant Improvement &amp; Buildouts</li>
+              <li><i data-lucide="check-circle" class="list-icon"></i>LED Lighting Retrofits</li>
+              <li><i data-lucide="check-circle" class="list-icon"></i>Data &amp; Low-Voltage Wiring</li>
+              <li><i data-lucide="check-circle" class="list-icon"></i>Emergency &amp; Exit Lighting</li>
+              <li><i data-lucide="check-circle" class="list-icon"></i>Code Violation Corrections</li>
+            </ul>
+            <a href="/commercial/" class="btn btn-outline">Commercial Services</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TRUST BADGE STRIP ===== -->
+  <section class="trust-strip">
+    <div class="container">
+      <div class="trust-strip-grid">
+        <div class="trust-badge reveal">
+          <i data-lucide="shield-check" class="trust-badge-icon"></i>
+          <div>
+            <strong>NC Licensed</strong>
+            <span>State License #EC-XXXXX</span>
+          </div>
+        </div>
+        <div class="trust-badge reveal" data-delay="0.1s">
+          <i data-lucide="umbrella" class="trust-badge-icon"></i>
+          <div>
+            <strong>Fully Insured</strong>
+            <span>Liability &amp; Workers' Comp</span>
+          </div>
+        </div>
+        <div class="trust-badge reveal" data-delay="0.2s">
+          <i data-lucide="calendar" class="trust-badge-icon"></i>
+          <div>
+            <strong>20+ Years Experience</strong>
+            <span>Serving Charlotte Since 2004</span>
+          </div>
+        </div>
+        <div class="trust-badge reveal" data-delay="0.3s">
+          <i data-lucide="star" class="trust-badge-icon"></i>
+          <div>
+            <strong>4.9★ Google Rating</strong>
+            <span>187+ Verified Reviews</span>
+          </div>
+        </div>
+        <div class="trust-badge reveal" data-delay="0.4s">
+          <i data-lucide="zap" class="trust-badge-icon"></i>
+          <div>
+            <strong>0 Code Violations</strong>
+            <span>Perfect Inspection Record</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ELECTRICAL SAFETY TIPS (SEO BLOCK) ===== -->
+  <section class="safety-tips-section section">
+    <div class="container">
+      <div class="safety-tips-layout">
+        <div class="safety-tips-content reveal">
+          <div class="section-eyebrow">Electrical Safety Education</div>
+          <h2 class="section-title">Electrical Safety Tips for <span class="text-accent">Charlotte Homeowners</span></h2>
+          <p>Electrical hazards are the third leading cause of home fires in the United States. As Charlotte's trusted licensed electricians, Johnson's Electric wants every homeowner to know the warning signs that demand professional attention.</p>
+
+          <div class="safety-tip-item">
+            <div class="safety-tip-num">01</div>
+            <div>
+              <h3>Never Ignore Flickering Lights</h3>
+              <p>Flickering or dimming lights — especially when appliances run — indicate loose wiring, an overloaded circuit, or a failing panel connection. These are fire hazards that require immediate inspection.</p>
+            </div>
+          </div>
+          <div class="safety-tip-item">
+            <div class="safety-tip-num">02</div>
+            <div>
+              <h3>Tripping Breakers Are a Warning Sign</h3>
+              <p>Occasional tripped breakers are normal. Frequent tripping signals an overloaded circuit, a short circuit, or a ground fault. Don't keep resetting — call a licensed electrician to assess the root cause.</p>
+            </div>
+          </div>
+          <div class="safety-tip-item">
+            <div class="safety-tip-num">03</div>
+            <div>
+              <h3>Burning Smells Mean Stop and Call</h3>
+              <p>A burning odor near outlets, panels, or switches is a code-red emergency. Turn off the breaker immediately and contact Johnson's Electric. Never wait on this one.</p>
+            </div>
+          </div>
+          <div class="safety-tip-item">
+            <div class="safety-tip-num">04</div>
+            <div>
+              <h3>Two-Prong Outlets Are a Liability</h3>
+              <p>Older Charlotte homes with ungrounded two-prong outlets lack modern shock and surge protection. Upgrading to GFCI-protected three-prong outlets is one of the best investments a homeowner can make.</p>
+            </div>
+          </div>
+          <div class="safety-tip-item">
+            <div class="safety-tip-num">05</div>
+            <div>
+              <h3>Schedule an Electrical Safety Inspection</h3>
+              <p>Homes 25+ years old should receive a professional electrical inspection every 5–10 years. We check panel condition, wiring integrity, grounding, AFCI/GFCI protection, and code compliance throughout.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="safety-tips-aside reveal" data-delay="0.2s">
+          <img src="http://static.photos/indoor/640x360/88" alt="Licensed electrician inspecting electrical panel" loading="lazy" class="safety-aside-img" />
+          <div class="safety-aside-cta-card">
+            <i data-lucide="alert-triangle" class="aside-cta-icon"></i>
+            <h3>Noticed Any Warning Signs?</h3>
+            <p>Don't wait for a small issue to become a costly repair or a safety emergency. Our licensed electricians can diagnose and fix electrical problems fast.</p>
+            <a href="#" class="btn btn-primary btn-block">Schedule an Inspection</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CUSTOMER REVIEWS ===== -->
+  <section class="reviews-section section">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">What Charlotte Homeowners <span class="text-accent">Are Saying</span></h2>
+        <p class="section-sub">187 verified Google reviews. Here's what a few of our customers had to say about their experience with Johnson's Electric.</p>
+        <div class="reviews-aggregate">
+          <div class="agg-stars">★★★★★</div>
+          <span class="agg-score">4.9 / 5.0</span>
+          <span class="agg-count">Based on 187 Google reviews</span>
+        </div>
+      </div>
+      <div class="reviews-grid">
+
+        <div class="review-card reveal">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Johnson's Electric upgraded our 100A panel to 200A and installed three new circuits for our home addition. The crew was professional, clean, and passed inspection first try. Highly recommend."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">MK</div>
+            <div>
+              <strong>Mark K.</strong>
+              <span>South Charlotte</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card reveal" data-delay="0.1s">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Had a burning smell near my breaker box late Friday afternoon. Called Johnson's and someone was at my house within two hours. Turned out to be a loose breaker connection — potentially dangerous. Grateful for the fast response."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">SL</div>
+            <div>
+              <strong>Sandra L.</strong>
+              <span>NoDa / North Charlotte</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card reveal" data-delay="0.2s">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Hired them to wire a new commercial space for our restaurant. On schedule, within budget, zero punch list items at final inspection. The project manager communicated clearly at every step. Will use again."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">TD</div>
+            <div>
+              <strong>Thomas D.</strong>
+              <span>Uptown Charlotte</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card reveal" data-delay="0.3s">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Fast, fair, and honest. Got three quotes for an EV charger install — Johnson's was mid-range on price but the only one who explained exactly what was included and why. Zero surprises on the final invoice."</p>
+          <div class="reviewer">
+            <div class="reviewer-avatar">PR</div>
+            <div>
+              <strong>Patricia R.</strong>
+              <span>Ballantyne</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA SECTION ===== -->
+  <section class="cta-section">
+    <div aria-hidden="true" class="cta-blob cta-blob--1"></div>
+    <div aria-hidden="true" class="cta-blob cta-blob--2"></div>
+    <div class="container cta-container">
+      <div class="cta-content reveal">
+        <h2 class="cta-heading">Ready to Work With Charlotte's Most Trusted Electrician?</h2>
+        <p class="cta-sub">Get a free estimate from a licensed, insured electrician. We serve Charlotte and all surrounding areas — Ballantyne, Huntersville, Matthews, Concord, and beyond.</p>
+        <div class="cta-actions">
+          <a href="/contact/" class="btn btn-white">
+            <i data-lucide="calendar-check" class="btn-icon"></i> Request a Free Estimate
+          </a>
+          <a href="tel:7045550190" class="btn btn-outline-white">
+            <i data-lucide="phone" class="btn-icon"></i> (704) 555-0190
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div data-include="footer"></div>
+
+  <script src="/_includes/loader.js"></script>
+  <script src="/js/animations.js"></script>
+  <script>
+    if (typeof lucide !== 'undefined') lucide.createIcons();
+    document.addEventListener('includesLoaded', function() {
+      if (typeof lucide !== 'undefined') lucide.createIcons();
+    });
+  </script>
+</body>
+</html>

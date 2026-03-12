@@ -1,0 +1,46 @@
+{
+  "slug": "noda",
+  "template": "service-area",
+  "output": "/service-areas/noda/index.html",
+  "area_name": "NoDa",
+  "meta": {
+    "title": "Electrician in NoDa, Charlotte NC | Johnson's Electric",
+    "description": "Johnson's Electric serves NoDa (North Davidson, 28206) with expert electrical services. Commercial wiring, panel upgrades, brewery & studio electrical. Call (704) 555-0199.",
+    "og_title": "NoDa Charlotte Electrician | Johnson's Electric",
+    "og_description": "Licensed electrical services for NoDa's arts district venues, breweries, galleries, and creative businesses. Residential & commercial."
+  },
+  "hero": {
+    "heading": "Electrician in <span>NoDa</span>",
+    "description": "Charlotte's arts and entertainment district needs an electrician who understands creative spaces. Johnson's Electric serves NoDa's breweries, galleries, music venues, studios, and converted mill buildings with expert commercial and residential electrical services.",
+    "zips": [
+      { "zip": "28206" },
+      { "zip": "28205" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving NoDa",
+    "heading": "Electrical Expertise for Charlotte's Creative Hub",
+    "body1": "NoDa (North Davidson) is Charlotte's arts and entertainment district — a vibrant neighborhood of breweries, music venues, art galleries, tattoo studios, and converted textile mill spaces. The area's mix of historic buildings and new construction creates unique electrical challenges that require an experienced, licensed electrician.",
+    "body2": "Johnson's Electric has extensive experience in NoDa's commercial and residential market. From wiring a new brewery taproom to upgrading the electrical in a converted mill loft, we understand the demands of NoDa's creative spaces and deliver safe, code-compliant electrical work that keeps your business running and your tenants happy."
+  },
+  "zips": [
+    { "code": "28206" },
+    { "code": "28205" },
+    { "code": "28202" }
+  ],
+  "services": [
+    { "icon": "building-2", "title": "Brewery & Venue Wiring", "description": "Specialized electrical installations for NoDa's breweries, taprooms, and entertainment venues — including three-phase power, HVAC circuits, and exterior signage.", "delay": "0.05s" },
+    { "icon": "zap", "title": "Panel Upgrades & Service", "description": "Upgrading electrical service in NoDa's older commercial and residential buildings to support modern power demands.", "delay": "0.1s" },
+    { "icon": "lightbulb", "title": "Gallery & Studio Lighting", "description": "Track lighting, LED retrofits, and dimmer systems for NoDa's art galleries, photography studios, and creative workspaces.", "delay": "0.15s" },
+    { "icon": "plug", "title": "Loft & Condo Electrical", "description": "Electrical work in NoDa's residential lofts, condos, and apartments including outlet upgrades, ceiling fans, and smart home installations.", "delay": "0.2s" },
+    { "icon": "wifi", "title": "Sign & Exterior Lighting", "description": "Outdoor sign wiring, parking lot lighting, and code-compliant exterior electrical for NoDa's storefronts and restaurants.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Around-the-clock emergency electrical response for NoDa businesses and residents — because shows, tap rooms, and galleries can't afford downtime.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you have experience wiring breweries and taprooms in NoDa?", "answer": "Yes. Brewery electrical is a specialty — we understand the three-phase power requirements, refrigeration circuits, tap system wiring, and high-demand electrical loads that NoDa's craft breweries and taprooms require.", "delay": "0.05s" },
+    { "question": "Can you work on the older mill buildings in NoDa?", "answer": "Absolutely. NoDa's converted textile mills have unique electrical challenges — old knob-and-tube wiring, inadequate panels, and unusual building layouts. We're experienced with mill building renovations and can bring them up to current code.", "delay": "0.1s" },
+    { "question": "Do you install specialty lighting for art galleries?", "answer": "Yes. We work with NoDa galleries on track lighting, LED retrofit systems, and dimmer controls that showcase artwork properly while keeping energy costs low.", "delay": "0.15s" },
+    { "question": "How do I schedule an electrician for my NoDa business?", "answer": "Call us at (704) 555-0199 or use our online contact form. We offer flexible scheduling including evenings and weekends for NoDa businesses that can't close during regular hours.", "delay": "0.2s" }
+  ]
+}

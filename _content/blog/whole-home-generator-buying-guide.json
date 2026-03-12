@@ -1,0 +1,98 @@
+{
+  "slug": "whole-home-generator-buying-guide",
+  "template": "blog-post",
+  "output": "/blog/whole-home-generator-buying-guide/index.html",
+  "meta": {
+    "title": "Whole-Home Generator Buying Guide: What Size Does Your House Need? | Johnson's Electric",
+    "description": "Learn how to choose the right standby generator size for your Charlotte home. Johnson's Electric explains fuel options, sizing, and what to expect during installation.",
+    "og_title": "Whole-Home Generator Buying Guide: What Size Does Your House Need?",
+    "og_description": "Storm season is real in North Carolina. Our Charlotte electricians explain how to size, choose, and install a whole-home standby generator.",
+    "og_image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/35d7d651-dae2-4985-9bf8-d0b56986fd45/media/branding/og-image-1773174564126.png",
+    "published_time": "2025-03-22"
+  },
+  "title": "Whole-Home Generator Buying Guide: What Size Does Your House Need?",
+  "excerpt": "With North Carolina storm seasons growing more intense, a standby generator is a smart investment for Charlotte homeowners. Here is how to choose the right size, fuel type, and installation approach.",
+  "category": "Generators",
+  "date_display": "March 22, 2025",
+  "read_time": "8 min read",
+  "hero": {
+    "image": "http://static.photos/outdoor/1200x630/578"
+  },
+  "author": {
+    "name": "Marcus Johnson",
+    "role": "Master Electrician, Johnson's Electric of Charlotte",
+    "bio": "Marcus Johnson is a licensed Master Electrician with over 18 years of experience serving the Charlotte metro area. He founded Johnson's Electric to bring honest, expert electrical service to homeowners and businesses across the region.",
+    "avatar": "http://static.photos/people/200x200/87"
+  },
+  "body_sections": [
+    {
+      "heading": "Why Charlotte Homeowners Are Investing in Standby Generators",
+      "content": "<p>The Charlotte region has seen an increase in severe weather events in recent years, from ice storms that knock out power for days to summer thunderstorms that leave neighborhoods dark for hours. A whole-home standby generator starts automatically within seconds of a power outage and runs on natural gas or propane, so you never have to drag a portable unit out of storage or worry about fuel.</p><p>Unlike portable generators that power only a few circuits, a properly sized standby generator can run your entire home, including the HVAC system, refrigerator, medical equipment, lights, and outlets. For families with medical needs, home offices, or young children, backup power is not a luxury; it is a necessity.</p>"
+    },
+    {
+      "heading": "How to Size a Whole-Home Generator",
+      "content": "<p>Generator sizing is measured in kilowatts (kW). The goal is to match the generator's output to your home's total electrical load during an outage. Here is a general breakdown by home size:</p><ul><li><strong>10 to 14 kW:</strong> Suitable for smaller homes (under 1,500 sq ft) powering essential circuits only</li><li><strong>16 to 20 kW:</strong> Covers most needs in a 1,500 to 2,500 sq ft home, including central HVAC</li><li><strong>22 to 24 kW:</strong> Designed for larger homes or homes with higher electrical loads such as electric ranges or well pumps</li><li><strong>30 kW and above:</strong> For larger estates, multi-family properties, or homes with significant electrical demand</li></ul><h3>Calculating Your Load</h3><p>The most accurate way to size a generator is with a load calculation performed by a licensed electrician. This accounts for your actual appliance draw, HVAC system tonnage, and the circuits you need to power during an outage. Johnson's Electric provides load calculations as part of every free generator estimate.</p>"
+    },
+    {
+      "heading": "Natural Gas vs. Propane: Which Fuel Is Right for You?",
+      "content": "<p>Most whole-home standby generators run on either natural gas (connected to your existing utility line) or liquid propane (stored in a tank on your property).</p><h3>Natural Gas</h3><ul><li>No fuel storage required; the utility supplies gas continuously</li><li>Lower fuel cost per kWh in most cases</li><li>Ideal for homes already connected to a natural gas line</li><li>Cannot run if the gas utility is disrupted (rare, but possible in major disasters)</li></ul><h3>Propane</h3><ul><li>Requires an on-site tank (typically 250 to 500 gallons for a whole-home generator)</li><li>Works even when the gas utility is down</li><li>Better for rural areas without natural gas service</li><li>Requires periodic refills and tank rental or purchase</li></ul><p>Most Charlotte-area homeowners with existing natural gas service choose natural gas for simplicity and lower ongoing cost. Your Johnson's Electric estimator can help evaluate which makes more sense for your property.</p>"
+    },
+    {
+      "heading": "What Does Generator Installation Involve?",
+      "content": "<p>Installing a whole-home standby generator is a multi-trade project that Johnson's Electric coordinates from start to finish:</p><ul><li><strong>Site assessment:</strong> We determine the best placement for the generator unit (minimum clearances from windows, doors, and gas meters apply)</li><li><strong>Automatic transfer switch (ATS) installation:</strong> The ATS is the critical component that detects a power outage and switches your home to generator power automatically within 10 to 30 seconds</li><li><strong>Gas line connection:</strong> We coordinate with a licensed plumber or gas contractor to extend or upsize the gas line if needed</li><li><strong>Electrical connection:</strong> We connect the generator to the ATS and ensure proper grounding and bonding</li><li><strong>Permit and inspection:</strong> All generator installations in the Charlotte area require a permit. We handle the entire permit process and schedule the final inspection</li><li><strong>Testing and commissioning:</strong> We test the system through a full simulated power outage before considering the job complete</li></ul><p>Installation typically takes one to two days depending on site conditions. Homeowners can expect a typical investment of <strong>$5,000 to $12,000</strong> for a complete whole-home standby generator installation in the Charlotte metro area, including the generator unit, ATS, and all electrical and gas work.</p>"
+    },
+    {
+      "heading": "Maintenance: What to Expect After Installation",
+      "content": "<p>Standby generators require periodic maintenance to remain reliable. Most manufacturers recommend:</p><ul><li>Annual service including oil change, spark plug inspection, and battery check</li><li>A weekly automatic exercise cycle (the generator runs for a few minutes to stay conditioned)</li><li>Filter replacement every two to three years depending on usage</li></ul><p>Johnson's Electric offers generator maintenance plans that keep your unit running at peak performance and extend its service life. Ask your estimator for details when scheduling your installation.</p>"
+    }
+  ],
+  "tags": ["generator installation", "standby generator", "whole-home generator", "Charlotte electrician", "backup power", "storm preparedness"],
+  "cta_banner": {
+    "heading": "Get a Free Generator Installation Estimate",
+    "body": "Our licensed Charlotte electricians handle everything from load calculation to final inspection. Do not wait for storm season.",
+    "url": "/contact/",
+    "button_text": "Schedule an Estimate"
+  },
+  "sidebar": {
+    "cta": {
+      "heading": "Install a Standby Generator",
+      "body": "Free estimates, same-week appointments. Our licensed Charlotte electricians handle the entire project."
+    },
+    "quick_info": {
+      "heading": "Quick Facts",
+      "items": [
+        { "icon": "map-pin", "text": "Serving Charlotte and the greater metro area" },
+        { "icon": "shield-check", "text": "Licensed, bonded, and insured in NC" },
+        { "icon": "clock", "text": "Same-week appointments available" },
+        { "icon": "star", "text": "5-star rated on Google Reviews" },
+        { "icon": "badge-check", "text": "All work permitted and inspected" }
+      ]
+    }
+  },
+  "related_posts": [
+    {
+      "url": "/blog/how-to-know-when-you-need-an-electrical-panel-upgrade/",
+      "image": "http://static.photos/indoor/640x360/214",
+      "category": "Panel Upgrades",
+      "title": "How to Know When You Need an Electrical Panel Upgrade",
+      "date": "May 15, 2025",
+      "delay": "0"
+    },
+    {
+      "url": "/blog/10-home-electrical-safety-tips-every-charlotte-homeowner-needs/",
+      "image": "http://static.photos/indoor/640x360/445",
+      "category": "Safety",
+      "title": "10 Home Electrical Safety Tips Every Charlotte Homeowner Needs",
+      "date": "April 10, 2025",
+      "delay": "0.1s"
+    },
+    {
+      "url": "/blog/7-electrical-upgrades-that-can-lower-your-monthly-electric-bill/",
+      "image": "http://static.photos/finance/640x360/631",
+      "category": "Home Tips",
+      "title": "7 Electrical Upgrades That Can Lower Your Monthly Electric Bill",
+      "date": "March 5, 2025",
+      "delay": "0.2s"
+    }
+  ]
+}

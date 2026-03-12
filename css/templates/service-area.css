@@ -1,0 +1,442 @@
+/* === Service Area Landing Page Template Styles === */
+
+/* ── Hero ── */
+.sap-hero {
+  background: var(--color-secondary-dark);
+  padding: calc(var(--header-height) + var(--utility-bar-height) + 4rem) var(--section-padding-x) 5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.sap-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 75% 40%, rgba(249, 168, 37, 0.12) 0%, transparent 60%);
+  pointer-events: none;
+  z-index: 0;
+  aria-hidden: true;
+}
+
+.sap-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.sap-hero-inner {
+  max-width: 700px;
+}
+
+.sap-hero h1 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-5xl);
+  font-weight: var(--font-weight-extrabold);
+  color: #fff;
+  line-height: 1.1;
+  margin-bottom: 1.25rem;
+}
+
+.sap-hero h1 span {
+  color: var(--color-primary);
+}
+
+.sap-hero-desc {
+  font-size: var(--font-size-lg);
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 1.75rem;
+  line-height: 1.65;
+}
+
+.sap-hero-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.sap-hero-zip-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: rgba(249, 168, 37, 0.18);
+  border: 1px solid rgba(249, 168, 37, 0.4);
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  padding: 0.35rem 0.85rem;
+  border-radius: var(--radius-full);
+}
+
+.sap-hero-county {
+  font-size: var(--font-size-sm);
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.sap-hero-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* ── About Area ── */
+.sap-about-section {
+  padding: var(--section-padding-y) var(--section-padding-x);
+  background: #fff;
+}
+
+.sap-about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.sap-about-content {
+}
+
+.sap-about-content h2 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-3xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
+  line-height: 1.25;
+}
+
+.sap-about-content p {
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.sap-about-content p:last-of-type {
+  margin-bottom: 0;
+}
+
+.sap-zip-list {
+  background: var(--color-neutral-50);
+  border-radius: var(--radius-xl);
+  padding: 1.75rem;
+  border: 1px solid var(--color-neutral-200);
+}
+
+.sap-zip-list h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-secondary);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sap-zip-list h3 svg {
+  color: var(--color-primary);
+}
+
+.sap-zip-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.sap-zip-tag {
+  background: var(--color-secondary);
+  color: #fff;
+  font-family: var(--font-heading);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  padding: 0.3rem 0.75rem;
+  border-radius: var(--radius-md);
+  letter-spacing: 0.02em;
+}
+
+.sap-zip-note {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  line-height: 1.55;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-neutral-200);
+}
+
+.sap-zip-note a {
+  color: var(--color-primary-dark);
+  font-weight: var(--font-weight-semibold);
+  text-decoration: underline;
+}
+
+/* ── Services Grid ── */
+.sap-services-section {
+  padding: var(--section-padding-y) var(--section-padding-x);
+  background: var(--color-neutral-50);
+}
+
+.sap-services-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--gap-lg);
+  margin-top: 3rem;
+}
+
+.sap-service-card {
+  background: #fff;
+  border-radius: var(--radius-xl);
+  padding: 2rem 1.75rem;
+  border: 1px solid var(--color-neutral-200);
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow var(--transition-normal), transform var(--transition-normal);
+}
+
+.sap-service-card:hover {
+  box-shadow: var(--shadow-md);
+  transform: translateY(-3px);
+}
+
+.sap-service-icon {
+  width: 52px;
+  height: 52px;
+  background: var(--color-secondary);
+  border-radius: var(--radius-lg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  color: var(--color-primary);
+}
+
+.sap-service-card h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.sap-service-card p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* ── Why Us ── */
+.sap-why-section {
+  padding: var(--section-padding-y) var(--section-padding-x);
+  background: var(--color-secondary);
+  position: relative;
+  overflow: hidden;
+}
+
+.sap-why-section::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 20% 60%, rgba(249, 168, 37, 0.08) 0%, transparent 55%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.sap-why-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.sap-why-section .section-header h2,
+.sap-why-section .section-header p {
+  color: #fff;
+}
+
+.sap-why-section .section-header p {
+  color: rgba(255,255,255,0.75);
+}
+
+.sap-why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gap-lg);
+  margin-top: 3rem;
+}
+
+.sap-why-item {
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.sap-why-icon {
+  width: 60px;
+  height: 60px;
+  background: rgba(249, 168, 37, 0.15);
+  border: 2px solid rgba(249, 168, 37, 0.3);
+  border-radius: var(--radius-full);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+  color: var(--color-primary);
+}
+
+.sap-why-item h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.sap-why-item p {
+  font-size: var(--font-size-sm);
+  color: rgba(255,255,255,0.65);
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* ── FAQ ── */
+.sap-faq-section {
+  padding: var(--section-padding-y) var(--section-padding-x);
+  background: #fff;
+}
+
+.sap-faq-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.sap-faq-item {
+  background: var(--color-neutral-50);
+  border-radius: var(--radius-xl);
+  padding: 1.75rem;
+  border: 1px solid var(--color-neutral-200);
+}
+
+.sap-faq-item h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-secondary);
+  margin-bottom: 0.625rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.sap-faq-item h3 svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.sap-faq-item p {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  margin: 0;
+}
+
+/* ── CTA ── */
+.sap-cta-section {
+  padding: 5rem var(--section-padding-x);
+  background: var(--color-secondary-dark);
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.sap-cta-section::before {
+  content: '';
+  position: absolute;
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(249, 168, 37, 0.1) 0%, transparent 70%);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.sap-cta-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.sap-cta-section h2 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-4xl);
+  font-weight: var(--font-weight-extrabold);
+  color: #fff;
+  margin-bottom: 1rem;
+  line-height: 1.15;
+}
+
+.sap-cta-section h2 span {
+  color: var(--color-primary);
+}
+
+.sap-cta-section p {
+  font-size: var(--font-size-lg);
+  color: rgba(255, 255, 255, 0.75);
+  max-width: 540px;
+  margin: 0 auto 2.5rem;
+}
+
+.sap-cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .sap-why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .sap-services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .sap-hero h1 {
+    font-size: var(--font-size-4xl);
+  }
+
+  .sap-about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .sap-services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sap-why-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .sap-faq-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .sap-cta-section h2 {
+    font-size: var(--font-size-3xl);
+  }
+}
+
+@media (max-width: 480px) {
+  .sap-hero h1 {
+    font-size: var(--font-size-3xl);
+  }
+
+  .sap-why-grid {
+    grid-template-columns: 1fr;
+  }
+}

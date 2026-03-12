@@ -1,0 +1,584 @@
+/* === EV Charging Station Service Page Styles === */
+
+/* ── Hero ── */
+.ev-hero {
+  position: relative;
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  padding: calc(var(--header-height) + var(--utility-bar-height) + 4rem) var(--section-padding-x) 5rem;
+  background: url('http://static.photos/automotive/1200x630/55') center/cover no-repeat;
+  overflow: hidden;
+}
+
+.ev-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(13,13,91,0.90) 0%, rgba(26,35,126,0.78) 100%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.ev-hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 760px;
+}
+
+.ev-hero-inner .section-label {
+  color: var(--color-primary);
+  margin-bottom: 0.75rem;
+}
+
+.ev-hero-inner .heading-xl {
+  color: #fff;
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  margin-bottom: 1rem;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.ev-hero-inner .heading-xl span {
+  color: var(--color-primary);
+}
+
+.ev-hero-inner .text-lead {
+  color: rgba(255,255,255,0.88);
+  margin-bottom: 1.75rem;
+}
+
+.ev-hero-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.ev-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* ── Charging Options Section ── */
+.ev-options-section .section-header .heading-lg span {
+  color: var(--color-accent);
+}
+
+.ev-options-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--gap-xl);
+}
+
+.ev-option-card {
+  background: #fff;
+  border-radius: var(--radius-xl);
+  padding: 2.5rem 2rem;
+  border: 2px solid var(--color-neutral-200);
+  box-shadow: var(--shadow-md);
+  transition: all var(--transition-normal);
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap-md);
+}
+
+.ev-option-card:hover {
+  box-shadow: var(--shadow-xl);
+  transform: translateY(-4px);
+  border-color: var(--color-secondary);
+}
+
+.ev-option-card.featured {
+  border-color: var(--color-secondary);
+  background: linear-gradient(160deg, #fff 70%, var(--color-primary-light) 100%);
+}
+
+.ev-option-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.3rem 0.875rem;
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  background: var(--color-primary);
+  color: var(--color-secondary);
+  width: fit-content;
+}
+
+.ev-option-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-lg);
+  background: var(--color-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-primary);
+}
+
+.ev-option-icon svg {
+  width: 28px;
+  height: 28px;
+}
+
+.ev-option-card h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-secondary);
+}
+
+.ev-option-card > p {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  margin-bottom: 0;
+}
+
+.ev-option-specs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  background: var(--color-neutral-50);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+}
+
+.ev-option-specs li {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+}
+
+.ev-option-specs li svg {
+  color: var(--color-secondary);
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.ev-option-ideal {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.ev-option-ideal strong {
+  color: var(--color-secondary);
+}
+
+/* ── Compatible Vehicles Section ── */
+.ev-vehicles-section {
+  background: var(--color-secondary);
+}
+
+.ev-vehicles-section .section-header .heading-lg {
+  color: #fff;
+}
+
+.ev-vehicles-section .section-header .text-lead {
+  color: rgba(255,255,255,0.75);
+}
+
+.ev-vehicles-section .section-label {
+  color: var(--color-primary);
+}
+
+.ev-vehicles-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--gap-lg);
+  margin-bottom: 2.5rem;
+}
+
+.ev-vehicle-card {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem 1.25rem;
+  text-align: center;
+  transition: all var(--transition-normal);
+}
+
+.ev-vehicle-card:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: var(--color-primary);
+}
+
+.ev-vehicle-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-secondary);
+  margin: 0 auto 1rem;
+}
+
+.ev-vehicle-icon svg {
+  width: 22px;
+  height: 22px;
+}
+
+.ev-vehicle-card h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: #fff;
+  margin-bottom: 0.375rem;
+}
+
+.ev-vehicle-card p {
+  font-size: var(--font-size-xs);
+  color: rgba(255,255,255,0.65);
+  margin-bottom: 0;
+}
+
+.ev-vehicles-note {
+  background: rgba(249,168,37,0.12);
+  border: 1px solid rgba(249,168,37,0.3);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.75rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: rgba(255,255,255,0.85);
+  font-size: var(--font-size-sm);
+}
+
+.ev-vehicles-note svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+}
+
+/* ── Installation Process Section ── */
+.ev-process-section {
+  background: var(--color-neutral-50);
+}
+
+.ev-process-section .section-header .heading-lg span {
+  color: var(--color-accent);
+}
+
+.ev-process-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  align-items: start;
+}
+
+.ev-process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.ev-step {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.ev-step:last-child {
+  padding-bottom: 0;
+}
+
+.ev-step-connector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.ev-step-num {
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  background: var(--color-secondary);
+  color: var(--color-primary);
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-extrabold);
+  font-size: var(--font-size-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.ev-step-line {
+  width: 2px;
+  flex: 1;
+  min-height: 2rem;
+  background: var(--color-neutral-200);
+  margin-top: 0.5rem;
+}
+
+.ev-step:last-child .ev-step-line {
+  display: none;
+}
+
+.ev-step-content h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-secondary);
+  margin-bottom: 0.375rem;
+}
+
+.ev-step-content p {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  margin-bottom: 0;
+}
+
+.ev-process-image img {
+  width: 100%;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-xl);
+}
+
+.ev-process-image {
+  position: sticky;
+  top: calc(var(--header-height) + 2rem);
+}
+
+.ev-process-highlight {
+  margin-top: 1.5rem;
+  background: var(--color-secondary);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.75rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.ev-process-highlight svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  width: 22px;
+  height: 22px;
+}
+
+.ev-process-highlight p {
+  font-size: var(--font-size-sm);
+  color: rgba(255,255,255,0.88);
+  margin-bottom: 0;
+}
+
+.ev-process-highlight strong {
+  color: var(--color-primary);
+}
+
+/* ── FAQ Section ── */
+.ev-faq-section .section-header .heading-lg span {
+  color: var(--color-accent);
+}
+
+.ev-faq-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--gap-xl);
+  align-items: start;
+}
+
+.ev-faq-item {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+  border: 1px solid var(--color-neutral-200);
+  box-shadow: var(--shadow-sm);
+}
+
+.ev-faq-item h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-secondary);
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+.ev-faq-item h3 svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+  margin-top: 0.1rem;
+}
+
+.ev-faq-item p {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  margin-bottom: 0;
+  padding-left: 1.625rem;
+}
+
+/* ── CTA Section ── */
+.ev-cta-section {
+  position: relative;
+  padding: var(--section-padding-y) var(--section-padding-x);
+  background: url('http://static.photos/automotive/1200x630/88') center/cover no-repeat;
+  overflow: hidden;
+}
+
+.ev-cta-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(13,13,91,0.93) 0%, rgba(26,35,126,0.85) 100%);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.ev-cta-inner {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: start;
+}
+
+.ev-cta-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  margin: 1.25rem 0 2rem;
+}
+
+.ev-cta-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  color: rgba(255,255,255,0.88);
+  font-size: var(--font-size-base);
+}
+
+.ev-cta-list li svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  width: 18px;
+  height: 18px;
+}
+
+.ev-cta-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.ev-cta-form-card {
+  background: #fff;
+  border-radius: var(--radius-xl);
+  padding: 2rem;
+  box-shadow: var(--shadow-xl);
+}
+
+.ev-cta-form-card h3 {
+  font-family: var(--font-heading);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-secondary);
+  margin-bottom: 1.5rem;
+}
+
+.ev-cta-form-card .form-group {
+  margin-bottom: 1rem;
+}
+
+.ev-cta-form-card label {
+  display: block;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin-bottom: 0.375rem;
+}
+
+.ev-cta-form-card input,
+.ev-cta-form-card select,
+.ev-cta-form-card textarea {
+  width: 100%;
+  padding: 0.6875rem 1rem;
+  border: 1.5px solid var(--color-neutral-300);
+  border-radius: var(--radius-md);
+  font-family: var(--font-body);
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  background: #fff;
+  transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.ev-cta-form-card input:focus,
+.ev-cta-form-card select:focus,
+.ev-cta-form-card textarea:focus {
+  outline: none;
+  border-color: var(--color-secondary);
+  box-shadow: 0 0 0 3px rgba(26,35,126,0.12);
+}
+
+/* ── Responsive ── */
+@media (max-width: 1024px) {
+  .ev-options-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ev-vehicles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ev-process-grid {
+    gap: 2.5rem;
+  }
+
+  .ev-process-image {
+    position: static;
+  }
+}
+
+@media (max-width: 768px) {
+  .ev-hero {
+    padding-top: calc(var(--header-height) + var(--utility-bar-height) + 2.5rem);
+    min-height: auto;
+  }
+
+  .ev-options-grid,
+  .ev-process-grid,
+  .ev-cta-inner,
+  .ev-faq-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .ev-vehicles-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ev-hero-actions,
+  .ev-cta-actions {
+    flex-direction: column;
+  }
+
+  .ev-hero-actions .btn,
+  .ev-cta-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .ev-vehicles-grid {
+    grid-template-columns: 1fr;
+  }
+}

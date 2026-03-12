@@ -1,0 +1,49 @@
+{
+  "slug": "uptown-charlotte",
+  "template": "service-area",
+  "output": "/service-areas/uptown-charlotte/index.html",
+  "area_name": "Uptown Charlotte",
+  "meta": {
+    "title": "Electrician in Uptown Charlotte, NC | Johnson's Electric",
+    "description": "Johnson's Electric provides licensed electrical services in Uptown Charlotte (28202). Panel upgrades, commercial wiring, EV charging & emergency service. Call (704) 555-0199.",
+    "og_title": "Uptown Charlotte Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Uptown Charlotte and downtown neighborhoods. Residential, commercial, 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Uptown Charlotte</span>",
+    "description": "Johnson's Electric delivers expert electrical services to Uptown Charlotte's condos, high-rises, historic lofts, and commercial buildings. From panel upgrades to full commercial wiring, our licensed electricians keep Uptown's properties safe and code-compliant.",
+    "zips": [
+      { "zip": "28202" },
+      { "zip": "28203" },
+      { "zip": "28204" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving Uptown Charlotte",
+    "heading": "Your Local Electrician in the Heart of Charlotte",
+    "body1": "Uptown Charlotte is the city's beating heart — home to Bank of America Stadium, the NASCAR Hall of Fame, thriving restaurant corridors, and a dense mix of luxury condominiums, historic lofts, and Class A office towers. Electrical work in this urban core demands expertise with everything from complex commercial panel systems to condo association code compliance.",
+    "body2": "Johnson's Electric has the experience and licensing to handle Uptown Charlotte's unique electrical challenges. Whether you're a condo owner, a restaurant owner on Trade Street, or a property manager overseeing a high-rise, our team delivers reliable, code-compliant electrical work on your schedule."
+  },
+  "zips": [
+    { "code": "28202" },
+    { "code": "28203" },
+    { "code": "28204" },
+    { "code": "28205" },
+    { "code": "28206" }
+  ],
+  "services": [
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Upgrading older panels to meet the electrical demands of modern Uptown condos and commercial spaces. We handle 100A to 400A service upgrades.", "delay": "0.05s" },
+    { "icon": "building-2", "title": "Commercial Wiring", "description": "Complete commercial electrical installations and renovations for Uptown offices, restaurants, retail spaces, and mixed-use developments.", "delay": "0.1s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Installing Level 2 EV chargers in Uptown parking garages, condo units, and commercial facilities — including multi-unit charging solutions.", "delay": "0.15s" },
+    { "icon": "lightbulb", "title": "Lighting Design & Install", "description": "Ambient, task, and accent lighting for residential units and commercial spaces throughout Uptown Charlotte's dense urban environment.", "delay": "0.2s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Immediate response for electrical emergencies in Uptown Charlotte — outages, tripped breakers, sparking outlets, and urgent safety hazards.", "delay": "0.25s" },
+    { "icon": "wifi", "title": "Smart Home & Building Systems", "description": "Smart switch installations, automated lighting, and integrated electrical systems for modern Uptown residences and commercial properties.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you work in high-rise condos and apartment buildings in Uptown?", "answer": "Yes. We're experienced working in Uptown's multi-unit residential buildings, coordinating with HOAs and property managers to minimize disruption while performing panel work, outlet additions, and lighting upgrades.", "delay": "0.05s" },
+    { "question": "Can you handle electrical permits for Uptown commercial renovations?", "answer": "Absolutely. We pull all required City of Charlotte electrical permits for commercial projects in Uptown and coordinate with inspectors to ensure your project passes inspection the first time.", "delay": "0.1s" },
+    { "question": "How quickly can you respond to an emergency in Uptown Charlotte?", "answer": "We offer 24/7 emergency electrical service throughout Uptown Charlotte. Most emergency calls in the Uptown area receive a response within 60-90 minutes.", "delay": "0.15s" },
+    { "question": "Do you install EV charging stations in Uptown parking garages?", "answer": "Yes. We specialize in multi-unit EV charging installations for Uptown parking garages and condo buildings, including load management systems to handle multiple chargers efficiently.", "delay": "0.2s" }
+  ]
+}

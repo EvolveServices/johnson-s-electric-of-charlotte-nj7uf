@@ -1,0 +1,45 @@
+{
+  "slug": "rock-hill",
+  "template": "service-area",
+  "output": "/service-areas/rock-hill/index.html",
+  "area_name": "Rock Hill",
+  "meta": {
+    "title": "Electrician in Rock Hill, SC | Johnson's Electric",
+    "description": "Johnson's Electric serves Rock Hill SC (29730, 29732) with licensed electrical services. Residential wiring, panel upgrades, EV chargers, generators & commercial electrical. Call today.",
+    "og_title": "Rock Hill SC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Rock Hill SC. Residential, commercial, EV charging, panel upgrades, and 24/7 emergency electrical service — licensed in SC."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Rock Hill, SC</span>",
+    "description": "Rock Hill is South Carolina's fourth-largest city and one of the fastest-growing communities in the entire Charlotte metro. Johnson's Electric serves Rock Hill homeowners and businesses throughout the 29730 and 29732 ZIP codes — fully licensed in South Carolina.",
+    "zips": [
+      { "zip": "29730" },
+      { "zip": "29732" }
+    ],
+    "county": "York County, SC"
+  },
+  "about": {
+    "label": "Serving Rock Hill",
+    "heading": "Licensed Electrical Services for Rock Hill and York County, SC",
+    "body1": "Rock Hill sits just 25 miles south of Uptown Charlotte across the South Carolina state line, making it a logical extension of the Charlotte metro for businesses, commuters, and families. The city has seen explosive growth in its residential and commercial sectors, driven by lower South Carolina costs and excellent highway access via I-77.",
+    "body2": "Johnson's Electric is fully licensed in South Carolina and regularly serves Rock Hill homeowners and businesses. We understand the differences between North and South Carolina electrical codes and permit requirements, allowing us to work seamlessly across the state line. From panel upgrades and EV charger installations in newer Rock Hill developments to commercial electrical work downtown, our team delivers the same quality Charlotte customers expect — right here in Rock Hill."
+  },
+  "zips": [
+    { "code": "29730" },
+    { "code": "29732" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Full home electrical services for Rock Hill — circuits, outlets, panel upgrades, ceiling fans, and whole-home wiring for SC properties.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Rock Hill homes — York County SC permits handled, all EV brands supported.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator connections and transfer switches for Rock Hill homes — reliable backup power for SC storm season.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Service panel upgrades for Rock Hill homes and businesses — modern 200A and 320A service with SC permits included.", "delay": "0.2s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Commercial electrical services for Rock Hill businesses — office buildouts, retail, light industrial, tenant improvements.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Rock Hill residents and businesses — available 24/7 across the state line.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Are you licensed to do electrical work in South Carolina?", "answer": "Yes. Johnson's Electric is fully licensed in both North Carolina and South Carolina, allowing us to serve Rock Hill and all of York County without any restrictions.", "delay": "0.05s" },
+    { "question": "Do you handle York County SC permits for Rock Hill projects?", "answer": "Yes. We manage all York County, SC permit applications for Rock Hill electrical work — panel upgrades, EV chargers, generators, and commercial projects.", "delay": "0.1s" },
+    { "question": "How quickly can you reach Rock Hill?", "answer": "Rock Hill is approximately 25-30 minutes from our Charlotte base via I-77 South. We regularly serve Rock Hill for both scheduled projects and emergency calls.", "delay": "0.15s" },
+    { "question": "Is electrical code different in South Carolina vs North Carolina?", "answer": "South Carolina follows the National Electrical Code (NEC) with some state-specific amendments, similar to NC. Our electricians are trained on both states' requirements, so you get code-compliant work regardless of which side of the state line your property is on.", "delay": "0.2s" }
+  ]
+}

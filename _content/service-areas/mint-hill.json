@@ -1,0 +1,45 @@
+{
+  "slug": "mint-hill",
+  "template": "service-area",
+  "output": "/service-areas/mint-hill/index.html",
+  "area_name": "Mint Hill",
+  "meta": {
+    "title": "Electrician in Mint Hill, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Mint Hill NC (28227) with licensed electrical services. Residential rewiring, panel upgrades, EV chargers, generators & commercial electrical. Call (704) 555-0199.",
+    "og_title": "Mint Hill NC Electrician | Johnson's Electric",
+    "og_description": "Expert electrical services for Mint Hill NC homeowners and businesses. Panel upgrades, EV chargers, whole-home rewiring, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Mint Hill, NC</span>",
+    "description": "Mint Hill is a charming eastern Mecklenburg community with a strong neighborhood character and growing residential base. Johnson's Electric serves Mint Hill and the surrounding 28227 ZIP code with reliable, professional electrical services for homes and businesses of all sizes.",
+    "zips": [
+      { "zip": "28227" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving Mint Hill",
+    "heading": "Experienced Electrical Contractor for Mint Hill Homes & Businesses",
+    "body1": "Mint Hill is an incorporated town in eastern Mecklenburg County with a tight-knit community character. The area features a mix of older established neighborhoods and newer subdivisions, with a range of housing ages that often means diverse electrical needs — from vintage wiring updates to modern panel upgrades and EV charger installations.",
+    "body2": "Johnson's Electric has built a strong reputation in Mint Hill for honest, dependable electrical service. We serve homeowners, landlords, and small businesses throughout the 28227 ZIP code with licensed, permitted work on every project. We're not just another contractor passing through — we treat every Mint Hill home like it's our own."
+  },
+  "zips": [
+    { "code": "28227" },
+    { "code": "28105" },
+    { "code": "28212" }
+  ],
+  "services": [
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Upgrading outdated electrical panels in Mint Hill homes to modern 200A service — safe, code-compliant, and permitted with Mecklenburg County.", "delay": "0.05s" },
+    { "icon": "shield-check", "title": "Home Rewiring", "description": "Partial and full rewires for older Mint Hill homes — replacing aluminum wiring, upgrading to grounded outlets, and modernizing electrical systems.", "delay": "0.1s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 home EV charging for Mint Hill homeowners — we handle everything from the dedicated circuit to the permit.", "delay": "0.15s" },
+    { "icon": "sun", "title": "Generator Hookups", "description": "Standby generator electrical installation and transfer switch wiring for Mint Hill homes — automatic backup power during outages.", "delay": "0.2s" },
+    { "icon": "plug", "title": "Outlet & Lighting Upgrades", "description": "Adding GFCI outlets, outdoor receptacles, ceiling fans, recessed lighting, and new circuits throughout Mint Hill residences.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Mint Hill homes and businesses — 24/7, including weekends and holidays.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve all of Mint Hill including areas near Matthews?", "answer": "Yes. We serve the entire 28227 ZIP code including Mint Hill, Waxhaw Road area, and neighborhoods bordering Matthews. If you're on the edge of our coverage area, just call and we'll confirm.", "delay": "0.05s" },
+    { "question": "Is aluminum wiring in my Mint Hill home dangerous?", "answer": "Aluminum wiring itself isn't banned, but it requires proper connectors (CO/ALR rated) at outlets and switches to be safe. Many older Mint Hill homes with aluminum wiring have improper connections that create fire hazards. We offer an aluminum wiring inspection and remediation service.", "delay": "0.1s" },
+    { "question": "How quickly can you get to Mint Hill for an emergency?", "answer": "Mint Hill is typically a 20-30 minute drive from our central Charlotte base. For emergencies in Mint Hill, we dispatch the nearest available electrician and aim for a 60-90 minute response time.", "delay": "0.15s" },
+    { "question": "Do you have experience with Mint Hill's older homes?", "answer": "Yes. We regularly work in Mint Hill's established neighborhoods on homes from the 1960s through 1990s. We understand the wiring and panel configurations common in this era and can assess and upgrade your system efficiently.", "delay": "0.2s" }
+  ]
+}

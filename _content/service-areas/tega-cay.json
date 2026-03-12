@@ -1,0 +1,43 @@
+{
+  "slug": "tega-cay",
+  "template": "service-area",
+  "output": "/service-areas/tega-cay/index.html",
+  "area_name": "Tega Cay",
+  "meta": {
+    "title": "Electrician in Tega Cay, SC | Johnson's Electric",
+    "description": "Johnson's Electric serves Tega Cay SC (29708) with licensed electrical services. Waterfront home wiring, panel upgrades, EV chargers, generators & residential electrical. Call today.",
+    "og_title": "Tega Cay SC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Tega Cay SC. Residential, waterfront home, EV charging, panel upgrades, and 24/7 emergency electrical service — licensed in SC."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Tega Cay, SC</span>",
+    "description": "Tega Cay is a hidden gem of the Charlotte metro — a peninsula community on Lake Wylie just across the South Carolina state line. Johnson's Electric serves Tega Cay homeowners throughout the 29708 ZIP code with licensed SC electrical services.",
+    "zips": [
+      { "zip": "29708" }
+    ],
+    "county": "York County, SC"
+  },
+  "about": {
+    "label": "Serving Tega Cay",
+    "heading": "Expert Electrical Services for Tega Cay's Lakeside Community",
+    "body1": "Tega Cay is one of the most unique communities in the Charlotte area — a planned lakeside city on a peninsula in Lake Wylie, just minutes from Fort Mill and 20 miles from Uptown Charlotte. Its golf course, marina, parks, and waterfront homes make it a premier residential address in York County, SC.",
+    "body2": "Johnson's Electric is fully licensed in South Carolina and regularly serves Tega Cay homeowners. We understand the specific electrical needs of lakeside properties — from dock wiring and outdoor lighting to panel upgrades and EV charger installation. We handle all York County, SC permits and ensure every project is code-compliant on the South Carolina side of the state line."
+  },
+  "zips": [
+    { "code": "29708" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Full home electrical for Tega Cay — circuits, outlets, ceiling fans, panel upgrades, and whole-home wiring for SC properties.", "delay": "0.05s" },
+    { "icon": "lightbulb", "title": "Dock & Lake Home Electrical", "description": "Dock wiring, boat lift circuits, outdoor and landscape lighting for Tega Cay's Lake Wylie waterfront properties.", "delay": "0.1s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Tega Cay homes — York County SC permits handled, all EV brands supported.", "delay": "0.15s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator connections and transfer switches for Tega Cay homes — licensed SC installation with all permits.", "delay": "0.2s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Service panel upgrades for Tega Cay homes — modern 200A or 320A service with SC permits included.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Tega Cay residents — 24 hours a day, 7 days a week, licensed in South Carolina.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Are you licensed to do electrical work in South Carolina?", "answer": "Yes. Johnson's Electric is fully licensed in both North Carolina and South Carolina, so we can serve Tega Cay and all of York County without any restrictions.", "delay": "0.05s" },
+    { "question": "Do you work on Lake Wylie waterfront properties in Tega Cay?", "answer": "Yes. We handle dock electrical, boat lift circuits, outdoor lighting, and waterfront-specific electrical work for Tega Cay's Lake Wylie properties.", "delay": "0.1s" },
+    { "question": "Do you handle York County SC permits for Tega Cay projects?", "answer": "Yes. We manage all York County, SC permit applications for Tega Cay electrical work — panel upgrades, EV chargers, generators, and new circuits.", "delay": "0.15s" },
+    { "question": "How far is Tega Cay from your Charlotte service area?", "answer": "Tega Cay is approximately 20-25 minutes from Charlotte via I-77 South. We regularly serve Tega Cay for both scheduled projects and emergency calls.", "delay": "0.2s" }
+  ]
+}

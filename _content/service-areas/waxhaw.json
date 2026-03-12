@@ -1,0 +1,44 @@
+{
+  "slug": "waxhaw",
+  "template": "service-area",
+  "output": "/service-areas/waxhaw/index.html",
+  "area_name": "Waxhaw",
+  "meta": {
+    "title": "Electrician in Waxhaw, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Waxhaw NC (28173) with licensed electrical services. Residential wiring, panel upgrades, EV chargers, generators & new construction electrical. Call today.",
+    "og_title": "Waxhaw NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Waxhaw NC. Residential, new construction, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Waxhaw, NC</span>",
+    "description": "Waxhaw is one of Union County's fastest-growing communities, blending small-town charm with Charlotte metro growth. Johnson's Electric serves Waxhaw homeowners and businesses throughout the 28173 ZIP code with licensed residential and commercial electrical services.",
+    "zips": [
+      { "zip": "28173" }
+    ],
+    "county": "Union County, NC"
+  },
+  "about": {
+    "label": "Serving Waxhaw",
+    "heading": "Expert Electrical Services for Waxhaw's Growing Community",
+    "body1": "Waxhaw has experienced rapid growth as families seeking larger homes and excellent schools move south from Charlotte into Union County. The area's charming downtown, strong community feel, and new residential developments have made it one of the most desirable addresses in the Charlotte metro.",
+    "body2": "Johnson's Electric serves Waxhaw with the same expertise and reliability that Charlotte homeowners have counted on for over 15 years. From routine electrical repairs to whole-home generator installations and EV charger setups, our licensed electricians handle it all. We know Union County codes and manage all required permits for every project."
+  },
+  "zips": [
+    { "code": "28173" },
+    { "code": "28104" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Full home electrical services for Waxhaw — outlets, circuits, ceiling fans, panel work, and whole-house wiring for new and existing homes.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Waxhaw garages — Union County permits handled, all EV brands supported.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator electrical hookups and transfer switches for Waxhaw homes — storm preparedness for Union County families.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Service panel upgrades for Waxhaw homes needing more capacity — 200A and 320A upgrades with all permits included.", "delay": "0.2s" },
+    { "icon": "home", "title": "New Construction Electrical", "description": "Electrical rough-in and finish work for new home construction in Waxhaw's growing residential communities.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Waxhaw residents — available 24 hours a day, 7 days a week.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve all of Waxhaw and the surrounding Union County area?", "answer": "Yes. We serve all of Waxhaw in the 28173 ZIP code, as well as neighboring communities in Union County including Weddington and Wesley Chapel.", "delay": "0.05s" },
+    { "question": "Can you install an EV charger in my Waxhaw home?", "answer": "Yes. We install Level 2 home EV chargers in Waxhaw garages, running dedicated 240V circuits and handling all Union County permits. Most installations are completed in one visit.", "delay": "0.1s" },
+    { "question": "Do you handle Union County permits for Waxhaw projects?", "answer": "Absolutely. We manage all Union County permitting for Waxhaw electrical projects so you don't have to navigate the permit office yourself.", "delay": "0.15s" },
+    { "question": "How soon can you respond to an emergency in Waxhaw?", "answer": "Waxhaw is roughly 30-40 minutes from our Charlotte base. For emergencies we dispatch the nearest crew and work to arrive as quickly as possible.", "delay": "0.2s" }
+  ]
+}

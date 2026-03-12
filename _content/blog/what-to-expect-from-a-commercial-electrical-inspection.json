@@ -1,0 +1,94 @@
+{
+  "slug": "what-to-expect-from-a-commercial-electrical-inspection",
+  "template": "blog-post",
+  "output": "/blog/what-to-expect-from-a-commercial-electrical-inspection/index.html",
+  "meta": {
+    "title": "What to Expect From a Commercial Electrical Inspection | Johnson's Electric",
+    "description": "Preparing for a commercial electrical inspection in Charlotte? Our licensed electricians explain the process, what inspectors look for, and how to ensure you pass the first time.",
+    "og_title": "What to Expect From a Commercial Electrical Inspection",
+    "og_description": "A commercial electrical inspection does not have to be stressful. Our Charlotte electricians walk you through the process and what inspectors look for.",
+    "og_image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/35d7d651-dae2-4985-9bf8-d0b56986fd45/media/branding/og-image-1773174564126.png",
+    "published_time": "2025-01-30"
+  },
+  "title": "What to Expect From a Commercial Electrical Inspection",
+  "excerpt": "Whether you are opening a new business location in Charlotte or purchasing a commercial property, understanding the electrical inspection process can save time, money, and costly surprises after closing.",
+  "category": "Commercial",
+  "date_display": "January 30, 2025",
+  "read_time": "6 min read",
+  "hero": {
+    "image": "http://static.photos/industry/1200x630/203"
+  },
+  "author": {
+    "name": "Marcus Johnson",
+    "role": "Master Electrician, Johnson's Electric of Charlotte",
+    "bio": "Marcus Johnson is a licensed Master Electrician with over 18 years of experience serving the Charlotte metro area. He founded Johnson's Electric to bring honest, expert electrical service to homeowners and businesses across the region.",
+    "avatar": "http://static.photos/people/200x200/87"
+  },
+  "body_sections": [
+    {
+      "heading": "Why Commercial Electrical Inspections Happen",
+      "content": "<p>Commercial electrical inspections are required in several situations:</p><ul><li>New construction before a certificate of occupancy is issued</li><li>Major tenant improvements or build-outs</li><li>Re-inspections triggered by permit work</li><li>Due diligence inspections when purchasing commercial real estate</li><li>Annual inspections required for certain high-occupancy or industrial uses</li></ul><p>In Mecklenburg County and the Charlotte metro area, inspections are conducted by local Code Enforcement. For larger commercial projects, the electrical contractor (such as Johnson's Electric) schedules inspections at defined project milestones: rough-in, service, and final.</p>"
+    },
+    {
+      "heading": "What Inspectors Look For",
+      "content": "<p>Commercial inspectors work from the National Electrical Code (NEC) and any local amendments adopted by the municipality. Common inspection points include:</p><h3>Panel and Service Equipment</h3><ul><li>Correct panel amperage and labeling for all breakers</li><li>Proper grounding and bonding of service equipment</li><li>Clearance requirements around the panel (36-inch working space minimum)</li><li>No double-tapped breakers (two wires on one breaker) unless the breaker is listed for that use</li></ul><h3>Wiring and Conduit</h3><ul><li>Correct wire gauge for each circuit's load and breaker size</li><li>Proper conduit fill ratios (wire not overpacked into conduit)</li><li>Secure and supported conduit runs at required intervals</li><li>No exposed wiring in occupied areas</li></ul><h3>Outlets and Devices</h3><ul><li>GFCI protection where required by code (kitchens, bathrooms, outdoor areas)</li><li>AFCI (arc fault circuit interrupter) protection for applicable circuits</li><li>Correct outlet spacing for commercial occupancies</li><li>Tamper-resistant outlets in required locations</li></ul><h3>Emergency and Egress Lighting</h3><ul><li>Exit signs illuminated and functioning</li><li>Emergency lighting with battery backup covering required egress paths</li><li>Photoluminescent markings where required</li></ul>"
+    },
+    {
+      "heading": "Common Reasons Commercial Inspections Fail",
+      "content": "<p>In our experience, the most common reasons commercial electrical inspections fail in the Charlotte area include:</p><ul><li>Missing or incorrect panel labeling</li><li>Inadequate working clearance around the electrical panel</li><li>Incorrect conduit support spacing</li><li>Missing GFCI or AFCI protection on required circuits</li><li>Improper grounding or bonding</li><li>Wire gauge mismatched with breaker size</li><li>Open junction boxes (boxes without covers installed)</li></ul><p>A failed inspection means scheduling a re-inspection, which delays your certificate of occupancy and your opening date. The best way to avoid this is to hire a licensed commercial electrical contractor who knows the local inspection requirements thoroughly before work begins.</p>"
+    },
+    {
+      "heading": "How Johnson's Electric Prepares Clients for Success",
+      "content": "<p>When Johnson's Electric handles a commercial electrical project, we manage the entire inspection process. Our approach:</p><ul><li>We pull all required permits before work begins</li><li>We schedule inspections at the correct project milestones</li><li>We conduct our own pre-inspection walk-through before calling the inspector</li><li>We address any punch list items same-day when possible</li><li>We maintain detailed records of all permitted work for your files</li></ul><p>For due diligence inspections on commercial property purchases, we provide a written report identifying code deficiencies, estimated remediation costs, and priority ranking so you can negotiate from an informed position.</p><blockquote><p>Buyers have found tens of thousands of dollars in required electrical remediation work that was not disclosed by the seller. A pre-purchase inspection is always worth the investment.</p></blockquote>"
+    }
+  ],
+  "tags": ["commercial electrical", "electrical inspection", "Charlotte electrician", "commercial construction", "code compliance", "certificate of occupancy"],
+  "cta_banner": {
+    "heading": "Need a Commercial Electrical Inspection?",
+    "body": "Johnson's Electric provides commercial inspections, pre-purchase due diligence reports, and full commercial electrical contracting services across the Charlotte metro.",
+    "url": "/contact/",
+    "button_text": "Get a Free Estimate"
+  },
+  "sidebar": {
+    "cta": {
+      "heading": "Commercial Electrical Services",
+      "body": "From build-outs to inspections, our licensed Charlotte electricians handle commercial projects of all sizes. Free estimates available."
+    },
+    "quick_info": {
+      "heading": "Quick Facts",
+      "items": [
+        { "icon": "map-pin", "text": "Serving Charlotte and the greater metro area" },
+        { "icon": "shield-check", "text": "Licensed, bonded, and insured in NC" },
+        { "icon": "clock", "text": "Same-week appointments available" },
+        { "icon": "star", "text": "5-star rated on Google Reviews" },
+        { "icon": "badge-check", "text": "All work permitted and inspected" }
+      ]
+    }
+  },
+  "related_posts": [
+    {
+      "url": "/blog/how-to-know-when-you-need-an-electrical-panel-upgrade/",
+      "image": "http://static.photos/indoor/640x360/214",
+      "category": "Panel Upgrades",
+      "title": "How to Know When You Need an Electrical Panel Upgrade",
+      "date": "May 15, 2025",
+      "delay": "0"
+    },
+    {
+      "url": "/blog/10-home-electrical-safety-tips-every-charlotte-homeowner-needs/",
+      "image": "http://static.photos/indoor/640x360/445",
+      "category": "Safety",
+      "title": "10 Home Electrical Safety Tips Every Charlotte Homeowner Needs",
+      "date": "April 10, 2025",
+      "delay": "0.1s"
+    },
+    {
+      "url": "/blog/gfci-outlets-explained/",
+      "image": "http://static.photos/estate/640x360/789",
+      "category": "Safety",
+      "title": "GFCI Outlets Explained: Where They're Required and Why They Matter",
+      "date": "February 18, 2025",
+      "delay": "0.2s"
+    }
+  ]
+}

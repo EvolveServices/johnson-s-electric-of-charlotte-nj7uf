@@ -1,0 +1,171 @@
+{
+  "slug": "ev-charging",
+  "template": "service",
+  "output": "/services/ev-charging/index.html",
+  "meta": {
+    "title": "EV Charger Installation Charlotte NC | Johnson's Electric",
+    "description": "Professional Level 2 EV charger installation in Charlotte, NC. Licensed electricians, dedicated 240V circuits, permits included. All EV brands supported. Call (704) 555-0199.",
+    "og_title": "EV Charger Installation | Johnson's Electric of Charlotte",
+    "og_description": "Home and commercial EV charging station installation in Charlotte NC. Licensed, insured, and permitted. All vehicles supported. Request a free estimate today."
+  },
+  "hero": {
+    "label": "EV Charger Installation",
+    "heading": "Home & Commercial <span>EV Charging Installation</span>",
+    "subheading": "Stop relying on slow Level 1 charging. Johnson's Electric installs Level 2 home and commercial EV chargers that fully charge your vehicle overnight, done right, with permit.",
+    "image": "http://static.photos/automotive/1200x630/77",
+    "cta_primary": "Get My EV Charger Installed",
+    "badges": [
+      { "icon": "zap", "text": "Level 2 Home & Commercial Chargers" },
+      { "icon": "shield-check", "text": "NC Licensed & Insured" },
+      { "icon": "file-check", "text": "Permit & Inspection Included" }
+    ]
+  },
+  "intro": {
+    "label": "Why Install a Level 2 Charger",
+    "heading": "Charge Smarter With a <span>Dedicated Home Charger</span>",
+    "body1": "The standard Level 1 charger that comes with your EV adds only 4 to 5 miles of range per hour, meaning a full charge from empty can take 24 hours or more. A professionally installed Level 2 charger adds 25 to 30 miles per hour, delivering a full charge in 6 to 8 hours while you sleep.",
+    "body2": "Johnson's Electric installs Level 2 EV charging stations for all major EV brands: Tesla, Ford, Chevy, BMW, Rivian, Lucid, Hyundai, and more. We handle the dedicated 240V circuit, the EVSE installation, all permitting, and the final inspection so you can start charging with confidence.",
+    "image": "http://static.photos/automotive/640x360/22",
+    "image_alt": "Level 2 EV charger installed in a Charlotte home garage",
+    "stat_value": "300+",
+    "stat_label": "EV Chargers Installed in Charlotte",
+    "checklist": [
+      { "text": "Supports all major EV brands and models" },
+      { "text": "Level 2 charging at 25-30 miles/hour" },
+      { "text": "Dedicated 240V / 50A circuit installation" },
+      { "text": "Charger hardware supply & installation" },
+      { "text": "Full permit & inspection handled for you" }
+    ]
+  },
+  "services": {
+    "label": "EV Charging Solutions",
+    "heading": "EV Charging <span class=\"text-accent\">Services We Offer</span>",
+    "subheading": "Whether you're charging one car at home or outfitting a commercial fleet, we have the expertise to design and install the right EV charging solution.",
+    "items": [
+      {
+        "icon": "home",
+        "title": "Residential Level 2 Charger Installation",
+        "description": "The most common installation: a 240V / 50A dedicated circuit and a Level 2 EVSE (charger) mounted in your garage or on your home exterior. Full charge in 6 to 8 hours for most EVs.",
+        "bullets": [
+          { "text": "Dedicated 240V / 50A circuit" },
+          { "text": "Garage wall mount installation" },
+          { "text": "All EVSE brands supported" },
+          { "text": "Permit & inspection included" }
+        ]
+      },
+      {
+        "icon": "building-2",
+        "title": "Commercial & Multi-Unit EV Charging",
+        "description": "From office parking lots to apartment complexes and retail destinations, we design and install commercial EV charging infrastructure at any scale, including load management systems.",
+        "bullets": [
+          { "text": "Multi-port commercial EVSE" },
+          { "text": "Parking lot conduit & wiring" },
+          { "text": "Load management systems" },
+          { "text": "Network-capable charger installation" }
+        ],
+        "delay": "0.1s"
+      },
+      {
+        "icon": "battery-charging",
+        "title": "Panel Assessment & Upgrades for EV",
+        "description": "Many older Charlotte homes lack the electrical capacity for a Level 2 charger. We assess your panel and, if needed, upgrade it to handle your new EV charger along with the rest of your home's electrical load.",
+        "bullets": [
+          { "text": "Panel load analysis" },
+          { "text": "Panel upgrade coordination" },
+          { "text": "Sub-panel installation if needed" },
+          { "text": "Service entrance upgrades" }
+        ],
+        "delay": "0.2s"
+      },
+      {
+        "icon": "car",
+        "title": "Tesla Wall Connector Installation",
+        "description": "Tesla recommends the Wall Connector as the best home charging solution for Tesla vehicles. We are experienced with Tesla Wall Connector installations, including the dedicated circuit and proper configuration.",
+        "bullets": [
+          { "text": "Tesla Wall Connector (Gen 2 & 3)" },
+          { "text": "48A hardwired installation" },
+          { "text": "Proper circuit & breaker sizing" },
+          { "text": "Wi-Fi network setup support" }
+        ],
+        "delay": "0.1s"
+      },
+      {
+        "icon": "plug",
+        "title": "NEMA 14-50 Outlet Installation",
+        "description": "Prefer charger flexibility? A NEMA 14-50 outlet lets you plug in any Level 2 portable EVSE or the standard adapters included with many EVs, including Tesla. It's the most versatile option for EV drivers.",
+        "bullets": [
+          { "text": "NEMA 14-50 dryer outlet" },
+          { "text": "Garage & driveway installation" },
+          { "text": "Compatible with most portable EVSEs" },
+          { "text": "Great for multi-EV households" }
+        ],
+        "delay": "0.2s"
+      },
+      {
+        "icon": "sun",
+        "title": "Solar + EV Integration",
+        "description": "Pair your EV charger with a solar system for the ultimate green charging setup. We work with your solar installer to ensure your EV charger integrates properly with solar production and home battery storage.",
+        "bullets": [
+          { "text": "Solar-ready EVSE installation" },
+          { "text": "Home battery integration" },
+          { "text": "Smart scheduling support" },
+          { "text": "Net metering coordination" }
+        ],
+        "delay": "0.3s"
+      }
+    ]
+  },
+  "benefits": {
+    "label": "Why Go Level 2",
+    "heading": "The Benefits of a <span>Professional EV Charger Install</span>",
+    "subheading": "DIY EV charger installations and unpermitted work can void your vehicle's warranty and create fire hazards. Here's why professional installation matters.",
+    "items": [
+      { "number": "01", "title": "Charge Overnight, Every Night", "description": "A Level 2 charger adds 25 to 30 miles of range per hour. Plug in at bedtime and wake up to a full charge with no more planning around charging stops or worrying about range." },
+      { "number": "02", "title": "Protect Your EV Warranty", "description": "Many EV manufacturers require professional installation for warranty compliance. An unpermitted or improperly wired installation can void your vehicle's battery or drivetrain warranty.", "delay": "0.1s" },
+      { "number": "03", "title": "Safe, Code-Compliant Installation", "description": "EV chargers draw continuous high loads. A properly sized circuit with the right wire gauge, breaker rating, and GFCI protection is essential for safety. We get it right the first time.", "delay": "0.2s" },
+      { "number": "04", "title": "Federal Tax Credit Eligible", "description": "The federal Alternative Fuel Infrastructure Tax Credit (30C) may cover 30% of your EV charger installation cost, up to $1,000 for homeowners. Ask your tax advisor about your eligibility.", "delay": "0.1s" },
+      { "number": "05", "title": "Increase Your Home's Appeal", "description": "Home buyers with EVs increasingly look for homes with installed charging stations. A permitted Level 2 charger is a selling point in Charlotte's competitive real estate market.", "delay": "0.2s" },
+      { "number": "06", "title": "Scalable for Multiple Vehicles", "description": "We design your EV charging installation with your future in mind, whether you plan to add a second EV, upgrade to a higher-amperage charger, or eventually add solar. Build it right from the start.", "delay": "0.3s" }
+    ]
+  },
+  "process": {
+    "label": "Installation Process",
+    "heading": "How Your EV Charger <span>Gets Installed</span>",
+    "subheading": "From quote to charging in as little as one day. Here's exactly what the process looks like from start to finish.",
+    "image": "http://static.photos/automotive/640x360/44",
+    "image_alt": "Electrician installing a Level 2 EV charger in a residential garage",
+    "highlight_icon": "zap",
+    "highlight_text": "Most residential EV charger installations are completed in 2 to 4 hours. Same-day installation is often available.",
+    "steps": [
+      { "number": "01", "title": "Request Your Free Estimate", "description": "Call or submit an online request. We'll ask a few questions about your EV, your garage setup, and your panel to give you an accurate ballpark estimate right away." },
+      { "number": "02", "title": "Site Visit & Panel Assessment", "description": "A licensed electrician visits to assess your panel capacity, determine the optimal circuit routing, and confirm the charger location. You receive a written estimate before we start.", "delay": "0.1s" },
+      { "number": "03", "title": "Permit Application", "description": "We apply for the electrical permit required by Charlotte-Mecklenburg or your local jurisdiction. All EV charger installations require a permit in North Carolina.", "delay": "0.2s" },
+      { "number": "04", "title": "Installation Day", "description": "We run the dedicated circuit from your panel to the charger location, install the EVSE or outlet, and test the installation before we leave. Most jobs are complete in 2 to 4 hours.", "delay": "0.3s" },
+      { "number": "05", "title": "Inspection & Sign-Off", "description": "The inspector verifies the installation meets all code requirements. We handle the scheduling and attend the inspection. You receive final permit documentation.", "delay": "0.4s" }
+    ]
+  },
+  "faq": {
+    "label": "EV Charger FAQs",
+    "heading": "Frequently Asked <span>Questions</span>",
+    "subheading": "Answers to the most common questions about EV charger installation in Charlotte, NC.",
+    "items": [
+      { "question": "How much does EV charger installation cost in Charlotte?", "answer": "A typical Level 2 home EV charger installation (including the dedicated circuit and NEMA 14-50 outlet) runs $400 to $900. If your panel needs to be upgraded first, add $1,500 to $3,000. We provide a written estimate after assessing your specific situation." },
+      { "question": "Does my home's electrical panel need an upgrade first?", "answer": "Not always. Many homes have sufficient panel capacity for an EV charger circuit. We assess your panel load during the site visit and let you know if an upgrade is needed. We can often add a 50A circuit to an existing 200A panel without any upgrades.", "delay": "0.1s" },
+      { "question": "What's the difference between a NEMA 14-50 outlet and a hardwired charger?", "answer": "A NEMA 14-50 outlet lets you plug in a portable EVSE, which is more flexible but slightly slower. A hardwired Level 2 charger (like a Tesla Wall Connector) is permanently wired for maximum performance and is the manufacturer's recommended option for most EVs.", "delay": "0.2s" },
+      { "question": "Do I need a permit for an EV charger in Charlotte?", "answer": "Yes. North Carolina requires an electrical permit for Level 2 EV charger installations. We handle the permit application, inspection scheduling, and final sign-off as part of our installation service.", "delay": "0.1s" },
+      { "question": "Can you install a Tesla Wall Connector?", "answer": "Yes. We install Tesla Wall Connectors (both Gen 2 and Gen 3) along with all other major EVSE brands including ChargePoint, Emporia, JuiceBox, Wallbox, and Enel X. We can also supply the hardware — just ask.", "delay": "0.2s" },
+      { "question": "Is there a tax credit for EV charger installation?", "answer": "The federal Alternative Fuel Infrastructure Tax Credit (30C) provides a credit of 30% of installation costs, up to $1,000 for homeowners. Commercial installations may qualify for a higher credit. Consult your tax advisor for details specific to your situation.", "delay": "0.3s" }
+    ]
+  },
+  "cta": {
+    "label": "Ready to Charge at Home?",
+    "heading": "Get Your Level 2 EV Charger <span style=\"color: var(--color-primary);\">Installed Today</span>",
+    "body": "Stop waiting overnight for a trickle charge. Get a free estimate from Charlotte's EV charger installation specialists and wake up to a full charge every morning.",
+    "cta_primary": "Schedule My EV Charger Install",
+    "checklist": [
+      { "text": "Free site visit & estimate" },
+      { "text": "Same-day & next-day availability" },
+      { "text": "Permit & inspection handled for you" }
+    ]
+  }
+}

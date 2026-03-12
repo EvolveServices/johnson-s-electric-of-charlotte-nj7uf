@@ -1,0 +1,45 @@
+{
+  "slug": "cotswold",
+  "template": "service-area",
+  "output": "/service-areas/cotswold/index.html",
+  "area_name": "Cotswold",
+  "meta": {
+    "title": "Electrician in Cotswold, Charlotte NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Cotswold and Providence neighborhoods (28211) with expert residential and commercial electrical services. Panel upgrades, rewiring & more. Call (704) 555-0199.",
+    "og_title": "Cotswold Charlotte Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians for Cotswold and Providence area homes and businesses. Panel upgrades, rewiring, lighting, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Cotswold</span>",
+    "description": "Cotswold and the surrounding Providence corridor are home to some of Charlotte's most established neighborhoods and growing commercial districts. Johnson's Electric provides expert residential and commercial electrical services throughout Cotswold — from older home rewires to new construction electrical.",
+    "zips": [
+      { "zip": "28211" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving Cotswold",
+    "heading": "Expert Electrical Service for Cotswold & the Providence Corridor",
+    "body1": "Cotswold is one of Charlotte's beloved midtown neighborhoods — a mix of well-established homes from the 1950s-1970s, newer infill construction, and a thriving retail and dining corridor along Sardis Road and the Cotswold Village Shops area. The neighborhood's older housing stock often requires panel upgrades and wiring updates to meet modern electrical demands.",
+    "body2": "Johnson's Electric serves homeowners and businesses throughout Cotswold and the Providence area with the full range of electrical services. We understand the unique needs of the neighborhood's mid-century homes and newer builds alike — delivering honest assessments, transparent pricing, and quality workmanship on every job."
+  },
+  "zips": [
+    { "code": "28211" },
+    { "code": "28210" },
+    { "code": "28226" }
+  ],
+  "services": [
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Replacing outdated 60A and 100A panels in Cotswold's mid-century homes with modern 200A service that meets today's electrical demands.", "delay": "0.05s" },
+    { "icon": "shield-check", "title": "Whole-Home Rewiring", "description": "Safe, minimally invasive rewiring for Cotswold homes with older wiring — bringing your electrical system up to NC code.", "delay": "0.1s" },
+    { "icon": "plug", "title": "Kitchen & Bath Circuits", "description": "Adding dedicated circuits, GFCI outlets, and proper kitchen and bathroom electrical for Cotswold home renovations and upgrades.", "delay": "0.15s" },
+    { "icon": "lightbulb", "title": "Interior & Exterior Lighting", "description": "Recessed lighting installation, ceiling fan wiring, landscape lighting, and whole-home dimmer systems for Cotswold residences.", "delay": "0.2s" },
+    { "icon": "car", "title": "EV Charging Stations", "description": "Level 2 EV charger installation in Cotswold garages with dedicated 240V circuits — all permits included.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "Emergency Electrical Service", "description": "24/7 emergency response for power outages, sparking outlets, circuit failures, and electrical hazards throughout the Cotswold area.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "My Cotswold home was built in the 1960s — should I be concerned about the wiring?", "answer": "Homes from this era sometimes have aluminum wiring or undersized panels that can be fire hazards. We offer a free wiring inspection to assess your Cotswold home's electrical system and give you an honest recommendation.", "delay": "0.05s" },
+    { "question": "Can you upgrade my panel without major wall damage?", "answer": "In most cases, yes. Panel upgrades primarily involve work at the panel location and the service entry — we protect floors and walls and leave your home as clean as we found it.", "delay": "0.1s" },
+    { "question": "Do you handle electrical for Cotswold kitchen remodels?", "answer": "Absolutely. Kitchen remodels often require new circuits for appliances, island outlets, under-cabinet lighting, and exhaust fans. We work directly with your contractor and pull all necessary permits.", "delay": "0.15s" },
+    { "question": "Are you familiar with the Cotswold and Sardis Road commercial area?", "answer": "Yes. We service retail spaces, restaurants, and professional offices throughout the Cotswold commercial corridor and can handle everything from TI electrical work to exterior signage wiring.", "delay": "0.2s" }
+  ]
+}

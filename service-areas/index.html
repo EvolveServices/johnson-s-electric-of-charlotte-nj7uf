@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <title>Service Areas | Johnson's Electric of Charlotte — Charlotte Metro Electrician</title>
+  <meta name="description" content="Johnson's Electric serves Charlotte and the entire Charlotte metro area including Concord, Huntersville, Matthews, Gastonia, Fort Mill SC, Rock Hill SC, and more. Licensed electricians near you." />
+  <meta property="og:title" content="Service Areas | Johnson's Electric of Charlotte" />
+  <meta property="og:description" content="Trusted electrical services across the Charlotte metro — residential and commercial. See if we serve your neighborhood." />
+  <meta property="og:image" content="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/35d7d651-dae2-4985-9bf8-d0b56986fd45/media/branding/og-image-1773174564126.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="/css/animations.css" />
+  <link rel="stylesheet" href="/css/service-areas.css" />
+</head>
+<body>
+
+  <div data-include="navbar"></div>
+
+  <!-- ── Hero ── -->
+  <section class="sa-hero">
+    <div class="container">
+      <div class="sa-hero-inner">
+        <span class="section-label">Coverage Area</span>
+        <h1>Electrical Services Across the <span>Charlotte Metro</span></h1>
+        <p>From Uptown Charlotte to the South Carolina border, Johnson's Electric brings licensed, reliable electrical service to homeowners and businesses throughout the greater Charlotte region.</p>
+        <div class="sa-hero-stats">
+          <div class="sa-hero-stat">
+            <strong>30+</strong>
+            <span>Cities Served</span>
+          </div>
+          <div class="sa-hero-stat">
+            <strong>50mi</strong>
+            <span>Service Radius</span>
+          </div>
+          <div class="sa-hero-stat">
+            <strong>24/7</strong>
+            <span>Emergency Response</span>
+          </div>
+          <div class="sa-hero-stat">
+            <strong>15+</strong>
+            <span>Years in Charlotte</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Interactive Map ── -->
+  <section class="sa-map-section reveal">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Our Coverage</span>
+        <h2 class="heading-lg">Charlotte Metro Service Map</h2>
+        <p class="text-lead">We cover Charlotte and surrounding communities in Mecklenburg, Cabarrus, Iredell, Gaston, and York County (SC). Click the map to explore coverage in your area.</p>
+      </div>
+      <div class="sa-map-wrapper">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d416096.78948!2d-81.08!3d35.22!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541fc4fc381a81%3A0xad3f30f5e922ae19!2sCharlotte%2C%20NC!5e0!3m2!1sen!2sus!4v1680000000000!5m2!1sen!2sus"
+          width="100%"
+          height="480"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="Johnson's Electric Charlotte Metro Service Area Map"
+        ></iframe>
+        <div class="sa-map-caption">
+          <div>
+            <strong>Johnson's Electric of Charlotte</strong><br>
+            <span>Serving Mecklenburg, Cabarrus, Iredell, Gaston &amp; York County (SC)</span>
+          </div>
+          <a href="/contact/" class="btn btn-primary btn-sm">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            Schedule Service
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Zip Code Lookup ── -->
+  <section class="sa-zip-section">
+    <div class="container">
+      <div class="sa-zip-inner">
+        <span class="section-label" style="color: var(--color-primary);">Quick Check</span>
+        <h2>Do We Service Your Area?</h2>
+        <p>Enter your zip code below to instantly confirm whether Johnson's Electric covers your neighborhood.</p>
+        <div class="sa-zip-form">
+          <input
+            type="text"
+            id="zip-input"
+            class="sa-zip-input"
+            placeholder="Enter your zip code (e.g. 28277)"
+            maxlength="5"
+            inputmode="numeric"
+            pattern="[0-9]{5}"
+            aria-label="Enter zip code"
+          />
+          <button class="btn btn-primary" id="zip-check-btn" type="button">
+            Check Zip
+          </button>
+        </div>
+        <div class="sa-zip-result" id="zip-result">
+          <div class="sa-zip-result-msg" id="zip-result-msg" role="status" aria-live="polite"></div>
+        </div>
+        <p class="sa-zip-note">Not sure? Call us at <a href="tel:7045550199" style="color: var(--color-primary); font-weight: 600;">(704) 555-0199</a> — we'll confirm your area instantly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Areas by Region ── -->
+  <section class="sa-areas-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">All Service Areas</span>
+        <h2 class="heading-lg">Cities &amp; Communities We Serve</h2>
+        <p class="text-lead">Johnson's Electric covers every corner of the Charlotte metro. Browse by region to find your city and learn about our local electrical services.</p>
+      </div>
+
+      <div class="sa-regions-grid">
+
+        <!-- Charlotte Proper -->
+        <div class="sa-region-card reveal" data-delay="0.05s">
+          <div class="sa-region-header primary">
+            <div class="sa-region-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <div>
+              <div class="sa-region-title">Charlotte Proper</div>
+              <div class="sa-region-subtitle">Mecklenburg County Core</div>
+            </div>
+          </div>
+          <div class="sa-region-body">
+            <ul class="sa-city-list">
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/uptown-charlotte/">Uptown Charlotte</a>
+                </div>
+                <p class="sa-city-blurb">High-rises, condos, and commercial buildings in Charlotte's urban core. Expert panel work, commercial wiring, and EV charging for Uptown's dense environment.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/plaza-midwood/">Plaza Midwood</a>
+                </div>
+                <p class="sa-city-blurb">Vintage bungalows and craftsman homes on Central Avenue. We specialize in knob-and-tube rewires, panel upgrades, and restaurant electrical for Plaza Midwood's eclectic community.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/noda/">NoDa (North Davidson)</a>
+                </div>
+                <p class="sa-city-blurb">Charlotte's arts district — breweries, galleries, music venues, and converted mills. We wire NoDa's creative spaces with the expertise they demand.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/southpark/">SouthPark</a>
+                </div>
+                <p class="sa-city-blurb">Luxury homes, smart home systems, and EV chargers in Charlotte's most prestigious residential district. We deliver premium electrical service for SouthPark homeowners.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/cotswold/">Cotswold</a>
+                </div>
+                <p class="sa-city-blurb">Mid-century homes along the Providence corridor. Panel upgrades, rewiring, and kitchen/bath electrical for Cotswold's established and growing neighborhoods.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/ballantyne/">Ballantyne</a>
+                </div>
+                <p class="sa-city-blurb">Serving Ballantyne's growing residential communities and corporate campuses. Panel upgrades, EV charging, and smart home electrical installs are our specialty here.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/steele-creek/">Steele Creek</a>
+                </div>
+                <p class="sa-city-blurb">Fast-growing southwest Charlotte corridor. New home electrical, panel upgrades, and retail/industrial electrical for Steele Creek and Whitehall neighborhoods.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/highland-creek/">Highland Creek</a>
+                </div>
+                <p class="sa-city-blurb">Charlotte's most populated ZIP code area. Master-planned community homes, EV chargers, generator hookups, and 24/7 emergency electrical in north Charlotte.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- South Suburbs -->
+        <div class="sa-region-card reveal" data-delay="0.1s">
+          <div class="sa-region-header">
+            <div class="sa-region-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <div class="sa-region-title">South Suburbs</div>
+              <div class="sa-region-subtitle">York County, SC &amp; Gaston County</div>
+            </div>
+          </div>
+          <div class="sa-region-body">
+            <ul class="sa-city-list">
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/fort-mill/">Fort Mill, SC</a>
+                </div>
+                <p class="sa-city-blurb">One of the fastest-growing cities in the Southeast. We help Fort Mill's new-construction homeowners and businesses with complete electrical installations and upgrades.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/rock-hill/">Rock Hill, SC</a>
+                </div>
+                <p class="sa-city-blurb">Serving Rock Hill's residential neighborhoods and York County businesses. We're fully licensed in both North and South Carolina, so you get seamless service across state lines.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/gastonia/">Gastonia</a>
+                </div>
+                <p class="sa-city-blurb">Gaston County's largest city. From older homes needing panel replacements to commercial properties requiring code updates, Johnson's Electric handles it all in Gastonia.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/belmont/">Belmont</a>
+                </div>
+                <p class="sa-city-blurb">Historic Belmont's charming older homes often need wiring updates and panel upgrades. Our electricians are experienced with the unique needs of Belmont's established neighborhoods.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- North Suburbs -->
+        <div class="sa-region-card reveal" data-delay="0.15s">
+          <div class="sa-region-header">
+            <div class="sa-region-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <div>
+              <div class="sa-region-title">North Suburbs</div>
+              <div class="sa-region-subtitle">Lake Norman Corridor</div>
+            </div>
+          </div>
+          <div class="sa-region-body">
+            <ul class="sa-city-list">
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/huntersville/">Huntersville</a>
+                </div>
+                <p class="sa-city-blurb">Huntersville is one of Charlotte's most popular northern suburbs. We serve new subdivisions, established neighborhoods, and commercial developments throughout the area.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/cornelius/">Cornelius</a>
+                </div>
+                <p class="sa-city-blurb">Lake Norman waterfront homes and Cornelius businesses count on us for generator installations, dock power, EV charging, and reliable general electrical services.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/davidson/">Davidson</a>
+                </div>
+                <p class="sa-city-blurb">Davidson's college-town atmosphere and historic homes require an electrician with knowledge of older electrical systems. We're proud to serve this vibrant community.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/mooresville/">Mooresville</a>
+                </div>
+                <p class="sa-city-blurb">Race City USA has a booming economy and growing population. Johnson's Electric serves Mooresville's motorsports industry facilities, commercial properties, and lakeside homes.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- East Suburbs -->
+        <div class="sa-region-card reveal" data-delay="0.1s">
+          <div class="sa-region-header accent">
+            <div class="sa-region-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+            </div>
+            <div>
+              <div class="sa-region-title">East Suburbs</div>
+              <div class="sa-region-subtitle">Cabarrus County &amp; East Meck</div>
+            </div>
+          </div>
+          <div class="sa-region-body">
+            <ul class="sa-city-list">
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/concord/">Concord</a>
+                </div>
+                <p class="sa-city-blurb">Cabarrus County's seat and home to Charlotte Motor Speedway. We handle everything from residential service calls to large commercial electrical projects in Concord's thriving business district.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/kannapolis/">Kannapolis</a>
+                </div>
+                <p class="sa-city-blurb">Kannapolis is undergoing a major revitalization. Our team supports new residential construction, historic renovation projects, and the expanding North Carolina Research Campus area.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/mint-hill/">Mint Hill</a>
+                </div>
+                <p class="sa-city-blurb">A beloved eastern Mecklenburg community with a small-town feel. Mint Hill homeowners trust us for whole-home rewires, outdoor lighting, panel upgrades, and generator installations.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Southeast Suburbs -->
+        <div class="sa-region-card reveal" data-delay="0.15s">
+          <div class="sa-region-header">
+            <div class="sa-region-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+            </div>
+            <div>
+              <div class="sa-region-title">Southeast Suburbs</div>
+              <div class="sa-region-subtitle">Stallings, Indian Trail &amp; Beyond</div>
+            </div>
+          </div>
+          <div class="sa-region-body">
+            <ul class="sa-city-list">
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/matthews/">Matthews</a>
+                </div>
+                <p class="sa-city-blurb">Matthews is a top-tier suburb known for great schools and family neighborhoods. We provide top-rated residential electrical services and light commercial work throughout Matthews and its surrounding communities.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/stallings/">Stallings</a>
+                </div>
+                <p class="sa-city-blurb">This quickly growing town in Union County is home to many families relocating to the Charlotte area. We offer fast scheduling and same-week service for Stallings homeowners.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/indian-trail/">Indian Trail</a>
+                </div>
+                <p class="sa-city-blurb">One of North Carolina's fastest-growing towns. Indian Trail's boom in new residential and commercial development keeps our team busy with new construction and upgrades.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/pineville/">Pineville</a>
+                </div>
+                <p class="sa-city-blurb">Pineville sits at the crossroads of the Charlotte metro, blending suburban convenience with easy highway access. We serve Pineville's residential neighborhoods and commercial corridor.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/weddington/">Weddington</a>
+                </div>
+                <p class="sa-city-blurb">One of Union County's most sought-after communities, known for top-rated schools and upscale homes. We provide premium electrical installs, smart home wiring, and EV charging for Weddington homeowners.</p upgrade projects.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Additional Areas -->
+        <div class="sa-region-card reveal" data-delay="0.2s">
+          <div class="sa-region-header" style="background: var(--color-secondary-light);">
+            <div class="sa-region-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            </div>
+            <div>
+              <div class="sa-region-title">Extended Coverage</div>
+              <div class="sa-region-subtitle">Surrounding Communities</div>
+            </div>
+          </div>
+          <div class="sa-region-body">
+            <ul class="sa-city-list">
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/monroe/">Monroe</a>
+                </div>
+                <p class="sa-city-blurb">Union County's seat. We serve Monroe's growing residential base and established commercial district with full-service electrical solutions.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/waxhaw/">Waxhaw</a>
+                </div>
+                <p class="sa-city-blurb">Waxhaw's antique-town charm meets rapid suburban growth. We handle both historic home rewires and new-construction electrical in this beloved Union County community.</p>
+              </li>
+              <li class="sa-city-item">
+                <div class="sa-city-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="20 6 9 17 4 12"/></svg>
+                  <a href="/service-areas/harrisburg/">Harrisburg</a> &amp; More
+                </div>
+                <p class="sa-city-blurb">We also serve Harrisburg, Midland, Locust, Oakboro, Lake Wylie SC, Clover SC, and many other communities within 50 miles of Charlotte. Call to confirm your areaa.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="sa-cta-section">
+    <div class="container">
+      <span class="section-label">Get Started Today</span>
+      <h2>Ready to Schedule Service in <span>Your Area?</span></h2>
+      <p>Charlotte's most trusted electricians are just a call or click away. We offer same-week scheduling for most service areas and 24/7 emergency response throughout the metro.</p>
+      <div class="sa-cta-buttons">
+        <a href="/contact/" class="btn btn-primary btn-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+          Request a Free Quote
+        </a>
+        <a href="tel:7045550199" class="btn btn-outline-white btn-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.18h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          (704) 555-0199
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div data-include="footer"></div>
+
+  <script src="/_includes/loader.js"></script>
+  <script src="/js/animations.js"></script>
+  <script>
+  (function () {
+    var serviceZips = [
+      // Charlotte Proper / Mecklenburg
+      '28201','28202','28203','28204','28205','28206','28207','28208','28209','28210',
+      '28211','28212','28213','28214','28215','28216','28217','28218','28219','28220',
+      '28221','28222','28223','28224','28226','28227','28228','28229','28230','28231',
+      '28232','28233','28234','28235','28236','28237','28241','28242','28243','28244',
+      '28246','28247','28250','28253','28254','28255','28256','28258','28260','28262',
+      '28263','28265','28266','28269','28270','28271','28272','28273','28274','28277',
+      '28278','28280','28281','28282','28283','28284','28285','28287','28288','28289',
+      '28290','28296','28299',
+      // Pineville / Ballantyne
+      '28134',
+      // Huntersville / Cornelius / Davidson
+      '28031','28036','28078',
+      // Mooresville
+      '28115','28117',
+      // Concord / Kannapolis
+      '28025','28026','28027','28081','28082','28083',
+      // Matthews / Stallings / Mint Hill
+      '28104','28105','28106','28212','28227',
+      // Indian Trail / Monroe / Waxhaw
+      '28079','28110','28111','28112','28173',
+      // Gastonia / Belmont
+      '28052','28053','28054','28055','28012',
+      // Fort Mill / Rock Hill / Lake Wylie SC
+      '29707','29708','29709','29710','29714','29730','29731','29732','29733',
+      // Harrisburg / Cabarrus extension
+      '28075',
+    ];
+
+    var btn = document.getElementById('zip-check-btn');
+    var input = document.getElementById('zip-input');
+    var msgEl = document.getElementById('zip-result-msg');
+
+    function checkZip() {
+      var val = input.value.trim().replace(/\D/g, '').slice(0, 5);
+      msgEl.className = 'sa-zip-result-msg';
+      msgEl.textContent = '';
+
+      if (val.length !== 5) {
+        msgEl.className = 'sa-zip-result-msg error show';
+        msgEl.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg> Please enter a valid 5-digit zip code.';
+        return;
+      }
+
+      if (serviceZips.indexOf(val) !== -1) {
+        msgEl.className = 'sa-zip-result-msg success show';
+        msgEl.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg> Great news! We service zip code ' + val + '. <a href="/contact/" style="color:inherit;text-decoration:underline;margin-left:4px;">Schedule service &rarr;</a>';
+      } else {
+        msgEl.className = 'sa-zip-result-msg error show';
+        msgEl.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg> Zip code ' + val + ' may be outside our standard area. <a href="tel:7045550199" style="color:inherit;text-decoration:underline;margin-left:4px;">Call us to confirm &rarr;</a>';
+      }
+    }
+
+    if (btn) btn.addEventListener('click', checkZip);
+    if (input) input.addEventListener('keydown', function (e) { if (e.key === 'Enter') checkZip(); });
+  })();
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+{
+  "slug": "pineville",
+  "template": "service-area",
+  "output": "/service-areas/pineville/index.html",
+  "area_name": "Pineville",
+  "meta": {
+    "title": "Electrician in Pineville, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Pineville NC (28134) with licensed electrical services. Residential wiring, panel upgrades, EV chargers, generators & commercial electrical. Call today.",
+    "og_title": "Pineville NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Pineville NC. Residential, commercial, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Pineville, NC</span>",
+    "description": "Pineville sits at the gateway between Charlotte and South Carolina — and Johnson's Electric has served its homeowners and businesses throughout the 28134 ZIP code with expert residential and commercial electrical services.",
+    "zips": [
+      { "zip": "28134" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving Pineville",
+    "heading": "Trusted Electrical Services for Pineville Homeowners and Businesses",
+    "body1": "Pineville is a compact but thriving community at the southern edge of Mecklenburg County, bordered by Charlotte to the north and the South Carolina state line to the south. The area is home to a mix of established neighborhoods, retail corridors along Johnston Road and Park Road, and proximity to Carowinds and major commercial corridors.",
+    "body2": "Johnson's Electric provides full-service electrical for Pineville properties — from panel upgrades and circuit additions in older homes to EV charger installations and generator hookups in newer builds. Our licensed electricians know Mecklenburg County codes and pull all required permits so your project is done right the first time."
+  },
+  "zips": [
+    { "code": "28134" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Complete home electrical services for Pineville — new circuits, outlet additions, ceiling fans, lighting upgrades, and whole-house rewiring.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 home EV charging stations in Pineville garages — permits included, all brands supported, typically completed in one visit.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator connections and transfer switches for Pineville homes — protection from Carolinas storm outages.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Electrical panel replacements and upgrades for Pineville homes adding EVs, home offices, pools, or major appliances.", "delay": "0.2s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Electrical services for Pineville retail, restaurants, and office properties along Park Road and Johnston Road corridors.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Pineville homes and businesses — available around the clock with no after-hours surcharge.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve all of Pineville including neighborhoods near Park Road?", "answer": "Yes. We serve all of Pineville in the 28134 ZIP code, including neighborhoods near Park Road, Johnston Road, and the Carowinds area.", "delay": "0.05s" },
+    { "question": "How quickly can you respond to an electrical emergency in Pineville?", "answer": "Pineville is typically 15-25 minutes from our Charlotte base. For emergencies we dispatch the nearest available crew and aim to arrive within the hour.", "delay": "0.1s" },
+    { "question": "Do you handle permits for Mecklenburg County electrical work in Pineville?", "answer": "Yes. We manage all Mecklenburg County permit applications for Pineville projects — panel upgrades, new circuits, EV chargers, and more.", "delay": "0.15s" },
+    { "question": "Can you upgrade my older Pineville home's electrical panel?", "answer": "Absolutely. We regularly upgrade panels in Pineville's older homes — replacing outdated 100A or 150A panels with modern 200A or 320A service to meet today's electrical demands.", "delay": "0.2s" }
+  ]
+}

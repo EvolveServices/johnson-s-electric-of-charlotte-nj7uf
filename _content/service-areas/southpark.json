@@ -1,0 +1,47 @@
+{
+  "slug": "southpark",
+  "template": "service-area",
+  "output": "/service-areas/southpark/index.html",
+  "area_name": "SouthPark",
+  "meta": {
+    "title": "Electrician in SouthPark, Charlotte NC | Johnson's Electric",
+    "description": "Johnson's Electric provides licensed electrical services in SouthPark (28210, 28211). Panel upgrades, EV charging, smart home electrical & luxury home wiring. Call (704) 555-0199.",
+    "og_title": "SouthPark Charlotte Electrician | Johnson's Electric",
+    "og_description": "Premium residential and commercial electrical services for SouthPark Charlotte. Panel upgrades, EV chargers, smart home systems. Licensed & insured."
+  },
+  "hero": {
+    "heading": "Electrician in <span>SouthPark</span>",
+    "description": "SouthPark's luxury homes, upscale condos, and premier retail district deserve a professional electrical contractor. Johnson's Electric serves SouthPark with premium electrical services — from smart home automation to whole-panel upgrades — delivered with the care and expertise your home deserves.",
+    "zips": [
+      { "zip": "28210" },
+      { "zip": "28211" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving SouthPark",
+    "heading": "Charlotte's Premier Electrical Contractor for SouthPark Homes",
+    "body1": "SouthPark is one of Charlotte's most prestigious residential and commercial districts — home to the SouthPark Mall corridor, luxury homes in Beverly Woods and Barclay Downs, and a dense concentration of high-end retail and medical offices. Homeowners here expect precision, professionalism, and code-compliant work that adds lasting value.",
+    "body2": "Johnson's Electric delivers exactly that. We specialize in high-end residential electrical services throughout SouthPark including smart home system integration, EV charging station installation, whole-home generator hookups, and panel upgrades designed to future-proof your home. Our licensed electricians treat your SouthPark property with the respect it deserves."
+  },
+  "zips": [
+    { "code": "28210" },
+    { "code": "28211" },
+    { "code": "28209" },
+    { "code": "28226" }
+  ],
+  "services": [
+    { "icon": "wifi", "title": "Smart Home Systems", "description": "Integrated smart lighting, automated switches, whole-home audio power, and smart panel installations for SouthPark's connected luxury homes.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 home charging stations for Tesla, BMW, Mercedes, and all EV brands — installed properly with dedicated circuits in your SouthPark garage.", "delay": "0.1s" },
+    { "icon": "zap", "title": "Panel Upgrades to 200A+", "description": "Upgrading electrical service to 200A, 320A, or 400A to support modern SouthPark homes with multiple EVs, home theaters, and smart home systems.", "delay": "0.15s" },
+    { "icon": "sun", "title": "Whole-Home Generators", "description": "Standby generator installations and electrical hookups to keep your SouthPark home running during Duke Energy outages.", "delay": "0.2s" },
+    { "icon": "lightbulb", "title": "Luxury Lighting Design", "description": "Recessed lighting, under-cabinet lighting, landscape lighting, and decorative fixture installations for SouthPark's upscale interior and exterior spaces.", "delay": "0.25s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Electrical services for SouthPark's medical offices, retail spaces, restaurants, and commercial properties along Sharon and Fairview roads.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you install Tesla Wall Connectors and other home EV chargers in SouthPark?", "answer": "Yes. We install all major home EV charging brands including Tesla Wall Connector, ChargePoint, Grizzl-E, and more. We handle the full installation including the dedicated 240V circuit and permit.", "delay": "0.05s" },
+    { "question": "Can you integrate electrical with my smart home system (Control4, Lutron, etc.)?", "answer": "Absolutely. We work with Control4, Lutron Caseta, Lutron RadioRA, and other smart home platforms to ensure your electrical infrastructure supports whole-home automation in your SouthPark residence.", "delay": "0.1s" },
+    { "question": "My SouthPark home has a 100-amp panel — is that enough?", "answer": "For most modern SouthPark homes with EVs, smart systems, and high-end appliances, 100 amps is no longer sufficient. We recommend upgrading to at least 200 amps, and often 320A for homes with two EVs and large HVAC systems.", "delay": "0.15s" },
+    { "question": "Do you service the medical offices and retail near SouthPark Mall?", "answer": "Yes. We handle commercial electrical for medical offices, retail suites, and restaurants throughout the SouthPark commercial corridor — including TI installation, panel work, and lighting retrofits.", "delay": "0.2s" }
+  ]
+}

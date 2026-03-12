@@ -1,0 +1,172 @@
+{
+  "slug": "panel-upgrades",
+  "template": "service",
+  "output": "/services/panel-upgrades/index.html",
+  "meta": {
+    "title": "Electrical Panel Upgrades Charlotte NC | Johnson's Electric",
+    "description": "Licensed panel upgrade specialists in Charlotte, NC. Upgrade your outdated breaker box to a modern 200A or 400A panel. Safe, permitted, and inspected. Call (704) 555-0199.",
+    "og_title": "Electrical Panel Upgrades | Johnson's Electric of Charlotte",
+    "og_description": "Charlotte's trusted panel upgrade electricians. Fuse box replacement, 200A and 400A service upgrades, sub-panels: all permitted and inspected. Get a free estimate."
+  },
+  "hero": {
+    "label": "Electrical Panel Upgrades",
+    "heading": "Charlotte's Panel Upgrade <span>Specialists</span>",
+    "subheading": "An outdated or undersized electrical panel is the most common cause of house fires in older homes. We upgrade your panel safely, efficiently, and fully permitted.",
+    "image": "http://static.photos/industry/1200x630/67",
+    "cta_primary": "Get a Free Panel Estimate",
+    "badges": [
+      { "icon": "shield-check", "text": "NC Licensed & Fully Insured" },
+      { "icon": "zap", "text": "100A, 200A & 400A Upgrades" },
+      { "icon": "file-check", "text": "All Work Permitted & Inspected" }
+    ]
+  },
+  "intro": {
+    "label": "Is It Time to Upgrade?",
+    "heading": "Warning Signs You Need a <span>Panel Upgrade</span>",
+    "body1": "Most Charlotte homes built before 1990 were wired for 100 amps or less, far short of the 200 amps that modern homes with electric appliances, EV chargers, HVAC systems, and home offices require. An undersized panel forces you to prioritize what you run at once, and aging breakers can fail to trip when they should.",
+    "body2": "Johnson's Electric specializes in panel upgrades for Charlotte-area homes and businesses. We assess your current and future electrical needs, recommend the right panel size, pull the permit, coordinate with Duke Energy, and handle the full installation, including the service entrance and grounding system.",
+    "image": "http://static.photos/industry/640x360/14",
+    "image_alt": "Electrician upgrading an electrical panel in Charlotte NC",
+    "stat_value": "800+",
+    "stat_label": "Panel Upgrades Completed in Charlotte",
+    "checklist": [
+      { "text": "Breakers that trip frequently or won't reset" },
+      { "text": "Fuses instead of circuit breakers" },
+      { "text": "Flickering lights when appliances run" },
+      { "text": "No room for new circuits in your panel" },
+      { "text": "Adding an EV charger or hot tub" },
+      { "text": "Burning smell or discoloration near the panel" }
+    ]
+  },
+  "services": {
+    "label": "Panel Services We Offer",
+    "heading": "Complete Panel Upgrade <span class=\"text-accent\">Services</span>",
+    "subheading": "From simple panel replacements to full service entrance upgrades, we handle every type of panel work for Charlotte homes and businesses.",
+    "items": [
+      {
+        "icon": "zap",
+        "title": "200-Amp Service Upgrade",
+        "description": "The most common upgrade, moving from an undersized 60A or 100A panel to a modern 200-amp service entrance. This gives your home ample capacity for all modern electrical demands.",
+        "bullets": [
+          { "text": "Full service entrance upgrade" },
+          { "text": "New 200A main breaker panel" },
+          { "text": "Updated grounding & bonding" },
+          { "text": "Duke Energy coordination included" }
+        ]
+      },
+      {
+        "icon": "battery-charging",
+        "title": "400-Amp Service Upgrade",
+        "description": "Larger homes, home additions, or properties with multiple EV chargers, hot tubs, or heavy HVAC systems may need 400-amp service. We design and install 400A service entrance upgrades.",
+        "bullets": [
+          { "text": "Dual-200A panel configuration" },
+          { "text": "Large home & luxury property upgrades" },
+          { "text": "High-capacity equipment planning" },
+          { "text": "Full utility coordination" }
+        ],
+        "delay": "0.1s"
+      },
+      {
+        "icon": "settings",
+        "title": "Fuse Box Replacement",
+        "description": "Older homes with fuse boxes are not only inconvenient, they're a safety hazard and may make homeowner's insurance difficult or expensive to obtain. We replace fuse boxes with modern breaker panels.",
+        "bullets": [
+          { "text": "Complete fuse box removal" },
+          { "text": "Modern breaker panel installation" },
+          { "text": "Updated service entrance wiring" },
+          { "text": "Insurance compliance documentation" }
+        ],
+        "delay": "0.2s"
+      },
+      {
+        "icon": "grid-2x2",
+        "title": "Sub-Panel Installation",
+        "description": "Adding a workshop, garage, ADU, or home addition? A sub-panel feeds a separate area of your property from your main panel, giving those spaces their own dedicated circuits without overloading your main panel.",
+        "bullets": [
+          { "text": "Detached garage sub-panels" },
+          { "text": "Workshop & outbuilding power" },
+          { "text": "ADU & in-law suite wiring" },
+          { "text": "Pool & outdoor structure panels" }
+        ],
+        "delay": "0.1s"
+      },
+      {
+        "icon": "shield",
+        "title": "Whole-Home Surge Protection",
+        "description": "Modern panel upgrades are the perfect opportunity to add whole-home surge protection. A single surge protector installed at your panel shields every outlet, appliance, and electronic device in your home.",
+        "bullets": [
+          { "text": "Panel-mounted surge protectors" },
+          { "text": "Lightning & utility surge protection" },
+          { "text": "HVAC & appliance protection" },
+          { "text": "Transferable lifetime warranty options" }
+        ],
+        "delay": "0.2s"
+      },
+      {
+        "icon": "file-check",
+        "title": "Permit & Inspection Handling",
+        "description": "Every panel upgrade requires a permit and inspection by Charlotte-Mecklenburg Building Standards. We handle the entire process: permit application, inspection scheduling, and final approval.",
+        "bullets": [
+          { "text": "Permit application & fees included" },
+          { "text": "Inspection scheduling & attendance" },
+          { "text": "Duke Energy service coordination" },
+          { "text": "Completion documentation provided" }
+        ],
+        "delay": "0.3s"
+      }
+    ]
+  },
+  "benefits": {
+    "label": "Why Upgrade Your Panel",
+    "heading": "The Benefits of a <span>Modern Electrical Panel</span>",
+    "subheading": "A panel upgrade is one of the highest-value improvements you can make to your Charlotte home, for safety, convenience, and resale value.",
+    "items": [
+      { "number": "01", "title": "Dramatically Improved Safety", "description": "Modern circuit breakers with AFCI and GFCI protection detect dangerous electrical faults and arc faults that older panels miss entirely. This is the most important reason to upgrade." },
+      { "number": "02", "title": "Meets Modern Electrical Demands", "description": "Today's homes have far more electrical loads than homes from 30 years ago. A 200A panel handles EV charging, modern HVAC systems, home offices, and large appliances without issue.", "delay": "0.1s" },
+      { "number": "03", "title": "Supports Home Additions & Upgrades", "description": "Adding a room, a hot tub, or an EV charger? These all require additional circuits. A new panel gives you the headroom to expand without overloading your electrical system.", "delay": "0.2s" },
+      { "number": "04", "title": "Increased Home Value", "description": "A modern panel is a selling point for Charlotte home buyers and required by some mortgage and insurance providers. A completed permit ensures proper documentation for your home's sale.", "delay": "0.1s" },
+      { "number": "05", "title": "Homeowners Insurance Compliance", "description": "Many insurance companies refuse to cover, or charge significantly higher premiums for, homes with fuse boxes or specific outdated panel brands. A new panel can lower your insurance costs.", "delay": "0.2s" },
+      { "number": "06", "title": "Peace of Mind", "description": "Knowing your electrical system is modern, code-compliant, and properly installed provides genuine peace of mind. You stop wondering if that flicker or tripping breaker is a warning sign.", "delay": "0.3s" }
+    ]
+  },
+  "process": {
+    "label": "How a Panel Upgrade Works",
+    "heading": "Your Panel Upgrade <span>Step by Step</span>",
+    "subheading": "A panel upgrade is a major electrical project, but with Johnson's Electric it's a smooth, well-coordinated process with minimal disruption to your day.",
+    "image": "http://static.photos/industry/640x360/33",
+    "image_alt": "Electrician completing a panel upgrade installation",
+    "highlight_icon": "clock",
+    "highlight_text": "Most residential panel upgrades are completed in a single day. Your power is typically off for just 2 to 4 hours during the service disconnect.",
+    "steps": [
+      { "number": "01", "title": "In-Home Assessment & Load Analysis", "description": "A licensed electrician visits your home to assess your current panel, calculate your electrical load, and recommend the right panel size for your current and future needs." },
+      { "number": "02", "title": "Written Estimate & Permit Application", "description": "We provide a detailed written estimate and immediately begin the permit application process once you approve the work. Permits are pulled before any work begins.", "delay": "0.1s" },
+      { "number": "03", "title": "Duke Energy Coordination", "description": "We contact Duke Energy to schedule the required service disconnect. This brief outage (typically 1-2 hours) is required for the utility to safely disconnect power from the street.", "delay": "0.2s" },
+      { "number": "04", "title": "Panel Removal & Installation", "description": "We remove your old panel and install the new one, including the service entrance conductors, main breaker, branch circuits, grounding, bonding, and arc-fault protection.", "delay": "0.3s" },
+      { "number": "05", "title": "Inspection & Final Sign-Off", "description": "A city or county inspector verifies all work meets NEC and local code requirements. We schedule and attend the inspection on your behalf. You receive final permit documentation.", "delay": "0.4s" }
+    ]
+  },
+  "faq": {
+    "label": "Panel Upgrade FAQs",
+    "heading": "Frequently Asked <span>Questions</span>",
+    "subheading": "Answers to the questions Charlotte homeowners ask most often about electrical panel upgrades.",
+    "items": [
+      { "question": "How much does a panel upgrade cost in Charlotte?", "answer": "A 200-amp panel upgrade in Charlotte typically costs between $1,500 and $3,500 depending on the existing wiring, service entrance condition, and whether sub-panel work is needed. We provide a detailed written estimate before starting any work." },
+      { "question": "How long will my power be off during the upgrade?", "answer": "Most of the project is completed with your power on. The brief period when power must be off — the service disconnect, is typically 1 to 2 hours while Duke Energy works on the meter and we swap the panel.", "delay": "0.1s" },
+      { "question": "Do I need to be home during the panel upgrade?", "answer": "Yes, we recommend being home for the full day of the upgrade. You'll need to be available when Duke Energy arrives for the disconnect, and we may have questions about your electrical system during the installation.", "delay": "0.2s" },
+      { "question": "Will a panel upgrade increase my home's value?", "answer": "Yes. A modern, permitted electrical panel is a significant positive for Charlotte home buyers and appraisers. Many buyers specifically look for homes with updated electrical systems, and some mortgage types require it.", "delay": "0.1s" },
+      { "question": "What brands of panels do you install?", "answer": "We install major name brands including Square D (Homeline and QO), Eaton, and Siemens. We avoid certain brands that have documented safety issues and recall histories, and we're happy to discuss our recommendations with you.", "delay": "0.2s" },
+      { "question": "Is my panel covered by a warranty?", "answer": "Yes. Panel hardware carries a manufacturer's warranty, and all our installation work is covered by our 1-year written workmanship warranty. If any installation issue arises within a year, we return to resolve it at no charge.", "delay": "0.3s" }
+    ]
+  },
+  "cta": {
+    "label": "Ready to Upgrade?",
+    "heading": "Get Your Free Panel Upgrade <span style=\"color: var(--color-primary);\">Estimate Today</span>",
+    "body": "Don't wait for a breaker failure or an electrical fire to force the issue. Schedule a free in-home panel assessment with Johnson's Electric and get a written estimate.",
+    "cta_primary": "Get My Free Estimate",
+    "checklist": [
+      { "text": "Free in-home panel assessment" },
+      { "text": "Written estimate before any work begins" },
+      { "text": "Permit, inspection & utility coordination included" }
+    ]
+  }
+}

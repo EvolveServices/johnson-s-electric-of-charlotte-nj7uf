@@ -1,0 +1,229 @@
+{
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/about",
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact/index.html"
+    },
+    {
+      "source": "/reviews",
+      "destination": "/reviews/index.html"
+    },
+    {
+      "source": "/service-area",
+      "destination": "/service-area/index.html"
+    },
+    {
+      "source": "/service-areas/ballantyne",
+      "destination": "/service-areas/ballantyne/index.html"
+    },
+    {
+      "source": "/service-areas/belmont",
+      "destination": "/service-areas/belmont/index.html"
+    },
+    {
+      "source": "/service-areas/concord",
+      "destination": "/service-areas/concord/index.html"
+    },
+    {
+      "source": "/service-areas/cornelius",
+      "destination": "/service-areas/cornelius/index.html"
+    },
+    {
+      "source": "/service-areas/cotswold",
+      "destination": "/service-areas/cotswold/index.html"
+    },
+    {
+      "source": "/service-areas/davidson",
+      "destination": "/service-areas/davidson/index.html"
+    },
+    {
+      "source": "/service-areas/fort-mill",
+      "destination": "/service-areas/fort-mill/index.html"
+    },
+    {
+      "source": "/service-areas/gastonia",
+      "destination": "/service-areas/gastonia/index.html"
+    },
+    {
+      "source": "/service-areas/harrisburg",
+      "destination": "/service-areas/harrisburg/index.html"
+    },
+    {
+      "source": "/service-areas/highland-creek",
+      "destination": "/service-areas/highland-creek/index.html"
+    },
+    {
+      "source": "/service-areas/huntersville",
+      "destination": "/service-areas/huntersville/index.html"
+    },
+    {
+      "source": "/service-areas",
+      "destination": "/service-areas/index.html"
+    },
+    {
+      "source": "/service-areas/indian-trail",
+      "destination": "/service-areas/indian-trail/index.html"
+    },
+    {
+      "source": "/service-areas/kannapolis",
+      "destination": "/service-areas/kannapolis/index.html"
+    },
+    {
+      "source": "/service-areas/lake-norman",
+      "destination": "/service-areas/lake-norman/index.html"
+    },
+    {
+      "source": "/service-areas/matthews",
+      "destination": "/service-areas/matthews/index.html"
+    },
+    {
+      "source": "/service-areas/mint-hill",
+      "destination": "/service-areas/mint-hill/index.html"
+    },
+    {
+      "source": "/service-areas/monroe",
+      "destination": "/service-areas/monroe/index.html"
+    },
+    {
+      "source": "/service-areas/mooresville",
+      "destination": "/service-areas/mooresville/index.html"
+    },
+    {
+      "source": "/service-areas/noda",
+      "destination": "/service-areas/noda/index.html"
+    },
+    {
+      "source": "/service-areas/pineville",
+      "destination": "/service-areas/pineville/index.html"
+    },
+    {
+      "source": "/service-areas/plaza-midwood",
+      "destination": "/service-areas/plaza-midwood/index.html"
+    },
+    {
+      "source": "/service-areas/rock-hill",
+      "destination": "/service-areas/rock-hill/index.html"
+    },
+    {
+      "source": "/service-areas/southpark",
+      "destination": "/service-areas/southpark/index.html"
+    },
+    {
+      "source": "/service-areas/stallings",
+      "destination": "/service-areas/stallings/index.html"
+    },
+    {
+      "source": "/service-areas/steele-creek",
+      "destination": "/service-areas/steele-creek/index.html"
+    },
+    {
+      "source": "/service-areas/tega-cay",
+      "destination": "/service-areas/tega-cay/index.html"
+    },
+    {
+      "source": "/service-areas/uptown-charlotte",
+      "destination": "/service-areas/uptown-charlotte/index.html"
+    },
+    {
+      "source": "/service-areas/waxhaw",
+      "destination": "/service-areas/waxhaw/index.html"
+    },
+    {
+      "source": "/service-areas/weddington",
+      "destination": "/service-areas/weddington/index.html"
+    },
+    {
+      "source": "/services/commercial",
+      "destination": "/services/commercial/index.html"
+    },
+    {
+      "source": "/services/emergency",
+      "destination": "/services/emergency/index.html"
+    },
+    {
+      "source": "/services/ev-charging",
+      "destination": "/services/ev-charging/index.html"
+    },
+    {
+      "source": "/services/generator-installation",
+      "destination": "/services/generator-installation/index.html"
+    },
+    {
+      "source": "/services",
+      "destination": "/services/index.html"
+    },
+    {
+      "source": "/services/panel-upgrades",
+      "destination": "/services/panel-upgrades/index.html"
+    },
+    {
+      "source": "/services/residential",
+      "destination": "/services/residential/index.html"
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/privacy-policy/index.html"
+    },
+    {
+      "source": "/terms-of-service",
+      "destination": "/terms-of-service/index.html"
+    },
+    {
+      "source": "/sitemap",
+      "destination": "/sitemap/index.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/blog/index.html"
+    },
+    {
+      "source": "/blog/how-to-know-when-you-need-an-electrical-panel-upgrade",
+      "destination": "/blog/how-to-know-when-you-need-an-electrical-panel-upgrade/index.html"
+    },
+    {
+      "source": "/blog/when-to-upgrade-your-electrical-panel",
+      "destination": "/blog/when-to-upgrade-your-electrical-panel/index.html"
+    },
+    {
+      "source": "/blog/home-ev-charging-station-guide",
+      "destination": "/blog/home-ev-charging-station-guide/index.html"
+    },
+    {
+      "source": "/blog/home-electrical-safety-tips",
+      "destination": "/blog/home-electrical-safety-tips/index.html"
+    },
+    {
+      "source": "/blog/whole-home-generator-buying-guide",
+      "destination": "/blog/whole-home-generator-buying-guide/index.html"
+    },
+    {
+      "source": "/blog/reduce-your-electric-bill",
+      "destination": "/blog/reduce-your-electric-bill/index.html"
+    },
+    {
+      "source": "/blog/gfci-outlets-explained",
+      "destination": "/blog/gfci-outlets-explained/index.html"
+    },
+    {
+      "source": "/blog/level-1-vs-level-2-ev-charging-what-charlotte-homeowners-should-know",
+      "destination": "/blog/level-1-vs-level-2-ev-charging-what-charlotte-homeowners-should-know/index.html"
+    },
+    {
+      "source": "/blog/10-home-electrical-safety-tips-every-charlotte-homeowner-needs",
+      "destination": "/blog/10-home-electrical-safety-tips-every-charlotte-homeowner-needs/index.html"
+    },
+    {
+      "source": "/blog/7-electrical-upgrades-that-can-lower-your-monthly-electric-bill",
+      "destination": "/blog/7-electrical-upgrades-that-can-lower-your-monthly-electric-bill/index.html"
+    },
+    {
+      "source": "/blog/what-to-expect-from-a-commercial-electrical-inspection",
+      "destination": "/blog/what-to-expect-from-a-commercial-electrical-inspection/index.html"
+    }
+  ]
+}

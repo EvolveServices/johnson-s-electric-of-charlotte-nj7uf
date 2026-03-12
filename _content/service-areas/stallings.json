@@ -1,0 +1,43 @@
+{
+  "slug": "stallings",
+  "template": "service-area",
+  "output": "/service-areas/stallings/index.html",
+  "area_name": "Stallings",
+  "meta": {
+    "title": "Electrician in Stallings, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Stallings NC (28104) with licensed electrical services. Residential wiring, panel upgrades, EV chargers, generators & commercial electrical. Call today.",
+    "og_title": "Stallings NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Stallings NC. Residential, commercial, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Stallings, NC</span>",
+    "description": "Stallings is a growing Union County town just east of Charlotte, offering a quiet suburban lifestyle with quick access to the city. Johnson's Electric serves Stallings homeowners and businesses throughout the 28104 ZIP code with reliable, licensed electrical services.",
+    "zips": [
+      { "zip": "28104" }
+    ],
+    "county": "Union County, NC"
+  },
+  "about": {
+    "label": "Serving Stallings",
+    "heading": "Reliable Electrical Services for Stallings Homeowners and Businesses",
+    "body1": "Stallings sits between Matthews and Indian Trail in Union County, offering well-established neighborhoods, good schools, and a strong sense of community. Its location along Independence Boulevard and US-74 makes it a practical address for Charlotte commuters, and its residential base continues to grow steadily.",
+    "body2": "Johnson's Electric provides comprehensive electrical services to Stallings homes and businesses. From panel upgrades and whole-home rewiring to EV charger installations and generator hookups, our licensed electricians handle projects of every size with care and professionalism. We pull all Union County permits and follow local code requirements to the letter."
+  },
+  "zips": [
+    { "code": "28104" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Complete home electrical services for Stallings — outlets, circuits, ceiling fans, panel work, and whole-house wiring.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Stallings garages — Union County permits handled, all brands, done in one visit.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator hookups and transfer switches for Stallings homes — protection during Carolina storm season.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Electrical panel upgrades for Stallings homes — replacing outdated panels with 200A or 320A service for modern demands.", "delay": "0.2s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Electrical services for Stallings businesses — retail, office, and light commercial work along US-74 and surrounding corridors.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Round-the-clock emergency electrical response for Stallings residents and businesses.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve all of Stallings including neighborhoods near Matthews and Indian Trail?", "answer": "Yes. We serve all of Stallings in the 28104 ZIP code, including neighborhoods bordering Matthews and Indian Trail throughout Union County.", "delay": "0.05s" },
+    { "question": "How quickly can you reach Stallings for an emergency?", "answer": "Stallings is typically 25-35 minutes from our Charlotte base. We dispatch the nearest available crew for emergencies.", "delay": "0.1s" },
+    { "question": "Can you upgrade an older panel in my Stallings home?", "answer": "Yes. We regularly upgrade 100A and 150A panels in Stallings' established neighborhoods to modern 200A or 320A service. All permits are handled by our team.", "delay": "0.15s" },
+    { "question": "Do you handle Union County permits for Stallings electrical work?", "answer": "Absolutely. We manage all Union County permit applications for Stallings projects, including panel upgrades, EV chargers, generators, and new circuits.", "delay": "0.2s" }
+  ]
+}

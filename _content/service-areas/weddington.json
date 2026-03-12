@@ -1,0 +1,44 @@
+{
+  "slug": "weddington",
+  "template": "service-area",
+  "output": "/service-areas/weddington/index.html",
+  "area_name": "Weddington",
+  "meta": {
+    "title": "Electrician in Weddington, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Weddington NC (28104) with licensed electrical services. Luxury home electrical, panel upgrades, EV chargers, generators & smart home wiring. Call today.",
+    "og_title": "Weddington NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Weddington NC. Residential, luxury home, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Weddington, NC</span>",
+    "description": "Weddington is one of the Charlotte metro's most prestigious residential communities, and Johnson's Electric brings the same level of professionalism to every project. We serve Weddington homeowners throughout the 28104 ZIP code with expert residential electrical services.",
+    "zips": [
+      { "zip": "28104" }
+    ],
+    "county": "Union County, NC"
+  },
+  "about": {
+    "label": "Serving Weddington",
+    "heading": "Premium Electrical Services for Weddington's Upscale Neighborhoods",
+    "body1": "Weddington is known for its large lots, executive homes, and top-rated schools. It is a destination community for Charlotte-area professionals who want space and quality of life without sacrificing access to the city. Its newer custom homes often feature complex electrical systems, smart home integration, whole-home generators, and multi-vehicle EV charging setups.",
+    "body2": "Johnson's Electric is experienced working in Weddington's high-end residential market. Our electricians treat every property with care, communicate clearly throughout the project, and deliver clean, code-compliant work. Whether you're outfitting a new custom build or upgrading an existing home's electrical infrastructure, we're the team Weddington homeowners call."
+  },
+  "zips": [
+    { "code": "28104" },
+    { "code": "28173" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Luxury Home Electrical", "description": "Full electrical services for Weddington's custom and executive homes: smart home wiring, whole-house audio, landscape lighting, and more.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Dual-port and Level 2 EV charger installations in Weddington garages, supporting multi-vehicle households with dedicated circuits.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Whole-Home Generator", "description": "Standby generator installation and wiring for Weddington homes, keeping your family comfortable during storm outages.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "High-capacity panel upgrades for Weddington homes with heavy electrical loads: 200A, 320A, and 400A service installations.", "delay": "0.2s" },
+    { "icon": "lightbulb", "title": "Smart Home & Lighting", "description": "Smart lighting systems, automated controls, landscape and security lighting for Weddington properties.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Weddington homes, around the clock, no after-hours surcharge.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you work in Weddington's custom home communities?", "answer": "Yes. We regularly work in Weddington's upscale neighborhoods, from established custom home communities to newer developments throughout the 28104 ZIP code.", "delay": "0.05s" },
+    { "question": "Can you handle smart home electrical work in Weddington?", "answer": "Absolutely. We wire and install smart lighting, automated controls, EV chargers, and whole-home generator systems for Weddington's tech-forward homeowners.", "delay": "0.1s" },
+    { "question": "Do you pull Union County permits for Weddington projects?", "answer": "Yes. We manage Union County permit applications for all Weddington electrical projects, ensuring everything is inspected and code-compliant.", "delay": "0.15s" },
+    { "question": "Can you install a whole-home generator in Weddington?", "answer": "Yes. Generator installation is popular among Weddington homeowners. We install and wire Generac and other standby generators with automatic transfer switches, pulling all required permits.", "delay": "0.2s" }
+  ]
+}

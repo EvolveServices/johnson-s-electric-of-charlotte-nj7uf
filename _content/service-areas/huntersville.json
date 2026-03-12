@@ -1,0 +1,45 @@
+{
+  "slug": "huntersville",
+  "template": "service-area",
+  "output": "/service-areas/huntersville/index.html",
+  "area_name": "Huntersville",
+  "meta": {
+    "title": "Electrician in Huntersville, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Huntersville NC (28078) with licensed electrical services. New home electrical, panel upgrades, EV chargers, generators & commercial wiring. Call (704) 555-0199.",
+    "og_title": "Huntersville NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electrical contractor serving Huntersville NC. Residential, commercial, EV charging, generator installation, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Huntersville, NC</span>",
+    "description": "Huntersville is one of the Charlotte metro's fastest-growing towns, and Johnson's Electric has been growing right alongside it. We serve Huntersville homeowners and businesses throughout the 28078 area with comprehensive residential and commercial electrical services.",
+    "zips": [
+      { "zip": "28078" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving Huntersville",
+    "heading": "Your Local Electrician in One of the Charlotte Metro's Fastest-Growing Towns",
+    "body1": "Huntersville has transformed from a small Lake Norman suburb into a major Charlotte metro community with a booming population, new residential developments, and a growing business district along Gilead Road and Sam Furr Road. The town's newer neighborhoods, including Birkdale Village, Skybrook, Centerra, and others, feature modern homes with modern electrical needs.",
+    "body2": "Johnson's Electric is a go-to electrical contractor for Huntersville homeowners and businesses. From new home rough-in electrical to EV charger installations and standby generator hookups, we handle the full electrical lifecycle of Huntersville properties. Our licensed electricians understand Mecklenburg County codes and pull all required permits for every project."
+  },
+  "zips": [
+    { "code": "28078" },
+    { "code": "28031" },
+    { "code": "28036" }
+  ],
+  "services": [
+    { "icon": "home", "title": "New Construction Electrical", "description": "Full electrical rough-in and finish work for new homes in Huntersville's growing residential neighborhoods and custom home builds.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 home EV charging stations in Huntersville garages: all brands, permits included, typically done in one visit.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator electrical connections and transfer switches for Huntersville homes: Generac, Kohler, Briggs & Stratton.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Service panel upgrades for growing Huntersville homes: 200A, 320A, and 400A service to handle expanding electrical loads.", "delay": "0.2s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Electrical services for Huntersville's retail corridors, Birkdale Village businesses, restaurants, and office parks.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Round-the-clock emergency electrical response for Huntersville residents and businesses, no overtime charges for after-hours.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve all of Huntersville including Birkdale Village and Skybrook?", "answer": "Yes. We serve all of Huntersville, from Birkdale Village and Skybrook to Gilead Road and Northstone neighborhoods throughout the 28078 ZIP code.", "delay": "0.05s" },
+    { "question": "How long does EV charger installation take in a Huntersville home?", "answer": "Most home EV charger installations in Huntersville take 2-4 hours. We run a dedicated 240V circuit from your panel to the garage, install the charger, and handle the Mecklenburg County permit.", "delay": "0.1s" },
+    { "question": "Do you install generators in Huntersville near Lake Norman?", "answer": "Yes. Generator installation is popular in the Huntersville and Lake Norman area due to summer storm activity. We install and wire Generac and other standby generators with automatic transfer switches.", "delay": "0.15s" },
+    { "question": "Can you handle commercial electrical work in Huntersville's business corridors?", "answer": "Absolutely. We serve Huntersville businesses along Gilead Road, Sam Furr Road, and the Birkdale area with commercial electrical: TI buildouts, lighting, panel work, and more.", "delay": "0.2s" }
+  ]
+}

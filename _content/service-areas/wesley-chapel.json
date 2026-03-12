@@ -1,0 +1,44 @@
+{
+  "slug": "wesley-chapel",
+  "template": "service-area",
+  "output": "/service-areas/wesley-chapel/index.html",
+  "area_name": "Wesley Chapel",
+  "meta": {
+    "title": "Electrician in Wesley Chapel, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Wesley Chapel NC (28104) with licensed electrical services. Residential wiring, panel upgrades, EV chargers, generators & new construction electrical. Call today.",
+    "og_title": "Wesley Chapel NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Wesley Chapel NC. Residential, new construction, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Wesley Chapel, NC</span>",
+    "description": "Wesley Chapel is a rapidly growing unincorporated community in Union County, just south of Weddington and east of Indian Trail. Johnson's Electric serves Wesley Chapel homeowners throughout the 28104 ZIP code with licensed residential electrical services.",
+    "zips": [
+      { "zip": "28104" }
+    ],
+    "county": "Union County, NC"
+  },
+  "about": {
+    "label": "Serving Wesley Chapel",
+    "heading": "Reliable Electrical Services for Wesley Chapel and Southern Union County",
+    "body1": "Wesley Chapel has become one of Union County's most desirable addresses, offering newer planned communities, excellent schools, and a quiet suburban lifestyle within easy reach of Charlotte. The area has seen rapid residential development as families seek larger homes and more space south of the city.",
+    "body2": "Johnson's Electric serves Wesley Chapel homeowners with a full range of residential electrical services. From EV charger installations and panel upgrades in newer builds to service calls and repairs in established neighborhoods, our licensed electricians deliver professional work with all Union County permits managed. Wesley Chapel residents know they can count on Johnson's Electric for reliable, prompt electrical service."
+  },
+  "zips": [
+    { "code": "28104" },
+    { "code": "28173" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Complete home electrical for Wesley Chapel — new circuits, outlets, ceiling fans, panel work, and whole-house wiring.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Wesley Chapel garages — Union County permits handled, all EV brands supported.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator hookups and transfer switches for Wesley Chapel homes — backup power for storm season.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Service panel upgrades for Wesley Chapel homes — 200A and 320A installations to meet modern electrical demands.", "delay": "0.2s" },
+    { "icon": "home", "title": "New Construction Electrical", "description": "Electrical rough-in and finish work for new home builds in Wesley Chapel's active residential developments.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Wesley Chapel residents — 24/7, with no after-hours surcharge.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve Wesley Chapel's newer residential communities?", "answer": "Yes. We serve all of Wesley Chapel in the 28104 ZIP code, including the area's newer planned neighborhoods and established communities throughout southern Union County.", "delay": "0.05s" },
+    { "question": "How quickly can you reach Wesley Chapel for an emergency?", "answer": "Wesley Chapel is approximately 30-40 minutes from our Charlotte base. We dispatch the nearest available crew for emergency electrical calls.", "delay": "0.1s" },
+    { "question": "Do you handle Union County permits for Wesley Chapel projects?", "answer": "Yes. We manage all Union County permit applications for Wesley Chapel electrical work — panel upgrades, EV chargers, generators, and new construction.", "delay": "0.15s" },
+    { "question": "Can you wire a new home being built in Wesley Chapel?", "answer": "Yes. We provide complete new construction electrical — rough-in through finish — for new home builds in Wesley Chapel's growing residential communities.", "delay": "0.2s" }
+  ]
+}

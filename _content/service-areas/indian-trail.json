@@ -1,0 +1,44 @@
+{
+  "slug": "indian-trail",
+  "template": "service-area",
+  "output": "/service-areas/indian-trail/index.html",
+  "area_name": "Indian Trail",
+  "meta": {
+    "title": "Electrician in Indian Trail, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Indian Trail NC (28079) with licensed electrical services. Residential wiring, panel upgrades, EV chargers, generators & new construction electrical. Call today.",
+    "og_title": "Indian Trail NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Indian Trail NC. Residential, new construction, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Indian Trail, NC</span>",
+    "description": "Indian Trail is one of Union County's most popular family communities, with strong schools, growing neighborhoods, and easy access to Charlotte. Johnson's Electric serves Indian Trail homeowners and businesses throughout the 28079 ZIP code with licensed electrical services.",
+    "zips": [
+      { "zip": "28079" }
+    ],
+    "county": "Union County, NC"
+  },
+  "about": {
+    "label": "Serving Indian Trail",
+    "heading": "Expert Electrical Services for Indian Trail's Thriving Community",
+    "body1": "Indian Trail has grown from a rural Union County crossroads into one of the Charlotte metro's most sought-after suburban communities. Its combination of newer planned neighborhoods, quality schools, and competitive home prices has driven consistent population growth — and with that growth comes strong demand for reliable electrical services.",
+    "body2": "Johnson's Electric serves Indian Trail with the full range of residential and light commercial electrical services. Whether you're a homeowner adding an EV charger, installing a standby generator, or upgrading an older panel, our licensed electricians handle the job professionally and pull all Union County permits. We've built a strong reputation in Union County neighborhoods for quality work and clear communication."
+  },
+  "zips": [
+    { "code": "28079" },
+    { "code": "28104" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Complete home electrical for Indian Trail — panel upgrades, new circuits, outlets, ceiling fans, and whole-home wiring.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 home EV charger installation in Indian Trail garages — Union County permits handled, all brands supported.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator electrical connections and transfer switches for Indian Trail homes — storm-season peace of mind.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Service panel upgrades for growing Indian Trail homes — 200A and 320A installations with permits included.", "delay": "0.2s" },
+    { "icon": "home", "title": "New Construction Electrical", "description": "Electrical rough-in and finish work for new home builds in Indian Trail's active residential developments.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Indian Trail residents and businesses — 24 hours a day, 7 days a week.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve all of Indian Trail's neighborhoods?", "answer": "Yes. We serve all of Indian Trail in the 28079 ZIP code, including newer planned communities and established neighborhoods throughout Union County.", "delay": "0.05s" },
+    { "question": "How long does EV charger installation take in Indian Trail?", "answer": "Most Level 2 EV charger installations in Indian Trail take 2-4 hours. We run a 240V dedicated circuit, install the charger, and handle the Union County permit.", "delay": "0.1s" },
+    { "question": "Can you handle electrical work for a new home build in Indian Trail?", "answer": "Yes. We do complete electrical rough-in and finish packages for new construction in Indian Trail's residential developments, working with your builder or directly with you.", "delay": "0.15s" },
+    { "question": "Do you handle Union County permits for Indian Trail projects?", "answer": "Yes. We manage all Union County permit applications and inspections for Indian Trail electrical projects so you don't have to deal with the permit office.", "delay": "0.2s" }
+  ]
+}

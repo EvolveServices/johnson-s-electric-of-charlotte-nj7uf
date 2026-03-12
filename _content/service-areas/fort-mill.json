@@ -1,0 +1,47 @@
+{
+  "slug": "fort-mill",
+  "template": "service-area",
+  "output": "/service-areas/fort-mill/index.html",
+  "area_name": "Fort Mill, SC",
+  "meta": {
+    "title": "Electrician in Fort Mill, SC | Johnson's Electric",
+    "description": "Johnson's Electric serves Fort Mill SC (29715, 29732) with licensed electrical services. Residential wiring, panel upgrades, EV chargers & commercial electrical. Call (704) 555-0199.",
+    "og_title": "Fort Mill SC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Fort Mill and Rock Hill SC. Residential, commercial, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Fort Mill, SC</span>",
+    "description": "Fort Mill is one of the fastest-growing communities in the Southeast — and Johnson's Electric serves its booming residential communities, new businesses, and commercial developments with expert electrical services. We're licensed in both North Carolina and South Carolina.",
+    "zips": [
+      { "zip": "29715" },
+      { "zip": "29732" }
+    ],
+    "county": "York County, SC"
+  },
+  "about": {
+    "label": "Serving Fort Mill, SC",
+    "heading": "Electrical Services for the Charlotte Metro's Fastest-Growing Community",
+    "body1": "Fort Mill, South Carolina has experienced explosive growth over the past decade — consistently ranked among the fastest-growing cities in the United States. Communities like Baxter Village, Tega Cay, Carolina Reserve, and Waterside at the Catawba attract Charlotte-area professionals seeking newer, larger homes at competitive prices just across the state line.",
+    "body2": "Johnson's Electric is fully licensed in South Carolina (in addition to North Carolina) and regularly serves Fort Mill homeowners and businesses. Whether you need an EV charger in your new Baxter Village home, a generator hookup for storm season, or commercial electrical work in one of Fort Mill's growing business parks, our team delivers the same high-quality work that Charlotte clients count on."
+  },
+  "zips": [
+    { "code": "29715" },
+    { "code": "29732" },
+    { "code": "29730" },
+    { "code": "29708" }
+  ],
+  "services": [
+    { "icon": "home", "title": "New Construction Electrical", "description": "Full electrical packages for new home construction throughout Fort Mill's rapidly growing planned communities and custom home builds.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 home EV charger installation in Fort Mill garages — York County permits handled, all brands, same-day availability.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Hookups", "description": "Standby generator electrical installations for Fort Mill homes — protecting your family during Carolinas storm season.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Electrical panel upgrades to support Fort Mill's growing home loads — EVs, home offices, pools, and high-efficiency HVAC.", "delay": "0.2s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Electrical services for Fort Mill and Rock Hill area businesses — retail buildouts, office electrical, and industrial wiring.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response throughout Fort Mill and York County — available 24 hours, 7 days a week.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Are you licensed to do electrical work in South Carolina?", "answer": "Yes. Johnson's Electric holds electrical contractor licenses in both North Carolina and South Carolina, so we can legally perform and permit electrical work in Fort Mill and York County without any issues.", "delay": "0.05s" },
+    { "question": "Do you serve Baxter Village, Tega Cay, and other Fort Mill communities?", "answer": "Yes. We serve all of Fort Mill's communities including Baxter Village, Tega Cay, Carolina Reserve, Springfield, Waterside at the Catawba, and all neighborhoods in the 29715 and 29732 ZIP codes.", "delay": "0.1s" },
+    { "question": "Can you pull York County, SC permits for my project?", "answer": "Absolutely. We handle all York County permitting for Fort Mill electrical projects — panel upgrades, new circuits, EV chargers, generators, and more. You won't have to deal with the permit office yourself.", "delay": "0.15s" },
+    { "question": "How far is your response time to Fort Mill from Charlotte?", "answer": "Fort Mill is typically 20-30 minutes from our Charlotte base. We route crews efficiently to minimize travel time, and for emergencies we dispatch the nearest available electrician.", "delay": "0.2s" }
+  ]
+}

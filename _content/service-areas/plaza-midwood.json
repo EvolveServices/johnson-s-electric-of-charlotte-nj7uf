@@ -1,0 +1,45 @@
+{
+  "slug": "plaza-midwood",
+  "template": "service-area",
+  "output": "/service-areas/plaza-midwood/index.html",
+  "area_name": "Plaza Midwood",
+  "meta": {
+    "title": "Electrician in Plaza Midwood, Charlotte NC | Johnson's Electric",
+    "description": "Licensed electricians serving Plaza Midwood (28205). Rewiring older homes, panel upgrades, outlet additions & 24/7 emergency electrical service. Call (704) 555-0199.",
+    "og_title": "Plaza Midwood Electrician | Johnson's Electric",
+    "og_description": "Expert electrical services for Plaza Midwood's vintage bungalows, craftsman homes, and eclectic businesses. Licensed, insured, 5-star rated."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Plaza Midwood</span>",
+    "description": "Plaza Midwood's beloved bungalows, craftsman homes, and trendy businesses deserve an electrician who understands older electrical systems. Johnson's Electric specializes in upgrading and rewiring Plaza Midwood's vintage housing stock while preserving the character of one of Charlotte's most eclectic neighborhoods.",
+    "zips": [
+      { "zip": "28205" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving Plaza Midwood",
+    "heading": "Trusted Electrical Service in Charlotte's Most Eclectic Neighborhood",
+    "body1": "Plaza Midwood is one of Charlotte's oldest and most distinctive neighborhoods — a mix of craftsman bungalows, mid-century homes, vibrant restaurants, bars, and independent shops along Central Avenue and The Plaza. Many homes here were built in the 1920s-1950s and often have outdated wiring like knob-and-tube or aluminum wiring that needs expert attention.",
+    "body2": "Johnson's Electric knows Plaza Midwood's housing stock inside and out. We perform full home rewires, panel replacements, grounding updates, and modern outlet additions — all while respecting the historic character of your home. We also serve Plaza Midwood's growing restaurant and retail corridor with commercial electrical services."
+  },
+  "zips": [
+    { "code": "28205" },
+    { "code": "28204" },
+    { "code": "28206" }
+  ],
+  "services": [
+    { "icon": "zap", "title": "Whole-Home Rewiring", "description": "Safely replacing outdated knob-and-tube or aluminum wiring in Plaza Midwood's vintage bungalows with modern copper wiring and up-to-code panels.", "delay": "0.05s" },
+    { "icon": "shield-check", "title": "Panel Replacements", "description": "Swapping dangerous Federal Pacific or Zinsco panels with modern, code-compliant breaker boxes to protect your Plaza Midwood home.", "delay": "0.1s" },
+    { "icon": "plug", "title": "Outlet & Circuit Additions", "description": "Adding GFCI outlets in kitchens and baths, new circuits for home offices, and modernizing the electrical layout for today's connected homes.", "delay": "0.15s" },
+    { "icon": "lightbulb", "title": "Lighting Upgrades", "description": "Recessed lighting, dimmer switches, ceiling fan installations, and exterior lighting to enhance Plaza Midwood's charming home aesthetics.", "delay": "0.2s" },
+    { "icon": "building-2", "title": "Restaurant & Bar Electrical", "description": "Commercial kitchen wiring, bar lighting, HVAC circuits, and code-compliant electrical upgrades for Central Avenue businesses.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Immediate response for electrical emergencies in Plaza Midwood — 24 hours a day, 7 days a week including holidays.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "My Plaza Midwood home still has knob-and-tube wiring. Is that a problem?", "answer": "Yes — knob-and-tube wiring lacks a ground wire, cannot support today's electrical loads, and is a fire hazard. Most insurers won't cover homes with active K&T wiring. We specialize in safely replacing it with modern wiring while minimizing damage to your walls.", "delay": "0.05s" },
+    { "question": "Can you upgrade my old 100-amp panel to 200 amps?", "answer": "Absolutely. Most older Plaza Midwood homes have 100-amp service, which isn't enough for modern appliances and electronics. We handle the full panel upgrade including coordination with Duke Energy for the service upgrade.", "delay": "0.1s" },
+    { "question": "Do you work in the restaurants and bars on Central Avenue?", "answer": "Yes. We're very familiar with the electrical demands of Central Avenue's restaurant and bar scene — commercial kitchen circuits, hood ventilation wiring, bar lighting, and compliance with Charlotte's commercial electrical codes.", "delay": "0.15s" },
+    { "question": "Will you have to tear up my walls to rewire my bungalow?", "answer": "We use low-invasive rewiring techniques wherever possible to preserve the historic character of Plaza Midwood bungalows. We'll discuss the approach and expected scope before any work begins.", "delay": "0.2s" }
+  ]
+}

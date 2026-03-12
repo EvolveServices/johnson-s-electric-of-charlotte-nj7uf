@@ -1,0 +1,45 @@
+{
+  "slug": "mooresville",
+  "template": "service-area",
+  "output": "/service-areas/mooresville/index.html",
+  "area_name": "Mooresville",
+  "meta": {
+    "title": "Electrician in Mooresville, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Mooresville NC (28115, 28117) with licensed electrical services. Residential wiring, lake home electrical, panel upgrades, EV chargers & generators. Call today.",
+    "og_title": "Mooresville NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Mooresville NC — Race City USA. Residential, lake home, EV charging, panel upgrades, and 24/7 emergency service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Mooresville, NC</span>",
+    "description": "Mooresville — known as Race City USA — is one of Lake Norman's most vibrant communities. Johnson's Electric serves Mooresville homeowners and businesses throughout the 28115 and 28117 ZIP codes with expert residential and commercial electrical services.",
+    "zips": [
+      { "zip": "28115" },
+      { "zip": "28117" }
+    ],
+    "county": "Iredell County, NC"
+  },
+  "about": {
+    "label": "Serving Mooresville",
+    "heading": "Professional Electrical Services for Mooresville and Lake Norman's North Shore",
+    "body1": "Mooresville has grown from a small textile town into one of North Carolina's most dynamic communities, earning its nickname Race City USA from the concentration of NASCAR teams headquartered here. Its location on Lake Norman's northern shore, combined with strong commercial growth and thriving residential neighborhoods, makes it one of the busiest markets in the Charlotte metro.",
+    "body2": "Johnson's Electric serves Mooresville with a full range of electrical services for homes, lake properties, and businesses. From panel upgrades and EV charger installations to commercial electrical buildouts and waterfront property wiring, our licensed electricians deliver professional work with all required Iredell County permits handled. We make the drive to Mooresville regularly for both scheduled projects and emergency calls."
+  },
+  "zips": [
+    { "code": "28115" },
+    { "code": "28117" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Full home electrical for Mooresville — outlets, circuits, ceiling fans, outdoor lighting, and panel upgrades.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Mooresville garages — Iredell County permits, all EV brands supported.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator connections and transfer switches for Mooresville homes — backup power for Lake Norman storms.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Service panel upgrades for Mooresville homes and businesses — 200A, 320A, and 400A installations with permits.", "delay": "0.2s" },
+    { "icon": "lightbulb", "title": "Lake Home & Dock Electrical", "description": "Dock wiring, boat lift circuits, outdoor and landscape lighting for Mooresville's Lake Norman waterfront properties.", "delay": "0.25s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Commercial electrical services for Mooresville businesses — office buildouts, retail, industrial, and tenant improvements.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve Mooresville waterfront and lake properties?", "answer": "Yes. We work on Lake Norman waterfront properties in Mooresville regularly — dock electrical, boat lift circuits, outdoor lighting, and exterior wiring for lake homes.", "delay": "0.05s" },
+    { "question": "How far is Mooresville from your Charlotte service area?", "answer": "Mooresville is approximately 35-40 minutes from Charlotte via I-77 North. We send crews to Mooresville for both scheduled projects and emergency service.", "delay": "0.1s" },
+    { "question": "Do you handle Iredell County permits for Mooresville electrical work?", "answer": "Yes. We manage all Iredell County permit applications for Mooresville projects, including panel upgrades, EV chargers, generators, and new circuits.", "delay": "0.15s" },
+    { "question": "Can you handle commercial electrical work in Mooresville?", "answer": "Yes. We provide commercial electrical services for Mooresville businesses — tenant buildouts, office wiring, light industrial, and commercial panel upgrades.", "delay": "0.2s" }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "slug": "belmont",
+  "template": "service-area",
+  "output": "/service-areas/belmont/index.html",
+  "area_name": "Belmont",
+  "meta": {
+    "title": "Electrician in Belmont, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Belmont NC (28012) with licensed electrical services. Residential wiring, panel upgrades, EV chargers, generators & historic home electrical. Call today.",
+    "og_title": "Belmont NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Belmont NC. Residential, historic home electrical, EV charging, panel upgrades, and 24/7 emergency service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Belmont, NC</span>",
+    "description": "Belmont is one of Gaston County's most charming communities — known for its tree-lined streets, beautiful historic homes, and proximity to the Catawba River. Johnson's Electric serves Belmont homeowners and businesses throughout the 28012 ZIP code with expert electrical services.",
+    "zips": [
+      { "zip": "28012" }
+    ],
+    "county": "Gaston County, NC"
+  },
+  "about": {
+    "label": "Serving Belmont",
+    "heading": "Professional Electrical Services for Belmont and Gaston County",
+    "body1": "Belmont has been one of the Charlotte metro's best-kept secrets, offering a small-town feel with well-preserved historic homes, a walkable downtown, and a community that takes pride in its character. Its location along the Catawba River and proximity to I-85 have attracted growing interest from Charlotte professionals seeking something different.",
+    "body2": "Johnson's Electric serves Belmont with electrical services for historic homes, newer residential builds, and commercial properties. Our electricians are experienced handling older electrical systems that require careful updating while respecting the home's character. We manage all Gaston County permits and ensure every project is fully code-compliant, whether it's a panel upgrade in a 1920s bungalow or EV charger installation in a newer home."
+  },
+  "zips": [
+    { "code": "28012" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Full home electrical for Belmont — circuits, outlets, ceiling fans, panel upgrades, and wiring for both historic and newer homes.", "delay": "0.05s" },
+    { "icon": "zap", "title": "Panel Upgrades & Rewiring", "description": "Electrical panel upgrades and rewiring for Belmont's older homes — safe, code-compliant modernization of aging systems.", "delay": "0.1s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Belmont homes — Gaston County permits, all EV brands, one-visit completion.", "delay": "0.15s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator hookups and transfer switches for Belmont homes — backup power for storm season.", "delay": "0.2s" },
+    { "icon": "lightbulb", "title": "Outdoor & Landscape Lighting", "description": "Outdoor electrical and landscape lighting for Belmont homes — enhancing curb appeal and security.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Belmont residents and businesses — 24 hours a day, every day.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you work on older and historic homes in Belmont?", "answer": "Yes. We regularly work in Belmont's older neighborhoods, including panel upgrades, rewiring projects, and circuit additions for homes with aging electrical systems.", "delay": "0.05s" },
+    { "question": "How far is Belmont from Charlotte?", "answer": "Belmont is approximately 20-30 minutes from Charlotte via I-85. We send crews to Belmont regularly for both scheduled projects and emergency calls.", "delay": "0.1s" },
+    { "question": "Do you handle Gaston County permits for Belmont electrical work?", "answer": "Yes. We manage all Gaston County permit applications for Belmont electrical projects — panel upgrades, EV chargers, generators, and new circuits.", "delay": "0.15s" },
+    { "question": "Can you install an EV charger in my Belmont home?", "answer": "Yes. We install Level 2 EV chargers in Belmont homes, including older homes where we may need to assess and potentially upgrade the panel to support the dedicated circuit.", "delay": "0.2s" }
+  ]
+}

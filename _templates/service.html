@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <title>{{meta.title}}</title>
+  <meta name="description" content="{{meta.description}}" />
+  <meta property="og:title" content="{{meta.og_title}}" />
+  <meta property="og:description" content="{{meta.og_description}}" />
+  <meta property="og:image" content="https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/35d7d651-dae2-4985-9bf8-d0b56986fd45/media/branding/og-image-1773174564126.png" />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600;700;800&family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <link rel="stylesheet" href="/css/base.css" />
+  <link rel="stylesheet" href="/css/components.css" />
+  <link rel="stylesheet" href="/css/layout.css" />
+  <link rel="stylesheet" href="/css/animations.css" />
+  <link rel="stylesheet" href="/css/templates/service.css" />
+</head>
+<body>
+
+  <div data-include="navbar"></div>
+
+  <!-- ── Hero ── -->
+  <section class="svc-hero" style="background-image: url('{{hero.image}}');">
+    <div class="svc-hero-overlay" aria-hidden="true"></div>
+    <div class="container">
+      <div class="svc-hero-inner">
+        <span class="section-label">{{hero.label}}</span>
+        <h1 class="heading-xl">{{{hero.heading}}}</h1>
+        <p class="text-lead">{{hero.subheading}}</p>
+        <div class="svc-hero-badges">
+          {{#hero.badges}}
+          <div class="trust-badge trust-badge-dark">
+            <i data-lucide="{{icon}}" width="16" height="16"></i>
+            {{text}}
+          </div>
+          {{/hero.badges}}
+        </div>
+        <div class="svc-hero-actions">
+          <a href="/contact/" class="btn btn-primary btn-lg">
+            <i data-lucide="send"></i> {{hero.cta_primary}}
+          </a>
+          <a href="tel:7045550199" class="btn btn-outline-white btn-lg">
+            <i data-lucide="phone"></i> (704) 555-0199
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Intro ── -->
+  <section class="section svc-intro-section">
+    <div class="container">
+      <div class="svc-intro-grid">
+        <div class="svc-intro-content reveal">
+          <span class="section-label">{{intro.label}}</span>
+          <h2 class="heading-lg">{{{intro.heading}}}</h2>
+          <div class="divider"></div>
+          <p>{{intro.body1}}</p>
+          <p>{{intro.body2}}</p>
+          <ul class="svc-check-list">
+            {{#intro.checklist}}
+            <li><i data-lucide="check-circle"></i>{{text}}</li>
+            {{/intro.checklist}}
+          </ul>
+        </div>
+        <div class="svc-intro-image reveal" data-delay="0.2s">
+          <img src="{{intro.image}}" alt="{{intro.image_alt}}" loading="lazy" />
+          <div class="svc-intro-stat-card">
+            <strong>{{intro.stat_value}}</strong>
+            <span>{{intro.stat_label}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Services ── -->
+  <section class="section svc-services-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">{{services.label}}</span>
+        <h2 class="heading-lg">{{{services.heading}}}</h2>
+        <p class="text-lead">{{services.subheading}}</p>
+      </div>
+      <div class="svc-services-grid">
+        {{#services.items}}
+        <div class="svc-service-card reveal" {{#delay}}data-delay="{{delay}}"{{/delay}}>
+          <div class="svc-service-icon">
+            <i data-lucide="{{icon}}"></i>
+          </div>
+          <h3>{{title}}</h3>
+          <p>{{description}}</p>
+          <ul class="svc-service-bullets">
+            {{#bullets}}
+            <li>{{text}}</li>
+            {{/bullets}}
+          </ul>
+        </div>
+        {{/services.items}}
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Benefits ── -->
+  <section class="section svc-benefits-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">{{benefits.label}}</span>
+        <h2 class="heading-lg">{{{benefits.heading}}}</h2>
+        <p class="text-lead">{{benefits.subheading}}</p>
+      </div>
+      <div class="svc-benefits-grid">
+        {{#benefits.items}}
+        <div class="svc-benefit-item reveal" {{#delay}}data-delay="{{delay}}"{{/delay}}>
+          <div class="svc-benefit-num">{{number}}</div>
+          <div>
+            <h3>{{title}}</h3>
+            <p>{{description}}</p>
+          </div>
+        </div>
+        {{/benefits.items}}
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Process ── -->
+  <section class="section svc-process-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">{{process.label}}</span>
+        <h2 class="heading-lg">{{{process.heading}}}</h2>
+        <p class="text-lead">{{process.subheading}}</p>
+      </div>
+      <div class="svc-process-grid">
+        <div class="svc-process-steps">
+          {{#process.steps}}
+          <div class="svc-step reveal" {{#delay}}data-delay="{{delay}}"{{/delay}}>
+            <div class="svc-step-connector">
+              <div class="svc-step-num">{{number}}</div>
+              <div class="svc-step-line"></div>
+            </div>
+            <div class="svc-step-content">
+              <h3>{{title}}</h3>
+              <p>{{description}}</p>
+            </div>
+          </div>
+          {{/process.steps}}
+        </div>
+        <div class="svc-process-image reveal" data-delay="0.2s">
+          <img src="{{process.image}}" alt="{{process.image_alt}}" loading="lazy" />
+          <div class="svc-process-highlight">
+            <i data-lucide="{{process.highlight_icon}}" width="28" height="28"></i>
+            <p>{{process.highlight_text}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FAQ ── -->
+  <section class="section svc-faq-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">{{faq.label}}</span>
+        <h2 class="heading-lg">{{{faq.heading}}}</h2>
+        <p class="text-lead">{{faq.subheading}}</p>
+      </div>
+      <div class="svc-faq-grid">
+        {{#faq.items}}
+        <div class="svc-faq-item reveal" {{#delay}}data-delay="{{delay}}"{{/delay}}>
+          <h3>
+            <i data-lucide="help-circle"></i>
+            {{question}}
+          </h3>
+          <p>{{answer}}</p>
+        </div>
+        {{/faq.items}}
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CTA ── -->
+  <section class="svc-cta-section">
+    <div class="svc-cta-overlay" aria-hidden="true"></div>
+    <div class="container">
+      <div class="svc-cta-inner">
+        <div class="svc-cta-content reveal">
+          <span class="section-label" style="color: var(--color-primary);">{{cta.label}}</span>
+          <h2 class="heading-lg" style="color: #fff;">{{{cta.heading}}}</h2>
+          <p style="color: rgba(255,255,255,0.85);">{{cta.body}}</p>
+          <ul class="svc-cta-list">
+            {{#cta.checklist}}
+            <li><i data-lucide="check-circle"></i>{{text}}</li>
+            {{/cta.checklist}}
+          </ul>
+          <div class="svc-cta-actions">
+            <a href="/contact/" class="btn btn-primary btn-lg">
+              <i data-lucide="send"></i> {{cta.cta_primary}}
+            </a>
+            <a href="tel:7045550199" class="btn btn-outline-white btn-lg">
+              <i data-lucide="phone"></i> (704) 555-0199
+            </a>
+          </div>
+        </div>
+        <div class="svc-cta-form-wrap reveal" data-delay="0.2s">
+          <div class="svc-cta-form-card">
+            <h3>Get Your Free Estimate</h3>
+            <form>
+              <div class="form-group">
+                <label for="cta-name">Your Name</label>
+                <input type="text" id="cta-name" name="name" placeholder="Jane Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="cta-phone">Phone Number</label>
+                <input type="tel" id="cta-phone" name="phone" placeholder="(704) 555-0000" required />
+              </div>
+              <div class="form-group">
+                <label for="cta-email">Email Address</label>
+                <input type="email" id="cta-email" name="email" placeholder="jane@example.com" required />
+              </div>
+              <div class="form-group">
+                <label for="cta-service">Service Needed</label>
+                <select id="cta-service" name="service">
+                  <option value="">Select a service...</option>
+                  <option value="residential">Residential Electrical</option>
+                  <option value="commercial">Commercial Electrical</option>
+                  <option value="panel-upgrade">Panel Upgrade</option>
+                  <option value="ev-charging">EV Charger Installation</option>
+                  <option value="generator">Generator Installation</option>
+                  <option value="emergency">Emergency Service</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="cta-message">Tell Us More (Optional)</label>
+                <textarea id="cta-message" name="message" rows="3" placeholder="Brief description of your project..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-block">
+                <i data-lucide="send"></i> Send My Request
+              </button>
+              <div data-wl-success style="display:none">Thank you! We'll be in touch within 1 hour.</div>
+              <div data-wl-error style="display:none"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div data-include="footer"></div>
+
+  <script src="/_includes/loader.js"></script>
+  <script src="/js/animations.js"></script>
+  <script>
+    if (typeof lucide !== 'undefined') lucide.createIcons();
+  </script>
+</body>
+</html>

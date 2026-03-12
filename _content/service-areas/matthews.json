@@ -1,0 +1,45 @@
+{
+  "slug": "matthews",
+  "template": "service-area",
+  "output": "/service-areas/matthews/index.html",
+  "area_name": "Matthews",
+  "meta": {
+    "title": "Electrician in Matthews, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Matthews NC (28105) with licensed electrical services. Residential rewiring, panel upgrades, EV chargers, commercial wiring & 24/7 emergency service. Call (704) 555-0199.",
+    "og_title": "Matthews NC Electrician | Johnson's Electric",
+    "og_description": "Expert electrical services for Matthews NC homeowners and businesses. Panel upgrades, rewiring, EV charging, and 24/7 emergency electrical response."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Matthews, NC</span>",
+    "description": "Matthews is one of Charlotte's most beloved suburban towns — a community with a rich history, thriving downtown, and growing residential neighborhoods. Johnson's Electric is proud to serve Matthews homeowners and businesses with reliable, professional electrical services.",
+    "zips": [
+      { "zip": "28105" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving Matthews",
+    "heading": "Trusted Electrical Services for Matthews Homes & Businesses",
+    "body1": "Matthews is a charming town southeast of Charlotte with a thriving downtown district, excellent schools, and a strong sense of community. The town's housing stock ranges from post-war bungalows near downtown to newer subdivisions along Idlewild and Weddington roads — each with different electrical service needs.",
+    "body2": "Johnson's Electric has served Matthews homeowners and businesses for years, handling everything from panel replacements in older homes to EV charger installations in newer builds. Our licensed electricians are familiar with Mecklenburg County permit requirements and deliver clean, professional work every time. We also serve Matthews' growing commercial corridor along Monroe Road and East John Street."
+  },
+  "zips": [
+    { "code": "28105" },
+    { "code": "28104" },
+    { "code": "28227" }
+  ],
+  "services": [
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Replacing old 100A panels in Matthews' established neighborhoods with modern 200A service — safe, code-compliant, and permitted.", "delay": "0.05s" },
+    { "icon": "shield-check", "title": "Home Rewiring", "description": "Full and partial rewiring for Matthews homes with outdated electrical systems — aluminum wiring remediation and knob-and-tube replacement.", "delay": "0.1s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 home EV charging stations for Matthews homeowners — all brands, Mecklenburg County permits handled.", "delay": "0.15s" },
+    { "icon": "lightbulb", "title": "Lighting & Ceiling Fans", "description": "Interior lighting upgrades, recessed lighting installation, ceiling fan wiring, and landscape lighting for Matthews residences.", "delay": "0.2s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Electrical services for Matthews businesses — retail spaces, restaurants, office buildouts, and commercial renovations.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Rapid emergency electrical response for Matthews homes and businesses — available 24 hours a day, including weekends.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve all of Matthews including areas near Mint Hill?", "answer": "Yes. We cover all of Matthews and the 28105 ZIP code, including areas bordering Mint Hill and Indian Trail. If you're unsure about your location, just give us a call.", "delay": "0.05s" },
+    { "question": "My older Matthews home has a fuse box — should I replace it?", "answer": "Fuse boxes are outdated and a safety concern in older Matthews homes. We recommend replacing them with a modern breaker panel. This also often allows you to add circuits for EVs, hot tubs, or home offices.", "delay": "0.1s" },
+    { "question": "Can you work around my family's schedule in Matthews?", "answer": "Yes. We offer flexible scheduling including early morning, evening, and Saturday appointments for Matthews homeowners who can't take time off work for electrical projects.", "delay": "0.15s" },
+    { "question": "Do you serve the Matthews downtown commercial district?", "answer": "Absolutely. We serve businesses in downtown Matthews and along the Monroe Road and John Street corridors — from restaurant electrical to retail storefront wiring and office buildouts.", "delay": "0.2s" }
+  ]
+}

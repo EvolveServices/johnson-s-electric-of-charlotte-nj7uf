@@ -1,0 +1,206 @@
+{
+  "slug": "residential",
+  "template": "service",
+  "output": "/services/residential/index.html",
+  "meta": {
+    "title": "Residential Electrical Services Charlotte NC | Johnson's Electric",
+    "description": "Licensed residential electricians in Charlotte, NC. Wiring, panel upgrades, outlets, lighting, troubleshooting & more. Same-day service available. Call (704) 555-0199.",
+    "og_title": "Residential Electrical Services | Johnson's Electric of Charlotte",
+    "og_description": "Charlotte's trusted residential electricians. From outlet repairs to full home rewiring: safe, reliable, and code-compliant. Request a free estimate today."
+  },
+  "hero": {
+    "label": "Residential Electrical Services",
+    "heading": "Charlotte's Trusted <span>Home Electricians</span>",
+    "subheading": "From outlet repairs to full home rewiring, Johnson's Electric keeps your family safe and your home powered. Licensed, insured, and code-compliant, always.",
+    "image": "http://static.photos/indoor/1200x630/34",
+    "cta_primary": "Request a Free Estimate",
+    "badges": [
+      { "icon": "shield-check", "text": "NC Licensed & Insured" },
+      { "icon": "clock", "text": "Same-Day Service Available" },
+      { "icon": "star", "text": "5-Star Rated on Google" }
+    ]
+  },
+  "intro": {
+    "label": "Why Homeowners Choose Us",
+    "heading": "Residential Electrical Work Done <span>Right the First Time</span>",
+    "body1": "Electrical problems in your home aren't just inconvenient. They're a safety risk. Johnson's Electric of Charlotte has been serving Charlotte homeowners since 2003, delivering professional residential electrical services with no shortcuts, no guesswork, and no surprises on the bill.",
+    "body2": "Our licensed electricians treat your home with respect, arrive on time, and explain everything in plain language before any work begins. Whether you need a simple outlet replaced or a complete rewire, you'll get the same quality workmanship and honest pricing.",
+    "image": "http://static.photos/indoor/640x360/12",
+    "image_alt": "Residential electrician working in a home",
+    "stat_value": "2,500+",
+    "stat_label": "Charlotte Homes Served Since 2003",
+    "checklist": [
+      { "text": "All work fully permitted and inspected" },
+      { "text": "Upfront flat-rate pricing, no surprises" },
+      { "text": "Clean workspaces: we protect your home" },
+      { "text": "1-year written workmanship warranty" },
+      { "text": "Available 24/7 for emergencies" }
+    ]
+  },
+  "services": {
+    "label": "What We Offer",
+    "heading": "Residential Electrical <span class=\"text-accent\">Services</span>",
+    "subheading": "A complete range of home electrical services to keep your Charlotte home safe, efficient, and up to code.",
+    "items": [
+      {
+        "icon": "zap",
+        "title": "Electrical Panel Upgrades",
+        "description": "An outdated breaker panel is one of the leading causes of house fires. We upgrade older fuse boxes and undersized panels to modern, code-compliant electrical panels that meet your home's needs.",
+        "bullets": [
+          { "text": "100A, 200A & 400A upgrades" },
+          { "text": "Fuse box to breaker panel replacement" },
+          { "text": "Sub-panel additions" },
+          { "text": "Full permit & inspection included" }
+        ]
+      },
+      {
+        "icon": "plug",
+        "title": "Outlets & Switches",
+        "description": "Sparking outlets, dead switches, and overloaded circuits are warning signs that shouldn't be ignored. We install, repair, and upgrade outlets and switches throughout your home quickly and safely.",
+        "bullets": [
+          { "text": "GFCI & AFCI outlet installation" },
+          { "text": "USB & smart outlet upgrades" },
+          { "text": "Outdoor & weatherproof outlets" },
+          { "text": "Dead outlet diagnosis & repair" }
+        ],
+        "delay": "0.1s"
+      },
+      {
+        "icon": "lightbulb",
+        "title": "Lighting Installation",
+        "description": "Transform your home's ambiance and energy efficiency with professional lighting installation. From recessed lighting to ceiling fans, chandeliers to under-cabinet lighting: we do it all.",
+        "bullets": [
+          { "text": "Recessed & can lighting" },
+          { "text": "Ceiling fan installation" },
+          { "text": "Dimmer switch installation" },
+          { "text": "Landscape & exterior lighting" }
+        ],
+        "delay": "0.2s"
+      },
+      {
+        "icon": "cable",
+        "title": "Home Rewiring",
+        "description": "Older homes with aluminum or knob-and-tube wiring present serious fire hazards. We safely rewire your home with modern copper wiring, bringing your electrical system up to current NEC standards.",
+        "bullets": [
+          { "text": "Full & partial home rewiring" },
+          { "text": "Aluminum wiring remediation" },
+          { "text": "Knob-and-tube replacement" },
+          { "text": "Addition & renovation wiring" }
+        ],
+        "delay": "0.1s"
+      },
+      {
+        "icon": "search",
+        "title": "Electrical Troubleshooting",
+        "description": "Tripping breakers, flickering lights, burning smells: our experienced electricians diagnose and resolve electrical issues that other contractors can't figure out. We find the root cause, not just the symptom.",
+        "bullets": [
+          { "text": "Tripping breaker diagnosis" },
+          { "text": "Flickering light investigation" },
+          { "text": "Hot outlet & burning smell inspection" },
+          { "text": "Whole-home electrical assessment" }
+        ],
+        "delay": "0.2s"
+      },
+      {
+        "icon": "triangle-alert",
+        "title": "Surge Protection",
+        "description": "Protect your appliances, electronics, and home systems from power surges with whole-home surge protection. One properly installed surge protector at the panel safeguards everything in your home.",
+        "bullets": [
+          { "text": "Whole-home surge protector installation" },
+          { "text": "Point-of-use surge protection" },
+          { "text": "Lightning surge mitigation" },
+          { "text": "Generator transfer switch installation" }
+        ],
+        "delay": "0.3s"
+      },
+      {
+        "icon": "home",
+        "title": "Smart Home Wiring",
+        "description": "Ready to upgrade to a smart home? We install and wire smart switches, thermostats, doorbells, security systems, and whole-home automation infrastructure, done right the first time.",
+        "bullets": [
+          { "text": "Smart switch & dimmer installation" },
+          { "text": "Smart thermostat wiring" },
+          { "text": "Video doorbell & security cameras" },
+          { "text": "Whole-home automation pre-wiring" }
+        ],
+        "delay": "0.1s"
+      },
+      {
+        "icon": "car",
+        "title": "EV Charger Installation",
+        "description": "Charge your electric vehicle conveniently at home with a professionally installed Level 2 EV charging station. We handle the dedicated circuit, permit, and installation from start to finish.",
+        "bullets": [
+          { "text": "Level 2 home charger installation" },
+          { "text": "Dedicated 240V circuit installation" },
+          { "text": "Garage & driveway outlet installation" },
+          { "text": "Permit & utility coordination" }
+        ],
+        "delay": "0.2s"
+      },
+      {
+        "icon": "shield",
+        "title": "Smoke & CO Detector Wiring",
+        "description": "Hardwired smoke and carbon monoxide detectors provide more reliable protection than battery-only units. We install interconnected detector systems that meet current North Carolina building codes.",
+        "bullets": [
+          { "text": "Hardwired smoke detector installation" },
+          { "text": "Carbon monoxide detector wiring" },
+          { "text": "Interconnected alarm systems" },
+          { "text": "Code compliance for home sales" }
+        ],
+        "delay": "0.3s"
+      }
+    ]
+  },
+  "benefits": {
+    "label": "The Johnson's Electric Difference",
+    "heading": "Why Charlotte Homeowners <span>Trust Us</span>",
+    "subheading": "We know inviting a contractor into your home requires trust. Here's what sets Johnson's Electric apart.",
+    "items": [
+      { "number": "01", "title": "Licensed Master Electrician On Every Job", "description": "Every project is overseen by a licensed master electrician, not a helper or apprentice working unsupervised. Your home gets expert-level attention from start to finish." },
+      { "number": "02", "title": "Flat-Rate Pricing Before We Start", "description": "You'll receive a written estimate that details exactly what will be done and what it costs. No time-and-materials billing, no scope creep, no invoice shock when the job is done.", "delay": "0.1s" },
+      { "number": "03", "title": "We Respect Your Home", "description": "Drop cloths, shoe covers, careful drilling, and thorough cleanup are standard on every job. We leave your home in the same condition we found it, just with better electrical work.", "delay": "0.2s" },
+      { "number": "04", "title": "Permits Pulled & Inspections Passed", "description": "We never skip permits to save time. Permitted electrical work protects your home's value, keeps your homeowner's insurance valid, and ensures the work is done correctly.", "delay": "0.1s" },
+      { "number": "05", "title": "24/7 Emergency Response", "description": "Electrical emergencies don't follow a 9-to-5 schedule. Our team is available 24 hours a day, 7 days a week for situations that can't wait: power outages, arcing, burning smells, and more.", "delay": "0.2s" },
+      { "number": "06", "title": "1-Year Written Workmanship Warranty", "description": "Every residential service we perform is backed by a written 1-year workmanship warranty. If something we installed or repaired doesn't perform properly, we come back and fix it at no charge.", "delay": "0.3s" }
+    ]
+  },
+  "process": {
+    "label": "How It Works",
+    "heading": "Our Simple <span>4-Step Process</span>",
+    "subheading": "From first call to final inspection, we make getting electrical work done stress-free. No guessing, no hidden steps. Just clear communication and quality results.",
+    "image": "http://static.photos/indoor/640x360/55",
+    "image_alt": "Electrician working on a residential panel upgrade",
+    "highlight_icon": "shield-check",
+    "highlight_text": "Every project is permitted, inspected, and backed by our 1-year written workmanship warranty.",
+    "steps": [
+      { "number": "01", "title": "Call or Request Online", "description": "Reach us by phone or submit a request form. We respond within 1 hour during business hours and are available 24/7 for emergencies." },
+      { "number": "02", "title": "Free In-Home Estimate", "description": "A licensed electrician visits your home to assess the project and provide a written, flat-rate quote. No obligation, no pressure.", "delay": "0.1s" },
+      { "number": "03", "title": "Scheduled Service", "description": "We schedule your project at a time that works for you, including same-day and next-day availability for most services.", "delay": "0.2s" },
+      { "number": "04", "title": "Permitted, Inspected & Done", "description": "We complete the work, pull all required permits, and ensure everything passes inspection. You receive documentation of the completed work and warranty.", "delay": "0.3s" }
+    ]
+  },
+  "faq": {
+    "label": "Common Questions",
+    "heading": "Frequently Asked <span>Questions</span>",
+    "subheading": "Answers to the most common questions Charlotte homeowners have about our residential electrical services.",
+    "items": [
+      { "question": "Do I need a permit for electrical work in Charlotte?", "answer": "Most electrical work in Charlotte and Mecklenburg County requires a permit and inspection. We handle the entire permit process for you. This ensures the work is done to code and protects your home's value and insurance coverage." },
+      { "question": "How much does residential electrical work cost?", "answer": "Costs vary by project. A simple outlet replacement may run $100-$200, while a full panel upgrade can cost $1,500-$4,000 or more. We always provide a detailed written estimate before any work begins, no surprises.", "delay": "0.1s" },
+      { "question": "How long does a panel upgrade take?", "answer": "Most panel upgrades are completed in a single day — typically 4 to 8 hours. We coordinate with your utility company for the brief service disconnect and schedule inspections to minimize disruption.", "delay": "0.2s" },
+      { "question": "Can you work on older homes with knob-and-tube wiring?", "answer": "Absolutely. We specialize in updating older electrical systems, including knob-and-tube and aluminum wiring. We assess the full scope of the work and provide a clear plan to bring your home up to current safety standards.", "delay": "0.1s" },
+      { "question": "Do you offer same-day service?", "answer": "Yes. We offer same-day and next-day appointments for most residential services, subject to availability. Emergency situations are prioritized and dispatched as fast as possible, any time of day or night.", "delay": "0.2s" },
+      { "question": "What warranty do you offer on your work?", "answer": "All residential electrical work performed by Johnson's Electric is covered by a 1-year written workmanship warranty. If any issue arises from our work within that period, we return to resolve it at no cost to you.", "delay": "0.3s" }
+    ]
+  },
+  "cta": {
+    "label": "Ready to Get Started?",
+    "heading": "Schedule Your Residential <span style=\"color: var(--color-primary);\">Electrical Service</span>",
+    "body": "Get a free, no-obligation estimate from Charlotte's most trusted residential electricians. We respond within 1 hour during business hours.",
+    "cta_primary": "Request a Free Estimate",
+    "checklist": [
+      { "text": "Free in-home estimates available" },
+      { "text": "Same-day and next-day appointments" },
+      { "text": "Flat-rate pricing, no hidden fees" }
+    ]
+  }
+}

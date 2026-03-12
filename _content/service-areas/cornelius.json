@@ -1,0 +1,43 @@
+{
+  "slug": "cornelius",
+  "template": "service-area",
+  "output": "/service-areas/cornelius/index.html",
+  "area_name": "Cornelius",
+  "meta": {
+    "title": "Electrician in Cornelius, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Cornelius NC (28031) with licensed electrical services. Residential wiring, lake home electrical, panel upgrades, EV chargers & generators. Call today.",
+    "og_title": "Cornelius NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Cornelius NC. Residential, lake home, EV charging, panel upgrades, and 24/7 emergency electrical service on Lake Norman."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Cornelius, NC</span>",
+    "description": "Cornelius is a thriving lakeside community on the southern shore of Lake Norman, just 20 miles north of Uptown Charlotte. Johnson's Electric serves Cornelius homeowners and businesses throughout the 28031 ZIP code with expert residential and commercial electrical services.",
+    "zips": [
+      { "zip": "28031" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving Cornelius",
+    "heading": "Expert Electrical Services for Cornelius and the Lake Norman South Shore",
+    "body1": "Cornelius sits at the southern tip of Lake Norman, offering waterfront living, vibrant dining and retail along Catawba Avenue, and easy access to I-77. The town blends established lake neighborhoods with newer planned communities, and its proximity to Charlotte makes it a popular address for professionals who want the lake lifestyle without giving up city access.",
+    "body2": "Johnson's Electric is experienced working with the diverse electrical needs of Cornelius homes — from waterfront properties with docks and outdoor lighting to new construction in residential communities. We handle everything from panel upgrades and EV charger installations to whole-home generators and lake-specific exterior electrical work, pulling all Mecklenburg County permits."
+  },
+  "zips": [
+    { "code": "28031" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Full home electrical services for Cornelius — outlets, circuits, ceiling fans, outdoor lighting, and panel upgrades for lake and inland homes.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Cornelius garages — Mecklenburg County permits, all EV brands, typically done in one visit.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator connections and transfer switches for Cornelius homes — backup power for Lake Norman's storm season.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Service panel upgrades for Cornelius homes — 200A and 320A installations for growing electrical needs.", "delay": "0.2s" },
+    { "icon": "lightbulb", "title": "Outdoor & Dock Electrical", "description": "Outdoor lighting, dock electrical, boat lift circuits, and weatherproof wiring for Cornelius waterfront properties.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Cornelius residents and businesses — available 24 hours a day, 7 days a week.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve Cornelius waterfront and lake homes?", "answer": "Yes. We regularly work on Cornelius waterfront properties, including dock electrical, outdoor lighting, boat lift circuits, and exterior wiring for lake homes.", "delay": "0.05s" },
+    { "question": "How quickly can you respond in Cornelius?", "answer": "Cornelius is approximately 20-25 minutes from our Charlotte base via I-77. We can typically reach Cornelius quickly for both scheduled work and emergencies.", "delay": "0.1s" },
+    { "question": "Do you handle Mecklenburg County permits for Cornelius electrical work?", "answer": "Yes. We manage all Mecklenburg County permit applications for Cornelius projects — panel upgrades, EV chargers, generators, and new circuits.", "delay": "0.15s" },
+    { "question": "Can you install a whole-home generator in Cornelius?", "answer": "Yes. Generator installation is popular in Cornelius, especially for lake homes. We install standby generators with automatic transfer switches and handle all permits.", "delay": "0.2s" }
+  ]
+}

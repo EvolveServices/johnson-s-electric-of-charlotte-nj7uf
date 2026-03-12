@@ -1,0 +1,98 @@
+{
+  "slug": "gfci-outlets-explained",
+  "template": "blog-post",
+  "output": "/blog/gfci-outlets-explained/index.html",
+  "meta": {
+    "title": "GFCI Outlets Explained: Where They're Required and Why They Matter | Johnson's Electric",
+    "description": "GFCI outlets are required by code in bathrooms, kitchens, garages, and outdoors. Our Charlotte electricians explain what they do, where you need them, and when to replace them.",
+    "og_title": "GFCI Outlets Explained: Where They're Required and Why They Matter",
+    "og_description": "GFCI outlets prevent electrocution near water sources. Our Charlotte electricians explain where they are required and how to test them properly.",
+    "og_image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/35d7d651-dae2-4985-9bf8-d0b56986fd45/media/branding/og-image-1773174564126.png",
+    "published_time": "2025-02-18"
+  },
+  "title": "GFCI Outlets Explained: Where They're Required and Why They Matter",
+  "excerpt": "GFCI outlets are one of the most important electrical safety devices in your home. They prevent electrocution by cutting power in milliseconds when a ground fault is detected. Here is what Charlotte homeowners need to know.",
+  "category": "Safety",
+  "date_display": "February 18, 2025",
+  "read_time": "5 min read",
+  "hero": {
+    "image": "http://static.photos/estate/1200x630/789"
+  },
+  "author": {
+    "name": "Marcus Johnson",
+    "role": "Master Electrician, Johnson's Electric of Charlotte",
+    "bio": "Marcus Johnson is a licensed Master Electrician with over 18 years of experience serving the Charlotte metro area. He founded Johnson's Electric to bring honest, expert electrical service to homeowners and businesses across the region.",
+    "avatar": "http://static.photos/people/200x200/87"
+  },
+  "body_sections": [
+    {
+      "heading": "What Is a GFCI Outlet and How Does It Work?",
+      "content": "<p>A Ground Fault Circuit Interrupter (GFCI) outlet continuously monitors the current flowing in and out of a circuit. When it detects even a tiny imbalance (as small as 5 milliamps) caused by current leaking through an unintended path such as through a person it shuts off power in as little as 1/40th of a second. That is fast enough to prevent a lethal electric shock.</p><p>GFCI outlets are recognizable by the small Test and Reset buttons between the outlet slots. They can be wired to protect only the single outlet or, more commonly, they protect all outlets downstream on the same circuit.</p>"
+    },
+    {
+      "heading": "Where Are GFCI Outlets Required by Code?",
+      "content": "<p>The National Electrical Code (NEC) requires GFCI protection in any area where water and electricity could come into contact. In the Charlotte area, building inspectors enforce NEC requirements for all new construction and permitted renovations. GFCI outlets are required in:</p><ul><li><strong>Bathrooms:</strong> All outlets within any distance of a sink or water source</li><li><strong>Kitchens:</strong> All countertop outlets within 6 feet of a kitchen sink</li><li><strong>Garages and outbuildings:</strong> All outlets, with limited exceptions</li><li><strong>Outdoor outlets:</strong> All exterior outlets</li><li><strong>Crawl spaces and unfinished basements:</strong> All outlets</li><li><strong>Boathouses and wet areas</strong></li><li><strong>Near pools, hot tubs, and spas</strong></li></ul><p>If your home was built before the 1970s, it may not have GFCI outlets in any of these locations. Adding them is straightforward and relatively inexpensive, and it brings your home much closer to current code compliance.</p>"
+    },
+    {
+      "heading": "How to Test Your GFCI Outlets",
+      "content": "<p>Testing takes about 10 seconds and should be done monthly:</p><ol><li>Plug a lamp or small appliance into the outlet and turn it on</li><li>Press the <strong>Test</strong> button on the GFCI outlet. The device should turn off immediately</li><li>Press the <strong>Reset</strong> button. The device should turn back on</li></ol><p>If the outlet does not cut power when you press Test, or does not restore power when you press Reset, the GFCI has failed and needs to be replaced. A non-functional GFCI provides no protection at all.</p><p>GFCI outlets can fail silently. The outlet may still deliver power even when the internal protection circuit has failed. This is why monthly testing is critical, not just checking whether the outlet works.</p>"
+    },
+    {
+      "heading": "When Should You Replace a GFCI Outlet?",
+      "content": "<p>GFCI outlets have a typical lifespan of 15 to 25 years. Replace them if:</p><ul><li>The Test or Reset button does not function correctly</li><li>The outlet has been exposed to moisture or flooding</li><li>There are scorch marks or a burning smell around the outlet</li><li>The outlet is more than 20 years old</li><li>The Reset button stays in but the outlet does not restore power</li></ul><p>Replacing a GFCI outlet is a straightforward task for a licensed electrician and typically costs $75 to $150 per outlet including labor and materials.</p>"
+    },
+    {
+      "heading": "GFCI Breakers vs. GFCI Outlets: What Is the Difference?",
+      "content": "<p>GFCI protection can be provided by either a GFCI outlet (at the outlet location) or a GFCI circuit breaker (at the panel). A GFCI breaker protects every outlet on that circuit, while a GFCI outlet only protects itself and outlets wired downstream from it.</p><p>For bathrooms and kitchens with multiple outlets, using a single GFCI outlet to protect the entire circuit is a common and code-compliant approach. For garages and outdoor areas, GFCI breakers are often used instead because they simplify the installation when there are many widely spaced outlets.</p><p>Johnson's Electric can evaluate your home and recommend the most cost-effective approach for adding or updating GFCI protection throughout your Charlotte home.</p>"
+    }
+  ],
+  "tags": ["GFCI outlets", "electrical safety", "electrical code", "Charlotte electrician", "outlet replacement", "home safety"],
+  "cta_banner": {
+    "heading": "Need GFCI Outlets Installed or Replaced?",
+    "body": "Our licensed Charlotte electricians can bring your home up to current code with same-week service. Get a free estimate.",
+    "url": "/contact/",
+    "button_text": "Schedule Service"
+  },
+  "sidebar": {
+    "cta": {
+      "heading": "GFCI Installation or Repair",
+      "body": "Get GFCI outlets installed or replaced by our licensed Charlotte electricians. Free estimates, same-week service."
+    },
+    "quick_info": {
+      "heading": "Quick Facts",
+      "items": [
+        { "icon": "map-pin", "text": "Serving Charlotte and the greater metro area" },
+        { "icon": "shield-check", "text": "Licensed, bonded, and insured in NC" },
+        { "icon": "clock", "text": "Same-week appointments available" },
+        { "icon": "star", "text": "5-star rated on Google Reviews" },
+        { "icon": "badge-check", "text": "All work permitted and inspected" }
+      ]
+    }
+  },
+  "related_posts": [
+    {
+      "url": "/blog/10-home-electrical-safety-tips-every-charlotte-homeowner-needs/",
+      "image": "http://static.photos/indoor/640x360/445",
+      "category": "Safety",
+      "title": "10 Home Electrical Safety Tips Every Charlotte Homeowner Needs",
+      "date": "April 10, 2025",
+      "delay": "0"
+    },
+    {
+      "url": "/blog/how-to-know-when-you-need-an-electrical-panel-upgrade/",
+      "image": "http://static.photos/indoor/640x360/214",
+      "category": "Panel Upgrades",
+      "title": "How to Know When You Need an Electrical Panel Upgrade",
+      "date": "May 15, 2025",
+      "delay": "0.1s"
+    },
+    {
+      "url": "/blog/7-electrical-upgrades-that-can-lower-your-monthly-electric-bill/",
+      "image": "http://static.photos/finance/640x360/631",
+      "category": "Home Tips",
+      "title": "7 Electrical Upgrades That Can Lower Your Monthly Electric Bill",
+      "date": "March 5, 2025",
+      "delay": "0.2s"
+    }
+  ]
+}

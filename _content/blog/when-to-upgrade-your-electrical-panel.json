@@ -1,0 +1,102 @@
+{
+  "slug": "when-to-upgrade-your-electrical-panel",
+  "template": "blog-post",
+  "output": "/blog/when-to-upgrade-your-electrical-panel/index.html",
+  "meta": {
+    "title": "5 Warning Signs You Need an Electrical Panel Upgrade | Johnson's Electric",
+    "description": "Is your breaker tripping frequently? Are lights flickering in your Charlotte home? Learn the top five warning signs that it's time to upgrade your electrical panel.",
+    "og_title": "5 Warning Signs You Need an Electrical Panel Upgrade",
+    "og_description": "Frequent breaker trips, flickering lights, burning smells. Our Charlotte electricians explain the five clearest signs your panel needs an upgrade.",
+    "og_image": "https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/35d7d651-dae2-4985-9bf8-d0b56986fd45/media/branding/og-image-1773174564126.png",
+    "published_time": "2025-05-14"
+  },
+  "title": "5 Warning Signs You Need an Electrical Panel Upgrade",
+  "excerpt": "Your electrical panel is the hub of your home's entire power system. When it starts struggling to keep up, the warning signs are often right in front of you. Here is what to look for.",
+  "category": "Upgrades",
+  "date_display": "May 14, 2025",
+  "read_time": "6 min read",
+  "hero": {
+    "image": "http://static.photos/industry/1200x630/201"
+  },
+  "author": {
+    "name": "Mike Johnson",
+    "role": "Master Electrician, Johnson's Electric of Charlotte",
+    "bio": "Mike Johnson is a licensed Master Electrician with over 20 years of experience serving homeowners and businesses across the Charlotte metro area. He founded Johnson's Electric to deliver honest, code-compliant electrical service to the communities he grew up in.",
+    "avatar": "http://static.photos/people/200x200/101"
+  },
+  "body_sections": [
+    {
+      "heading": "Why Panel Upgrades Matter",
+      "content": "<p>The electrical panel in your home was designed for the power demands of the era it was installed. Homes built in the 1970s, 80s, and even 90s were wired for far less electricity than today's households consume. A 100-amp panel that handled a home fine 30 years ago may now be chronically overwhelmed by modern appliances, HVAC systems, home offices, and smart devices.</p><p>An undersized or aging panel is not just inconvenient. It is a fire hazard. The National Fire Protection Association estimates that electrical failures cause tens of thousands of home fires every year. Recognizing the warning signs early could protect your family and your home.</p>"
+    },
+    {
+      "heading": "Sign 1: Breakers That Trip Repeatedly",
+      "content": "<p>A circuit breaker that trips once in a while is doing its job. A breaker that trips regularly under normal household use is telling you the circuit is consistently overloaded. If you have to reset the same breaker more than once a month, or if resetting it does not hold, your panel cannot safely supply the power that circuit demands. The solution is either a dedicated circuit or a full panel upgrade to increase total capacity.</p>"
+    },
+    {
+      "heading": "Sign 2: Flickering or Dimming Lights",
+      "content": "<p>If your lights dim noticeably when the HVAC kicks on, the dryer starts, or you run the microwave, your panel is struggling to distribute power evenly. Large motor-driven appliances draw a surge of current at startup, and a panel with limited capacity cannot handle both the surge and the baseline load simultaneously. Persistent flickering can also indicate loose wiring connections, which are a fire risk on their own.</p>"
+    },
+    {
+      "heading": "Sign 3: You Still Have a Fuse Box",
+      "content": "<p>If your home uses fuses rather than circuit breakers, you are operating on technology from before the 1960s. Fuse boxes are not inherently dangerous, but they present real risks when homeowners replace blown fuses with the wrong amperage rating to avoid nuisance trips. Over-fusing allows wiring to carry more current than it was designed for, which can cause wiring to overheat inside your walls. If your home still has a fuse box, upgrading to a modern breaker panel is one of the best investments you can make in home safety.</p>"
+    },
+    {
+      "heading": "Sign 4: Burning Smell or Scorch Marks",
+      "content": "<p>Any burning odor near the panel, or scorch marks around outlets and switches throughout the house, points to wiring or connections that are overheating. This is an urgent situation. Turn off the main breaker if you detect a burning smell from the panel and call a licensed electrician the same day. Do not wait to see if it gets worse. Electrical fires can start inside walls and burn for hours before becoming visible.</p>"
+    },
+    {
+      "heading": "Sign 5: Your Panel Is 25 or More Years Old",
+      "content": "<p>Electrical panels are rated for a service life of roughly 25 to 40 years. If yours is approaching or past that range, have it inspected even if no obvious symptoms exist. Internal components wear out, connections loosen over time, and the panel may carry a brand name associated with documented defects. Federal Pacific Electric Stab-Lok panels and Zinsco panels, common in homes built from the 1950s through the 1980s, are widely known to have failure rates that make them a fire risk regardless of age. If your home has one of these panels, replacement is not optional.</p><p>A licensed electrician can assess your panel's condition, check for code violations, and give you an honest recommendation about whether repair or replacement is the right path forward.</p><blockquote><p>At Johnson's Electric, we provide free, no-obligation panel inspections for Charlotte-area homeowners. If your panel is fine, we will tell you so. If it needs attention, we will walk you through exactly what is required and what it will cost.</p></blockquote>"
+    }
+  ],
+  "tags": ["electrical panel", "panel upgrade", "breaker box", "home safety", "Charlotte electrician", "200 amp service"],
+  "cta_banner": {
+    "heading": "Concerned About Your Electrical Panel?",
+    "body": "Schedule a free panel inspection with our licensed Charlotte electricians. We serve the entire Charlotte metro area with same-week availability.",
+    "url": "/contact/",
+    "button_text": "Schedule a Free Inspection"
+  },
+  "sidebar": {
+    "cta": {
+      "heading": "Panel Upgrade Experts",
+      "body": "Get a free, detailed estimate for your panel upgrade from our licensed Charlotte electricians. No pressure, no hidden fees."
+    },
+    "quick_info": {
+      "heading": "Quick Facts",
+      "items": [
+        { "icon": "map-pin", "text": "Serving Charlotte and the greater metro area" },
+        { "icon": "shield-check", "text": "Licensed, bonded, and insured in NC" },
+        { "icon": "clock", "text": "Same-week appointments available" },
+        { "icon": "star", "text": "5-star rated on Google Reviews" },
+        { "icon": "badge-check", "text": "All work permitted and inspected" }
+      ]
+    }
+  },
+  "related_posts": [
+    {
+      "url": "/blog/home-electrical-safety-tips/",
+      "image": "http://static.photos/indoor/640x360/445",
+      "category": "Safety",
+      "title": "10 Home Electrical Safety Tips Every Charlotte Homeowner Needs",
+      "date": "April 10, 2025",
+      "delay": "0"
+    },
+    {
+      "url": "/blog/home-ev-charging-station-guide/",
+      "image": "http://static.photos/automotive/640x360/312",
+      "category": "EV Charging",
+      "title": "Level 1 vs. Level 2 EV Charging: What Charlotte Homeowners Should Know",
+      "date": "April 28, 2025",
+      "delay": "0.1s"
+    },
+    {
+      "url": "/blog/whole-home-generator-buying-guide/",
+      "image": "http://static.photos/outdoor/640x360/578",
+      "category": "Generators",
+      "title": "Whole-Home Generator Buying Guide: What Size Does Your House Need?",
+      "date": "March 22, 2025",
+      "delay": "0.2s"
+    }
+  ]
+}

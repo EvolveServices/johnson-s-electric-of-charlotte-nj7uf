@@ -1,0 +1,43 @@
+{
+  "slug": "davidson",
+  "template": "service-area",
+  "output": "/service-areas/davidson/index.html",
+  "area_name": "Davidson",
+  "meta": {
+    "title": "Electrician in Davidson, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Davidson NC (28036) with licensed electrical services. Residential wiring, historic home electrical, panel upgrades, EV chargers & generators. Call today.",
+    "og_title": "Davidson NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Davidson NC. Residential, historic home rewiring, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Davidson, NC</span>",
+    "description": "Davidson is a charming college town on Lake Norman's eastern shore — known for its walkable downtown, historic homes, and vibrant community. Johnson's Electric serves Davidson homeowners and businesses throughout the 28036 ZIP code with skilled, licensed electrical services.",
+    "zips": [
+      { "zip": "28036" }
+    ],
+    "county": "Mecklenburg County, NC"
+  },
+  "about": {
+    "label": "Serving Davidson",
+    "heading": "Trusted Electrical Services for Davidson's Unique Community",
+    "body1": "Davidson is one of the Charlotte metro's most distinctive communities — home to Davidson College, a charming walkable downtown, and a mix of historic homes and newer residential developments. Its older housing stock often presents electrical challenges unique to aging homes, from outdated panel boxes to knob-and-tube wiring that needs modernization.",
+    "body2": "Johnson's Electric is experienced working in Davidson's historic homes as well as its newer neighborhoods. We handle older home rewiring and panel upgrades with care, understanding the unique requirements these properties present. For new builds and renovations in Davidson's growing neighborhoods, we provide clean, professional electrical work from rough-in through finish, with all Mecklenburg County permits managed."
+  },
+  "zips": [
+    { "code": "28036" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Full home electrical services for Davidson — new circuits, outlet additions, ceiling fans, and electrical upgrades for older and newer homes.", "delay": "0.05s" },
+    { "icon": "zap", "title": "Panel Upgrades & Rewiring", "description": "Panel upgrades and whole-home rewiring for Davidson's historic and older homes — safe, code-compliant modernization.", "delay": "0.1s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Davidson garages — permits handled, all EV brands supported.", "delay": "0.15s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator hookups and transfer switches for Davidson homes — backup power when storms hit Lake Norman.", "delay": "0.2s" },
+    { "icon": "lightbulb", "title": "Outdoor & Landscape Lighting", "description": "Outdoor electrical, landscape lighting, and exterior circuits for Davidson's homes and businesses.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Davidson residents and businesses — 24 hours a day, every day of the year.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you work on older and historic homes in Davidson?", "answer": "Yes. We frequently work on Davidson's older homes, including panel replacements, circuit additions, and rewiring projects where aging electrical systems need to be brought up to current code.", "delay": "0.05s" },
+    { "question": "How quickly can you reach Davidson for an emergency?", "answer": "Davidson is approximately 25 minutes from our Charlotte base via I-77. We dispatch the nearest available crew for emergencies.", "delay": "0.1s" },
+    { "question": "Do you handle Mecklenburg County permits for Davidson electrical work?", "answer": "Yes. We manage all Mecklenburg County permit applications and inspections for Davidson projects, ensuring every job is fully code-compliant.", "delay": "0.15s" },
+    { "question": "Can you install an EV charger in an older Davidson home?", "answer": "Yes. We regularly install EV chargers in older Davidson homes, upgrading the panel if needed to accommodate the dedicated 240V circuit required for Level 2 charging.", "delay": "0.2s" }
+  ]
+}

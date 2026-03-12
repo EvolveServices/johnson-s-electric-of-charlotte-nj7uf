@@ -1,0 +1,45 @@
+{
+  "slug": "kannapolis",
+  "template": "service-area",
+  "output": "/service-areas/kannapolis/index.html",
+  "area_name": "Kannapolis",
+  "meta": {
+    "title": "Electrician in Kannapolis, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Kannapolis NC (28081, 28083) with licensed electrical services. Residential wiring, panel upgrades, EV chargers, generators & commercial electrical. Call today.",
+    "og_title": "Kannapolis NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Kannapolis NC. Residential, commercial, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Kannapolis, NC</span>",
+    "description": "Kannapolis is a growing community in Cabarrus and Rowan counties, undergoing exciting revitalization with new development around the N.C. Research Campus. Johnson's Electric serves Kannapolis homeowners and businesses throughout the 28081 and 28083 ZIP codes with licensed electrical services.",
+    "zips": [
+      { "zip": "28081" },
+      { "zip": "28083" }
+    ],
+    "county": "Cabarrus & Rowan Counties, NC"
+  },
+  "about": {
+    "label": "Serving Kannapolis",
+    "heading": "Trusted Electrical Services for Kannapolis and Its Growing Community",
+    "body1": "Kannapolis has transformed in recent years, with major investment around the N.C. Research Campus driving new commercial development, residential renovation, and an influx of new residents. The city sits at the northern edge of the Charlotte metro, spanning parts of both Cabarrus and Rowan counties.",
+    "body2": "Johnson's Electric serves Kannapolis with residential and commercial electrical services. Whether you need a panel upgraded in an established neighborhood home, EV charger installation in a newer build, or commercial electrical work for a growing business, our licensed electricians handle the project professionally with all required permits managed. We're experienced working across both county jurisdictions that cover Kannapolis."
+  },
+  "zips": [
+    { "code": "28081" },
+    { "code": "28083" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Complete home electrical services for Kannapolis — circuits, outlets, panel upgrades, ceiling fans, and whole-home wiring.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Kannapolis homes — permits handled for both Cabarrus and Rowan County projects.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator connections and transfer switches for Kannapolis homes — backup power for storm season.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Electrical panel upgrades for Kannapolis homes and businesses — modernizing older service to current code.", "delay": "0.2s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Commercial electrical services for Kannapolis businesses and new development around the N.C. Research Campus corridor.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Kannapolis residents and businesses — available 24 hours a day, every day.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you work in both the Cabarrus and Rowan County portions of Kannapolis?", "answer": "Yes. Kannapolis spans both Cabarrus and Rowan counties, and we're experienced handling permits in both jurisdictions for Kannapolis projects.", "delay": "0.05s" },
+    { "question": "How far is Kannapolis from Charlotte?", "answer": "Kannapolis is approximately 25-35 minutes from Charlotte via I-85. We send crews to Kannapolis regularly for both scheduled work and emergency calls.", "delay": "0.1s" },
+    { "question": "Can you handle panel upgrades in older Kannapolis homes?", "answer": "Yes. Many Kannapolis homes have older electrical panels that need upgrading. We replace outdated 100A panels with 200A or 320A service, handling all permits.", "delay": "0.15s" },
+    { "question": "Do you do commercial electrical work in Kannapolis?", "answer": "Yes. We provide commercial electrical for businesses in Kannapolis, including the growing commercial corridor around the N.C. Research Campus.", "delay": "0.2s" }
+  ]
+}

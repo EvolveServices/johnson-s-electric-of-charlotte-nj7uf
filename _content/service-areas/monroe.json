@@ -1,0 +1,45 @@
+{
+  "slug": "monroe",
+  "template": "service-area",
+  "output": "/service-areas/monroe/index.html",
+  "area_name": "Monroe",
+  "meta": {
+    "title": "Electrician in Monroe, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Monroe NC (28110, 28112) with licensed electrical services. Residential wiring, panel upgrades, EV chargers, generators & commercial electrical. Call today.",
+    "og_title": "Monroe NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Monroe NC. Residential, commercial, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Monroe, NC</span>",
+    "description": "Monroe is the heart of Union County — a community with deep roots and a growing economy. Johnson's Electric serves Monroe homeowners and businesses throughout the 28110 and 28112 ZIP codes with licensed electrical services you can count on.",
+    "zips": [
+      { "zip": "28110" },
+      { "zip": "28112" }
+    ],
+    "county": "Union County, NC"
+  },
+  "about": {
+    "label": "Serving Monroe",
+    "heading": "Professional Electrical Services for Monroe and Union County",
+    "body1": "Monroe serves as the county seat of Union County and is a commercial and residential hub for the surrounding communities. The city has seen steady growth as the Charlotte metro expands eastward, bringing new residential developments, commercial construction, and increased demand for reliable electrical contractors.",
+    "body2": "Johnson's Electric serves Monroe with a comprehensive range of electrical services for homes, businesses, and new construction. Our licensed electricians are familiar with Union County code requirements and regularly pull permits for projects in Monroe. From upgrading outdated panels in older homes to wiring new commercial spaces, we do the job right the first time."
+  },
+  "zips": [
+    { "code": "28110" },
+    { "code": "28112" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Full home electrical services for Monroe — new circuits, outlet additions, panel upgrades, ceiling fans, and whole-house rewiring.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Monroe homes — Union County permits, all EV brands, completed in one visit.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator hookups and transfer switches for Monroe homes and businesses — reliable backup power.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Electrical panel upgrades for Monroe properties — replacing older panels with 200A or 320A service.", "delay": "0.2s" },
+    { "icon": "building-2", "title": "Commercial Electrical", "description": "Commercial electrical services for Monroe businesses — office buildouts, retail, light industrial, and tenant improvements.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Monroe residents and businesses — available 24/7, no extra after-hours fee.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve all of Monroe including the downtown and surrounding areas?", "answer": "Yes. We serve all of Monroe in the 28110 and 28112 ZIP codes, including downtown Monroe, residential neighborhoods, and commercial areas throughout Union County.", "delay": "0.05s" },
+    { "question": "Can you handle commercial electrical work in Monroe?", "answer": "Yes. We provide commercial electrical services for Monroe businesses — tenant buildouts, office electrical, retail, light industrial, and commercial panel upgrades.", "delay": "0.1s" },
+    { "question": "Do you pull Union County permits for Monroe electrical projects?", "answer": "Absolutely. We handle all Union County permitting for Monroe electrical work — panel upgrades, new circuits, EV chargers, generators, and commercial projects.", "delay": "0.15s" },
+    { "question": "How far is Monroe from your Charlotte service area?", "answer": "Monroe is approximately 25-35 minutes from our Charlotte base via US-74. We regularly send crews to Monroe for both scheduled projects and emergency service.", "delay": "0.2s" }
+  ]
+}

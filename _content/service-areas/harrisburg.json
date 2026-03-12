@@ -1,0 +1,43 @@
+{
+  "slug": "harrisburg",
+  "template": "service-area",
+  "output": "/service-areas/harrisburg/index.html",
+  "area_name": "Harrisburg",
+  "meta": {
+    "title": "Electrician in Harrisburg, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Harrisburg NC (28075) with licensed electrical services. Residential wiring, panel upgrades, EV chargers, generators & new construction electrical. Call today.",
+    "og_title": "Harrisburg NC Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Harrisburg NC. Residential, new construction, EV charging, panel upgrades, and 24/7 emergency electrical service."
+  },
+  "hero": {
+    "heading": "Electrician in <span>Harrisburg, NC</span>",
+    "description": "Harrisburg is a thriving Cabarrus County community northeast of Charlotte, known for its family-friendly neighborhoods and rapid growth. Johnson's Electric serves Harrisburg homeowners and businesses throughout the 28075 ZIP code with licensed electrical services.",
+    "zips": [
+      { "zip": "28075" }
+    ],
+    "county": "Cabarrus County, NC"
+  },
+  "about": {
+    "label": "Serving Harrisburg",
+    "heading": "Reliable Electrical Services for Harrisburg's Growing Community",
+    "body1": "Harrisburg has experienced significant residential growth over the past decade, attracting families seeking larger homes and good schools in a suburban setting northeast of Charlotte. Its location near I-485 and US-49 provides convenient access to Charlotte while maintaining a quieter community character.",
+    "body2": "Johnson's Electric serves Harrisburg with a full range of residential electrical services. From panel upgrades and circuit additions in established neighborhoods to EV charger installations and generator hookups in newer builds, our licensed electricians handle every project with care. We manage all Cabarrus County permits and ensure every job meets current electrical code requirements."
+  },
+  "zips": [
+    { "code": "28075" }
+  ],
+  "services": [
+    { "icon": "home", "title": "Residential Electrical", "description": "Complete home electrical services for Harrisburg — new circuits, outlets, ceiling fans, panel work, and whole-house wiring.", "delay": "0.05s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Harrisburg garages — Cabarrus County permits handled, all EV brands supported.", "delay": "0.1s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator hookups and transfer switches for Harrisburg homes — reliable backup power during storms.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "Service panel upgrades for Harrisburg homes — 200A and 320A installations to handle modern electrical loads.", "delay": "0.2s" },
+    { "icon": "home", "title": "New Construction Electrical", "description": "Electrical rough-in and finish work for new home construction in Harrisburg's active residential communities.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Harrisburg residents — 24 hours a day, 7 days a week.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you serve all Harrisburg neighborhoods including communities near I-485?", "answer": "Yes. We serve all of Harrisburg in the 28075 ZIP code, including newer neighborhoods near I-485 and established communities throughout Cabarrus County.", "delay": "0.05s" },
+    { "question": "How quickly can you reach Harrisburg for an emergency?", "answer": "Harrisburg is approximately 20-30 minutes from our Charlotte base. We dispatch the nearest available crew for emergency electrical calls.", "delay": "0.1s" },
+    { "question": "Do you handle Cabarrus County permits for Harrisburg electrical projects?", "answer": "Yes. We manage all Cabarrus County permit applications for Harrisburg projects — panel upgrades, EV chargers, generators, and new construction.", "delay": "0.15s" },
+    { "question": "Can you install EV chargers in Harrisburg's newer subdivisions?", "answer": "Yes. EV charger installation is one of our most requested services in Harrisburg's newer neighborhoods. We run dedicated 240V circuits and handle all permits.", "delay": "0.2s" }
+  ]
+}

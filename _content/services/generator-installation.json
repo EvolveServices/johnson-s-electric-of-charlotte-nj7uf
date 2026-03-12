@@ -1,0 +1,171 @@
+{
+  "slug": "generator-installation",
+  "template": "service",
+  "output": "/services/generator-installation/index.html",
+  "meta": {
+    "title": "Generator Installation Charlotte NC | Johnson's Electric",
+    "description": "Licensed generator installation in Charlotte, NC. Standby and portable generator hookups, transfer switches, and maintenance. Stay powered during outages. Call (704) 555-0199.",
+    "og_title": "Generator Installation | Johnson's Electric of Charlotte",
+    "og_description": "Professional standby and portable generator installation in Charlotte NC. Transfer switches, permits, and maintenance, all from licensed electricians. Get a free estimate."
+  },
+  "hero": {
+    "label": "Generator Installation",
+    "heading": "Never Lose Power in <span>Charlotte's Storms</span>",
+    "subheading": "Charlotte's severe weather and Duke Energy outages can leave your home or business dark for days. A professionally installed generator keeps you powered when it matters most.",
+    "image": "http://static.photos/industry/1200x630/44",
+    "cta_primary": "Get My Generator Installed",
+    "badges": [
+      { "icon": "shield-check", "text": "NC Licensed & Insured" },
+      { "icon": "zap", "text": "Standby & Portable Generators" },
+      { "icon": "file-check", "text": "Transfer Switch Specialists" }
+    ]
+  },
+  "intro": {
+    "label": "Why Charlotte Homes Need Generators",
+    "heading": "Power Outages in Charlotte Are <span>More Common Than You Think</span>",
+    "body1": "Charlotte and the greater Mecklenburg County area experience regular power outages due to hurricanes, ice storms, severe thunderstorms, and Duke Energy grid issues. The average outage in the Carolinas lasts 4 to 8 hours, but major weather events can leave homes and businesses without power for days.",
+    "body2": "Johnson's Electric installs standby and portable generator systems for Charlotte homeowners and businesses. From the generator pad and fuel connections to the transfer switch and final inspection, we handle every aspect of the installation so your generator works when you need it most.",
+    "image": "http://static.photos/industry/640x360/28",
+    "image_alt": "Standby generator installed outside a Charlotte home",
+    "stat_value": "400+",
+    "stat_label": "Generators Installed in Charlotte",
+    "checklist": [
+      { "text": "Automatic standby generators (whole-home)" },
+      { "text": "Portable generator transfer switch hookups" },
+      { "text": "Manual & automatic transfer switches" },
+      { "text": "Propane and natural gas generator installation" },
+      { "text": "Maintenance contracts available" }
+    ]
+  },
+  "services": {
+    "label": "Generator Services",
+    "heading": "Complete Generator <span class=\"text-accent\">Installation Services</span>",
+    "subheading": "From portable generator hookups to whole-home automatic standby systems, we install and service every type of backup power solution for Charlotte homes and businesses.",
+    "items": [
+      {
+        "icon": "zap",
+        "title": "Whole-Home Standby Generator",
+        "description": "A whole-home standby generator automatically starts within seconds of a power outage with no manual intervention required. It powers your entire home: HVAC, refrigerator, lights, medical equipment, and more.",
+        "bullets": [
+          { "text": "Automatic start within seconds of outage" },
+          { "text": "Covers entire home or select circuits" },
+          { "text": "Natural gas or propane powered" },
+          { "text": "20kW to 48kW+ systems available" }
+        ]
+      },
+      {
+        "icon": "settings",
+        "title": "Automatic Transfer Switch Installation",
+        "description": "An automatic transfer switch (ATS) is the brain of your standby generator system. It detects the power outage, signals the generator to start, and safely transfers your home's electrical load from utility power to generator power.",
+        "bullets": [
+          { "text": "Automatic Load Management Transfer Switches" },
+          { "text": "200A & 400A transfer switch installation" },
+          { "text": "Generator interlock kits for panels" },
+          { "text": "UL-listed transfer switch hardware" }
+        ],
+        "delay": "0.1s"
+      },
+      {
+        "icon": "plug",
+        "title": "Manual Transfer Switch (Portable Generators)",
+        "description": "If you already own a portable generator, a properly installed manual transfer switch is the safe way to connect it to your home's wiring. It eliminates the dangerous practice of backfeeding power through extension cords.",
+        "bullets": [
+          { "text": "6-circuit to whole-panel manual transfer switches" },
+          { "text": "Generator inlet box installation" },
+          { "text": "Extension cord elimination" },
+          { "text": "Safe backfeed prevention" }
+        ],
+        "delay": "0.2s"
+      },
+      {
+        "icon": "flame",
+        "title": "Generator Pad & Fuel Connections",
+        "description": "Standby generators require a proper concrete or composite generator pad and a gas line connection. We coordinate with gas contractors and install the generator mounting pad, gas connections, and electrical connections.",
+        "bullets": [
+          { "text": "Composite or concrete generator pad" },
+          { "text": "Natural gas line tap coordination" },
+          { "text": "Propane tank connection" },
+          { "text": "50ft and longer gas line runs" }
+        ],
+        "delay": "0.1s"
+      },
+      {
+        "icon": "building-2",
+        "title": "Commercial Generator Installation",
+        "description": "Keep your Charlotte business running through any outage with a commercial standby generator. We install commercial generators for offices, retail spaces, restaurants, medical facilities, and data centers.",
+        "bullets": [
+          { "text": "Commercial standby generators" },
+          { "text": "Critical load panel installation" },
+          { "text": "Generator load testing" },
+          { "text": "Emergency & life safety compliance" }
+        ],
+        "delay": "0.2s"
+      },
+      {
+        "icon": "wrench",
+        "title": "Generator Maintenance & Service",
+        "description": "A generator that hasn't been tested or serviced is a generator that may not start when you need it. We offer annual maintenance programs to ensure your system is ready when Charlotte's next storm hits.",
+        "bullets": [
+          { "text": "Annual tune-up & inspection" },
+          { "text": "Load bank testing" },
+          { "text": "Battery & oil change service" },
+          { "text": "Remote monitoring setup" }
+        ],
+        "delay": "0.3s"
+      }
+    ]
+  },
+  "benefits": {
+    "label": "Why a Generator Matters",
+    "heading": "The Benefits of <span>Backup Power</span>",
+    "subheading": "A professionally installed generator is more than convenience. For many Charlotte families, it's essential peace of mind.",
+    "items": [
+      { "number": "01", "title": "Automatic Protection: No Action Required", "description": "A standby generator starts automatically within 10 to 30 seconds of an outage. You don't need to be home. You don't need to do anything. Your home stays powered without interruption." },
+      { "number": "02", "title": "Protect Food, Medicines & Equipment", "description": "A power outage lasting just a few hours can spoil a full refrigerator and freezer. For families with medical equipment, refrigerated medications, or fish tanks, backup power isn't optional.", "delay": "0.1s" },
+      { "number": "03", "title": "Keep Your HVAC Running", "description": "Charlotte summers regularly exceed 95F and winters can drop well below freezing. A generator keeps your heating and cooling running, protecting your family and preventing frozen pipes.", "delay": "0.2s" },
+      { "number": "04", "title": "Protect Your Business from Costly Downtime", "description": "Every hour your business is without power costs money. A commercial standby generator eliminates that risk, keeping your POS systems, refrigeration, servers, and operations online.", "delay": "0.1s" },
+      { "number": "05", "title": "Increase Your Home's Value", "description": "A permanently installed standby generator adds significant value to your Charlotte home. It's a premium feature that buyers actively seek, particularly in areas with aging grid infrastructure.", "delay": "0.2s" },
+      { "number": "06", "title": "Professional Installation Means Safe Installation", "description": "Improperly connected generators cause deaths from carbon monoxide poisoning and electrocution every year. A permitted transfer switch installation keeps your family, your neighbors, and utility workers safe.", "delay": "0.3s" }
+    ]
+  },
+  "process": {
+    "label": "How Installation Works",
+    "heading": "Your Generator Installation <span>Step by Step</span>",
+    "subheading": "Generator installation involves electrical, gas, and mechanical work. Here's how Johnson's Electric coordinates all of it for a seamless experience.",
+    "image": "http://static.photos/industry/640x360/51",
+    "image_alt": "Generator installation in progress at a Charlotte home",
+    "highlight_icon": "zap",
+    "highlight_text": "Most standby generator installations are completed in 1 to 2 days. Portable generator transfer switch hookups are typically done in 2 to 4 hours.",
+    "steps": [
+      { "number": "01", "title": "Home Assessment & Load Calculation", "description": "We assess your home's electrical loads, your goals for backup power coverage, and available fuel sources (natural gas or propane) to recommend the right generator size." },
+      { "number": "02", "title": "Generator Selection & Proposal", "description": "We recommend the appropriate generator brand, size (kW), and configuration and provide a detailed written proposal covering all labor, materials, permits, and coordination.", "delay": "0.1s" },
+      { "number": "03", "title": "Permits & Utility Coordination", "description": "We apply for the required electrical and gas permits. For natural gas generators, we coordinate with your gas utility for the service tap. Propane installations require tank placement coordination.", "delay": "0.2s" },
+      { "number": "04", "title": "Installation Day", "description": "We pour or set the generator pad, install the transfer switch at your panel, run all conduit and wiring, and connect the generator to fuel, electrical, and controls. Gas connections are made by licensed gas contractors.", "delay": "0.3s" },
+      { "number": "05", "title": "Testing, Inspection & Training", "description": "We test the complete system (manual start, automatic transfer, load testing) and walk you through the controls, maintenance schedule, and what to expect during an actual outage. Permits are finalized.", "delay": "0.4s" }
+    ]
+  },
+  "faq": {
+    "label": "Generator FAQs",
+    "heading": "Frequently Asked <span>Questions</span>",
+    "subheading": "Answers to the most common questions about generator installation in Charlotte, NC.",
+    "items": [
+      { "question": "How much does a whole-home generator cost in Charlotte?", "answer": "A whole-home standby generator system (including hardware, installation, transfer switch, pad, and permits) typically costs $5,000 to $15,000+ depending on the generator size, fuel source, and complexity. Portable generator transfer switch hookups run $400 to $1,500." },
+      { "question": "What size generator do I need for my Charlotte home?", "answer": "The right size depends on what you want to power. A 7-10kW generator handles essential loads (HVAC, refrigerator, lights, outlets). A 20-22kW generator handles most or all of a typical home. Larger homes with electric HVAC may need 26kW or more. We calculate your load during the assessment.", "delay": "0.1s" },
+      { "question": "Can I run a generator on natural gas?", "answer": "Yes. Most standby generators in the Charlotte area run on natural gas (if available at your address) or propane. Natural gas is preferred because you never run out of fuel during an extended outage, as it feeds directly from your gas line.", "delay": "0.2s" },
+      { "question": "Do I need a permit for a generator in Charlotte?", "answer": "Yes. Generator installations require electrical permits in Mecklenburg County and most surrounding jurisdictions. Gas line connections require additional permits. We handle all permit applications and inspections as part of our service.", "delay": "0.1s" },
+      { "question": "Can you install a transfer switch for my existing portable generator?", "answer": "Yes. If you already own a portable generator, we can install a manual transfer switch or generator inlet box that allows you to safely connect it to your home's wiring. This is much safer than using extension cords.", "delay": "0.2s" },
+      { "question": "How do I maintain my generator?", "answer": "Standby generators should be exercised weekly (most do this automatically) and professionally serviced annually. This includes oil changes, air filter replacement, spark plug inspection, battery testing, and a full system load test. We offer annual maintenance contracts.", "delay": "0.3s" }
+    ]
+  },
+  "cta": {
+    "label": "Don't Wait for the Next Outage",
+    "heading": "Protect Your Home with a <span style=\"color: var(--color-primary);\">Backup Generator</span>",
+    "body": "Charlotte's next major storm is a matter of when, not if. Schedule a free generator consultation and let us design the right backup power solution for your home or business.",
+    "cta_primary": "Schedule My Free Consultation",
+    "checklist": [
+      { "text": "Free home assessment & load calculation" },
+      { "text": "Generator sizing & brand recommendations" },
+      { "text": "All permits and utility coordination included" }
+    ]
+  }
+}

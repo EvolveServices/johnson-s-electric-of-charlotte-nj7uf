@@ -1,0 +1,171 @@
+{
+  "slug": "commercial",
+  "template": "service",
+  "output": "/services/commercial/index.html",
+  "meta": {
+    "title": "Commercial Electrical Services Charlotte NC | Johnson's Electric",
+    "description": "Reliable commercial electricians in Charlotte, NC. Office wiring, lighting upgrades, panel installations, and code compliance for businesses of all sizes. Call (704) 555-0199.",
+    "og_title": "Commercial Electrical Services | Johnson's Electric of Charlotte",
+    "og_description": "Charlotte's trusted commercial electricians. From tenant build-outs to lighting retrofits: licensed, insured, and built for business. Request a quote today."
+  },
+  "hero": {
+    "label": "Commercial Electrical Services",
+    "heading": "Electrical Solutions Built <span>for Charlotte Businesses</span>",
+    "subheading": "Downtime costs money. Johnson's Electric delivers fast, reliable commercial electrical work with minimal disruption to your operations, done right the first time.",
+    "image": "http://static.photos/office/1200x630/22",
+    "cta_primary": "Request a Commercial Quote",
+    "badges": [
+      { "icon": "shield-check", "text": "NC Licensed & Insured" },
+      { "icon": "building-2", "text": "Serving Charlotte Businesses Since 2003" },
+      { "icon": "clock", "text": "After-Hours Service Available" }
+    ]
+  },
+  "intro": {
+    "label": "Why Businesses Choose Us",
+    "heading": "Commercial Electrical Work That <span>Keeps Your Business Running</span>",
+    "body1": "Commercial electrical projects are complex, involving code compliance, coordination with multiple trades, inspections, and tight deadlines. Johnson's Electric has the experience and licensing to handle commercial projects of all sizes, from small offices to large retail and industrial facilities.",
+    "body2": "We understand that your facility can't be down for long. That's why we schedule work around your business hours, communicate clearly at every stage, and complete projects on time. Whether you're building out a new space or upgrading an existing facility, we bring the same professionalism every time.",
+    "image": "http://static.photos/office/640x360/8",
+    "image_alt": "Commercial electrician working in an office building",
+    "stat_value": "500+",
+    "stat_label": "Charlotte Businesses Served",
+    "checklist": [
+      { "text": "Fully licensed for commercial projects" },
+      { "text": "Coordinated scheduling to minimize downtime" },
+      { "text": "Code-compliant work on every project" },
+      { "text": "After-hours and weekend availability" },
+      { "text": "Detailed project documentation provided" }
+    ]
+  },
+  "services": {
+    "label": "Commercial Electrical Services",
+    "heading": "What We Do for <span class=\"text-accent\">Charlotte Businesses</span>",
+    "subheading": "From small office suites to large commercial facilities, we handle every electrical need with the expertise your business demands.",
+    "items": [
+      {
+        "icon": "building-2",
+        "title": "Tenant Build-Outs & Renovations",
+        "description": "Opening a new location or renovating an existing space? We handle all electrical work for commercial build-outs, including new circuits, lighting, panel installations, and code-compliant wiring.",
+        "bullets": [
+          { "text": "New circuit installation" },
+          { "text": "Lighting layout & installation" },
+          { "text": "Data & low-voltage wiring" },
+          { "text": "Final inspection coordination" }
+        ]
+      },
+      {
+        "icon": "lightbulb",
+        "title": "Commercial Lighting Upgrades",
+        "description": "Upgrade to LED lighting and smart controls to reduce energy costs and improve workplace productivity. We retrofit existing fixtures or design entirely new lighting systems for your space.",
+        "bullets": [
+          { "text": "LED retrofit & replacement" },
+          { "text": "Energy-efficient lighting design" },
+          { "text": "Emergency & exit lighting" },
+          { "text": "Dimming & smart controls" }
+        ],
+        "delay": "0.1s"
+      },
+      {
+        "icon": "zap",
+        "title": "Electrical Panel Upgrades",
+        "description": "Undersized panels limit your business's electrical capacity and create safety hazards. We upgrade commercial panels to handle increased loads from new equipment, EV charging, and expanding operations.",
+        "bullets": [
+          { "text": "200A to 800A+ panel upgrades" },
+          { "text": "Sub-panel installation" },
+          { "text": "Load analysis & planning" },
+          { "text": "Full permit & inspection" }
+        ],
+        "delay": "0.2s"
+      },
+      {
+        "icon": "plug",
+        "title": "Outlets, Circuits & Power",
+        "description": "Ensure every workstation, piece of equipment, and common area has the power it needs. We install dedicated circuits, GFCI-protected outlets, and high-amperage connections for commercial equipment.",
+        "bullets": [
+          { "text": "Dedicated equipment circuits" },
+          { "text": "GFCI & AFCI protection" },
+          { "text": "3-phase power installations" },
+          { "text": "Workstation power distribution" }
+        ],
+        "delay": "0.1s"
+      },
+      {
+        "icon": "shield",
+        "title": "Emergency & Safety Systems",
+        "description": "Keep your employees and customers safe with properly installed and maintained emergency lighting, exit signs, fire alarm integration, and carbon monoxide detection systems.",
+        "bullets": [
+          { "text": "Emergency lighting systems" },
+          { "text": "Exit sign installation" },
+          { "text": "Fire alarm system integration" },
+          { "text": "CO detector wiring" }
+        ],
+        "delay": "0.2s"
+      },
+      {
+        "icon": "wrench",
+        "title": "Electrical Maintenance & Repairs",
+        "description": "Prevent costly breakdowns with scheduled electrical maintenance. We inspect, test, and service commercial electrical systems to catch problems before they cause downtime.",
+        "bullets": [
+          { "text": "Preventive maintenance programs" },
+          { "text": "Breaker & panel testing" },
+          { "text": "Wiring inspection & repair" },
+          { "text": "24/7 emergency repair response" }
+        ],
+        "delay": "0.3s"
+      }
+    ]
+  },
+  "benefits": {
+    "label": "The Commercial Advantage",
+    "heading": "Why Charlotte Businesses <span>Trust Johnson's Electric</span>",
+    "subheading": "Commercial electrical work requires a partner who understands your industry, your deadlines, and the consequences of delays. We deliver.",
+    "items": [
+      { "number": "01", "title": "Licensed for Commercial Projects", "description": "Our electricians hold the appropriate licenses and certifications for commercial work in North Carolina, including experience with commercial NEC codes, OSHA requirements, and AHJ coordination." },
+      { "number": "02", "title": "Minimal Business Disruption", "description": "We schedule work to minimize impact on your operations, including after-hours, overnight, and weekend availability. Your business stays open and your customers stay happy.", "delay": "0.1s" },
+      { "number": "03", "title": "Code Compliance Guaranteed", "description": "All commercial work is performed to current NEC and local code standards. We pull all required permits and handle inspections, so you never have to worry about compliance issues.", "delay": "0.2s" },
+      { "number": "04", "title": "Clear Project Communication", "description": "You'll always know where your project stands. We provide clear timelines, daily status updates on larger projects, and a single point of contact to answer any questions.", "delay": "0.1s" },
+      { "number": "05", "title": "Competitive Commercial Pricing", "description": "We offer competitive pricing for commercial projects of all sizes, with detailed written proposals so you can plan your budget with confidence. No change orders without prior approval.", "delay": "0.2s" },
+      { "number": "06", "title": "Trusted by Charlotte's Business Community", "description": "Since 2003, we've built lasting relationships with property managers, general contractors, and business owners throughout the Charlotte area. Our reputation speaks for itself.", "delay": "0.3s" }
+    ]
+  },
+  "process": {
+    "label": "How Commercial Projects Work",
+    "heading": "Our Commercial <span>Project Process</span>",
+    "subheading": "Larger projects need a clear process. Here's how we take a commercial electrical job from initial consultation to final inspection.",
+    "image": "http://static.photos/office/640x360/41",
+    "image_alt": "Commercial electricians completing a project walkthrough",
+    "highlight_icon": "building-2",
+    "highlight_text": "We've completed commercial projects in office buildings, retail centers, restaurants, warehouses, and healthcare facilities throughout Charlotte.",
+    "steps": [
+      { "number": "01", "title": "Site Assessment & Scope Review", "description": "A licensed commercial electrician visits your facility to assess the project scope, review plans, and identify any code considerations or utility requirements." },
+      { "number": "02", "title": "Detailed Written Proposal", "description": "We provide a comprehensive written proposal with itemized costs, project timeline, and scope of work. No surprises; everything is documented before a single wire is touched.", "delay": "0.1s" },
+      { "number": "03", "title": "Permit Coordination", "description": "We pull all necessary commercial building permits and coordinate with the Authority Having Jurisdiction (AHJ) and utility company as needed.", "delay": "0.2s" },
+      { "number": "04", "title": "Scheduled Installation", "description": "Work is scheduled around your business operations. We coordinate with your team and any other trades on the project to ensure a smooth installation.", "delay": "0.3s" },
+      { "number": "05", "title": "Inspection & Sign-Off", "description": "All work is inspected and signed off by the appropriate authorities. You receive complete project documentation, including permits, inspection records, and warranty information.", "delay": "0.4s" }
+    ]
+  },
+  "faq": {
+    "label": "Commercial FAQs",
+    "heading": "Frequently Asked <span>Questions</span>",
+    "subheading": "Common questions from Charlotte business owners and property managers about our commercial electrical services.",
+    "items": [
+      { "question": "Do you work after business hours to avoid disruption?", "answer": "Yes. We offer after-hours, overnight, and weekend scheduling for commercial projects where business operations must continue. Additional fees may apply for after-hours work, and we will discuss this upfront in your proposal." },
+      { "question": "Can you handle electrical work during a tenant build-out?", "answer": "Absolutely. Commercial build-outs are one of our specialties. We coordinate with general contractors, handle all electrical rough-in and finish work, pull permits, and ensure everything passes final inspection on schedule.", "delay": "0.1s" },
+      { "question": "What size commercial projects do you take on?", "answer": "We handle commercial projects ranging from small office suites to large retail and industrial facilities. Our team has experience with single-phase and three-phase systems, high-amperage service entrances, and complex multi-tenant buildings.", "delay": "0.2s" },
+      { "question": "How do you handle commercial emergency calls?", "answer": "We maintain 24/7 emergency dispatch for commercial clients. Electrical failures that shut down your business are treated as top priority, and we dispatch a licensed electrician as quickly as possible regardless of the hour.", "delay": "0.1s" },
+      { "question": "Do you offer maintenance contracts for commercial facilities?", "answer": "Yes. We offer preventive maintenance agreements for commercial facilities, including scheduled inspections, panel testing, and priority response for emergency calls. Contact us to discuss a plan tailored to your facility.", "delay": "0.2s" },
+      { "question": "Are you insured for commercial work?", "answer": "Yes. Johnson's Electric carries full general liability insurance and workers' compensation coverage appropriate for commercial projects. We can provide certificates of insurance to your general contractor or property manager upon request.", "delay": "0.3s" }
+    ]
+  },
+  "cta": {
+    "label": "Ready to Get Started?",
+    "heading": "Schedule Your Commercial <span style=\"color: var(--color-primary);\">Electrical Project</span>",
+    "body": "Get a detailed commercial proposal from Charlotte's most trusted commercial electricians. We respond to all commercial inquiries within 2 business hours.",
+    "cta_primary": "Request a Commercial Quote",
+    "checklist": [
+      { "text": "Free on-site assessment for commercial projects" },
+      { "text": "Detailed written proposals with no surprises" },
+      { "text": "After-hours scheduling available" }
+    ]
+  }
+}

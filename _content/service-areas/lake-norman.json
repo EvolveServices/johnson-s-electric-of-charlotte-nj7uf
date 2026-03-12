@@ -1,0 +1,50 @@
+{
+  "slug": "lake-norman",
+  "template": "service-area",
+  "output": "/service-areas/lake-norman/index.html",
+  "area_name": "Lake Norman",
+  "meta": {
+    "title": "Electrician at Lake Norman, NC | Johnson's Electric",
+    "description": "Johnson's Electric serves Lake Norman communities with licensed electrical services. Waterfront home wiring, dock electrical, panel upgrades, EV chargers, generators & more. Call today.",
+    "og_title": "Lake Norman Electrician | Johnson's Electric",
+    "og_description": "Licensed electricians serving Lake Norman NC. Waterfront home electrical, dock wiring, EV charging, panel upgrades, and 24/7 emergency service."
+  },
+  "hero": {
+    "heading": "Electrician at <span>Lake Norman</span>",
+    "description": "Lake Norman is the largest man-made lake in North Carolina — surrounded by thriving communities including Cornelius, Davidson, Mooresville, Denver, and Sherrills Ford. Johnson's Electric serves Lake Norman homeowners and businesses with specialized waterfront and residential electrical services.",
+    "zips": [
+      { "zip": "28031" },
+      { "zip": "28036" },
+      { "zip": "28115" },
+      { "zip": "28117" }
+    ],
+    "county": "Mecklenburg, Iredell & Catawba Counties, NC"
+  },
+  "about": {
+    "label": "Serving Lake Norman",
+    "heading": "Specialized Electrical Services for Lake Norman's Waterfront and Lakeside Communities",
+    "body1": "Lake Norman stretches across four counties — Mecklenburg, Iredell, Catawba, and Lincoln — and its shoreline is lined with some of the Charlotte metro's most desirable real estate. From executive waterfront estates on the Mooresville side to active family neighborhoods in Cornelius and Davidson, Lake Norman homeowners have unique electrical needs that differ from typical inland properties.",
+    "body2": "Johnson's Electric is experienced working on Lake Norman properties, including dock electrical systems, boat lift circuits, waterfront outdoor lighting, and whole-home generator installations. We serve the full lake area — navigating permitting requirements across multiple county jurisdictions — and bring the same professional quality to every lakeside project, regardless of which county your property is in."
+  },
+  "zips": [
+    { "code": "28031" },
+    { "code": "28036" },
+    { "code": "28115" },
+    { "code": "28117" },
+    { "code": "28037" }
+  ],
+  "services": [
+    { "icon": "lightbulb", "title": "Dock & Marine Electrical", "description": "Dock wiring, boat lift circuits, GFI outlets, shore power connections, and underwater lighting for Lake Norman waterfront properties.", "delay": "0.05s" },
+    { "icon": "sun", "title": "Generator Installation", "description": "Standby generator hookups and transfer switches for Lake Norman homes — keep the lights on when storms roll off the lake.", "delay": "0.1s" },
+    { "icon": "car", "title": "EV Charger Installation", "description": "Level 2 EV charger installation in Lake Norman garages — permits handled for all county jurisdictions around the lake.", "delay": "0.15s" },
+    { "icon": "zap", "title": "Panel Upgrades", "description": "High-capacity panel upgrades for Lake Norman homes with multiple EVs, pools, hot tubs, and heavy electrical loads.", "delay": "0.2s" },
+    { "icon": "home", "title": "Outdoor & Landscape Lighting", "description": "Waterfront landscape lighting, security lighting, and exterior electrical for Lake Norman properties.", "delay": "0.25s" },
+    { "icon": "alert-triangle", "title": "24/7 Emergency Service", "description": "Emergency electrical response for Lake Norman communities — available any time, including weekends and holidays.", "delay": "0.3s" }
+  ],
+  "faqs": [
+    { "question": "Do you handle dock and marine electrical work on Lake Norman?", "answer": "Yes. Dock electrical is one of our specialties for Lake Norman properties. We install dock wiring, boat lift circuits, GFI outlets, and shore power connections, following all applicable codes and permitting requirements.", "delay": "0.05s" },
+    { "question": "Which Lake Norman communities do you serve?", "answer": "We serve the full Lake Norman area including Cornelius, Davidson, Mooresville, Denver, Sherrills Ford, and surrounding communities across Mecklenburg, Iredell, and Catawba counties.", "delay": "0.1s" },
+    { "question": "Can you handle permits across multiple counties around Lake Norman?", "answer": "Yes. Lake Norman spans multiple county jurisdictions, and we're experienced navigating the different permit requirements for Mecklenburg, Iredell, Catawba, and Lincoln counties.", "delay": "0.15s" },
+    { "question": "Can you install a whole-home generator for our lake house?", "answer": "Absolutely. Generator installation is very popular among Lake Norman homeowners, particularly for waterfront homes that are vulnerable to storm outages. We install standby generators with automatic transfer switches and handle all permits.", "delay": "0.2s" }
+  ]
+}
