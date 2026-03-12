@@ -276,6 +276,10 @@
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.15s ease;
 }
 
+.why-card.revealed {
+  transition-delay: 0s !important;
+}
+
 .why-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 36px rgba(0,0,0,0.1);
