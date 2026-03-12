@@ -458,7 +458,7 @@ header.scrolled .hamburger-line {
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.5);
-  z-index: 80;
+  z-index: 1100;
   opacity: 0;
   transition: opacity var(--transition-normal);
 }
@@ -475,7 +475,7 @@ header.scrolled .hamburger-line {
   width: min(320px, 90vw);
   height: 100vh;
   background: var(--color-secondary-dark);
-  z-index: 90;
+  z-index: 1200;
   padding: 1.5rem;
   overflow-y: auto;
   transition: right var(--transition-normal);
