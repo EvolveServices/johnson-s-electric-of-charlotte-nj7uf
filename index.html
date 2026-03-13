@@ -444,7 +444,9 @@
       if (typeof lucide !== 'undefined') lucide.createIcons();
     });
     if (typeof CardRegistry !== 'undefined') {
-      CardRegistry.loadServices('home-services-grid');
+      CardRegistry.loadServices('home-services-grid', { limit: 6 });
+      CardRegistry.loadServiceAreas('home-areas-grid', { sortBy: 'title', sortDir: 'asc', limit: 12 });
+      CardRegistry.loadBlog('home-blog-grid', { limit: 3, sortBy: 'date', sortDir: 'desc' });
     }
   </script>
 </body>
