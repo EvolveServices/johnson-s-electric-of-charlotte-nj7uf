@@ -380,6 +380,22 @@
   background: var(--color-secondary, #1a1a2e);
 }
 
+.service-card-badge--panel {
+  background: #2e7d32;
+}
+
+.service-card-badge--ev {
+  background: #00695c;
+}
+
+.service-card-badge--generator {
+  background: #6a1b9a;
+}
+
+.service-card-badge--emergency {
+  background: #c62828;
+}
+
 .service-card-body {
   padding: 1.5rem;
 }
