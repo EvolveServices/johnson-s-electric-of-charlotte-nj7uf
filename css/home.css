@@ -9,7 +9,7 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url('http://static.photos/industry/1200x630/15') center center / cover no-repeat;
+  background: url('https://connect.websitelab.ai/storage/v1/object/public/media/78dba5ff-e514-44fd-bc2d-1f49dd7a0a6f/35d7d651-dae2-4985-9bf8-d0b56986fd45/media/images/electrician-with-tools-working-construction-site-repair-handyman-concept.jpg') center center / cover no-repeat;
   padding: calc(var(--header-height, 70px) + 3rem) 0 4rem;
   overflow: hidden;
 }
