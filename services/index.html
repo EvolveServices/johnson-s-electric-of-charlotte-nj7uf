@@ -61,7 +61,7 @@
 
       <div id="services-grid" class="cr-grid cr-grid--service">
 
-        </div><!-- /.services-grid -->
+        </div><!-- /.cr-grid -->
     </div>
   </section>
 
@@ -125,14 +125,14 @@
   <div data-include="footer"></div>
 
   <script src="/_includes/loader.js"></script>
+  <script src="/js/animations.js"></script>
   <script src="/js/card-registry.js"></script>
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    document.addEventListener('DOMContentLoaded', function() {
       if (window.CardRegistry) {
         CardRegistry.loadServices('services-grid');
       }
     });
   </script>
-  <script src="/js/animations.js"></script>
 </body>
 </html>
