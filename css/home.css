@@ -333,6 +333,7 @@
   background: #fff;
   border-radius: 1rem;
   overflow: hidden;
+  padding: 0;
   box-shadow: 0 6px 28px rgba(0,0,0,0.08);
   border: 1px solid rgba(0,0,0,0.06);
   transition: transform 0.3s, box-shadow 0.3s;
@@ -346,6 +347,7 @@
 .service-card-img {
   position: relative;
   overflow: hidden;
+  margin: 0;
 }
 
 .service-card-img img {
@@ -379,7 +381,7 @@
 }
 
 .service-card-body {
-  padding: 1.75rem;
+  padding: 1.5rem;
 }
 
 .service-card-body h3 {
