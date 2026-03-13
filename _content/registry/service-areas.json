@@ -1,0 +1,234 @@
+[
+  {
+    "slug": "ballantyne",
+    "title": "Ballantyne",
+    "excerpt": "Johnson's Electric serves Ballantyne and Ballantyne Corporate Park with residential and commercial electrical services throughout the 28277 ZIP code.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/ballantyne/"
+  },
+  {
+    "slug": "belmont",
+    "title": "Belmont",
+    "excerpt": "Johnson's Electric serves the Belmont NC area (28012) with licensed residential and commercial electrical services in Gaston County.",
+    "badge": "Gaston County",
+    "category": "nc",
+    "url": "/service-areas/belmont/"
+  },
+  {
+    "slug": "concord",
+    "title": "Concord",
+    "excerpt": "Johnson's Electric serves Concord NC (28025, 28027) with licensed residential and commercial electrical services throughout Cabarrus County.",
+    "badge": "Cabarrus County",
+    "category": "nc",
+    "url": "/service-areas/concord/"
+  },
+  {
+    "slug": "cornelius",
+    "title": "Cornelius",
+    "excerpt": "Johnson's Electric serves Cornelius NC (28031) with expert residential and commercial electrical services along Lake Norman's southern shore.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/cornelius/"
+  },
+  {
+    "slug": "cotswold",
+    "title": "Cotswold",
+    "excerpt": "Johnson's Electric serves the Cotswold neighborhood in east Charlotte (28211) with residential, condo, and light commercial electrical services.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/cotswold/"
+  },
+  {
+    "slug": "davidson",
+    "title": "Davidson",
+    "excerpt": "Johnson's Electric serves Davidson NC (28036) with licensed electrical services for homeowners and businesses in this charming Lake Norman community.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/davidson/"
+  },
+  {
+    "slug": "fort-mill",
+    "title": "Fort Mill",
+    "excerpt": "Johnson's Electric serves Fort Mill SC (29707, 29708, 29715) with licensed SC electrical services for York County homeowners and businesses.",
+    "badge": "York County, SC",
+    "category": "sc",
+    "url": "/service-areas/fort-mill/"
+  },
+  {
+    "slug": "gastonia",
+    "title": "Gastonia",
+    "excerpt": "Johnson's Electric serves Gastonia NC (28052, 28054, 28056) with licensed residential and commercial electrical services throughout Gaston County.",
+    "badge": "Gaston County",
+    "category": "nc",
+    "url": "/service-areas/gastonia/"
+  },
+  {
+    "slug": "harrisburg",
+    "title": "Harrisburg",
+    "excerpt": "Johnson's Electric serves Harrisburg NC (28075) with residential and commercial electrical services in one of Cabarrus County's fastest-growing communities.",
+    "badge": "Cabarrus County",
+    "category": "nc",
+    "url": "/service-areas/harrisburg/"
+  },
+  {
+    "slug": "highland-creek",
+    "title": "Highland Creek",
+    "excerpt": "Johnson's Electric serves the Highland Creek community in northeast Charlotte (28269) with residential and commercial electrical services.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/highland-creek/"
+  },
+  {
+    "slug": "huntersville",
+    "title": "Huntersville",
+    "excerpt": "Johnson's Electric serves Huntersville NC (28078) with expert residential and commercial electrical services for this fast-growing Lake Norman suburb.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/huntersville/"
+  },
+  {
+    "slug": "indian-trail",
+    "title": "Indian Trail",
+    "excerpt": "Johnson's Electric serves Indian Trail NC (28079) with licensed electrical services for homeowners and businesses in Union County.",
+    "badge": "Union County",
+    "category": "nc",
+    "url": "/service-areas/indian-trail/"
+  },
+  {
+    "slug": "kannapolis",
+    "title": "Kannapolis",
+    "excerpt": "Johnson's Electric serves Kannapolis NC (28081, 28083) with licensed residential and commercial electrical services throughout Cabarrus County.",
+    "badge": "Cabarrus County",
+    "category": "nc",
+    "url": "/service-areas/kannapolis/"
+  },
+  {
+    "slug": "lake-norman",
+    "title": "Lake Norman",
+    "excerpt": "Johnson's Electric serves the Lake Norman area with expert electrical services for lakefront homes, docks, boat lifts, and surrounding communities.",
+    "badge": "Lake Norman Area",
+    "category": "nc",
+    "url": "/service-areas/lake-norman/"
+  },
+  {
+    "slug": "matthews",
+    "title": "Matthews",
+    "excerpt": "Johnson's Electric serves Matthews NC (28104, 28105) with licensed residential and commercial electrical services in this popular southeast Charlotte suburb.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/matthews/"
+  },
+  {
+    "slug": "mint-hill",
+    "title": "Mint Hill",
+    "excerpt": "Johnson's Electric serves Mint Hill NC (28227) with residential and commercial electrical services in this growing east Charlotte community.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/mint-hill/"
+  },
+  {
+    "slug": "monroe",
+    "title": "Monroe",
+    "excerpt": "Johnson's Electric serves Monroe NC (28110, 28112) with licensed residential and commercial electrical services throughout Union County.",
+    "badge": "Union County",
+    "category": "nc",
+    "url": "/service-areas/monroe/"
+  },
+  {
+    "slug": "mooresville",
+    "title": "Mooresville",
+    "excerpt": "Johnson's Electric serves Mooresville NC (28115, 28117) with licensed residential and commercial electrical services in this growing Lake Norman community.",
+    "badge": "Iredell County",
+    "category": "nc",
+    "url": "/service-areas/mooresville/"
+  },
+  {
+    "slug": "noda",
+    "title": "NoDa",
+    "excerpt": "Johnson's Electric serves the NoDa arts district in Charlotte (28205, 28206) with residential, condo, and commercial electrical services.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/noda/"
+  },
+  {
+    "slug": "pineville",
+    "title": "Pineville",
+    "excerpt": "Johnson's Electric serves Pineville NC (28134) with licensed residential and commercial electrical services in this south Charlotte suburb.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/pineville/"
+  },
+  {
+    "slug": "plaza-midwood",
+    "title": "Plaza Midwood",
+    "excerpt": "Johnson's Electric serves the Plaza Midwood neighborhood in Charlotte (28205) with residential, historic home, and commercial electrical services.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/plaza-midwood/"
+  },
+  {
+    "slug": "rock-hill",
+    "title": "Rock Hill",
+    "excerpt": "Johnson's Electric serves Rock Hill SC (29730, 29732) with licensed SC electrical services for York County homeowners and businesses.",
+    "badge": "York County, SC",
+    "category": "sc",
+    "url": "/service-areas/rock-hill/"
+  },
+  {
+    "slug": "southpark",
+    "title": "SouthPark",
+    "excerpt": "Johnson's Electric serves the SouthPark neighborhood in Charlotte (28209, 28210) with residential, condo, and commercial electrical services.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/southpark/"
+  },
+  {
+    "slug": "stallings",
+    "title": "Stallings",
+    "excerpt": "Johnson's Electric serves Stallings NC (28104) with residential and commercial electrical services in this growing Union County community.",
+    "badge": "Union County",
+    "category": "nc",
+    "url": "/service-areas/stallings/"
+  },
+  {
+    "slug": "steele-creek",
+    "title": "Steele Creek",
+    "excerpt": "Johnson's Electric serves Steele Creek and Whitehall in Charlotte (28273) with residential and commercial electrical services along this fast-growing southwest corridor.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/steele-creek/"
+  },
+  {
+    "slug": "tega-cay",
+    "title": "Tega Cay",
+    "excerpt": "Johnson's Electric serves Tega Cay SC (29708) with licensed SC electrical services for this Lake Wylie peninsula community in York County.",
+    "badge": "York County, SC",
+    "category": "sc",
+    "url": "/service-areas/tega-cay/"
+  },
+  {
+    "slug": "uptown-charlotte",
+    "title": "Uptown Charlotte",
+    "excerpt": "Johnson's Electric delivers expert electrical services to Uptown Charlotte condos, high-rises, historic lofts, and commercial buildings throughout the 28202 area.",
+    "badge": "Mecklenburg County",
+    "category": "nc",
+    "url": "/service-areas/uptown-charlotte/"
+  },
+  {
+    "slug": "waxhaw",
+    "title": "Waxhaw",
+    "excerpt": "Johnson's Electric serves Waxhaw NC (28173) with licensed electrical services for homeowners and businesses in this fast-growing Union County community.",
+    "badge": "Union County",
+    "category": "nc",
+    "url": "/service-areas/waxhaw/"
+  },
+  {
+    "slug": "weddington",
+    "title": "Weddington",
+    "excerpt": "Johnson's Electric brings premium electrical services to Weddington's executive homes and custom builds throughout the 28104 ZIP code.",
+    "badge": "Union County",
+    "category": "nc",
+    "url": "/service-areas/weddington/"
+  }
+]
